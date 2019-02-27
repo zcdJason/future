@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: future
+  profiles:
+    active: prod
+
