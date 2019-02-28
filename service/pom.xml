@@ -17,5 +17,10 @@
             <artifactId>livy-client-http</artifactId>
             <version>0.5.0-incubating</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.future</groupId>
+            <artifactId>model</artifactId>
+        </dependency>
     </dependencies>
 </project>
