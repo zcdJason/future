@@ -15,6 +15,7 @@
         <module>service</module>
         <module>server</module>
         <module>common</module>
+        <module>design</module>
     </modules>
 
     <properties>
@@ -38,19 +39,25 @@
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
             <version>1.7.25</version>
+        </dependency>
 
+        <!--测试 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
         </dependency>
 
     </dependencies>
 
     <dependencyManagement>
         <dependencies>
-        <!--sub projects-->
-        <dependency>
-            <groupId>com.future</groupId>
-            <artifactId>server</artifactId>
-            <version>${project.version}</version>
-        </dependency>
+            <!--sub projects-->
+            <dependency>
+                <groupId>com.future</groupId>
+                <artifactId>server</artifactId>
+                <version>${project.version}</version>
+            </dependency>
 
             <dependency>
                 <groupId>com.future</groupId>
@@ -173,7 +180,6 @@
         </pluginManagement>
 
     </build>
-
 
 
 </project>
