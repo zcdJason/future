@@ -1,4 +1,4 @@
-package com.future.opencolse;
+package com.future.SixPrinciple.opencolse;
 
 /**
  * java 课程继承ICourse 接口

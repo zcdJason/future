@@ -1,10 +1,8 @@
-package com.future.dependceinverse;
+package com.future.SixPrinciple.dependceinverse;
 
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 /**
  * @author: zcd

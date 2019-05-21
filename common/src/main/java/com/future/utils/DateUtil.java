@@ -181,8 +181,7 @@ public class DateUtil extends DateUtils {
 	  * @Description: 毫秒值转换时分秒（应用场景：任务耗时） 
 	  * @Param:  
 	  * @return:  
-	  * @Author: shengkai
-	  * @Date: 2018/12/6 
+	  * @Date: 2018/12/6
 	  */ 
 	  public static String msConvertHms(long ms){
           /**
@@ -222,8 +221,7 @@ public class DateUtil extends DateUtils {
 	* @Description: 获取间隔时间 
 	* @Param:  
 	* @return:  
-	* @Author: shengkai
-	* @Date: 2018/12/14 
+	* @Date: 2018/12/14
 	*/ 
 	public static String getIntervalTime(Date start,Date end){
 		return msConvertHms(end.getTime()-start.getTime());
@@ -234,7 +232,6 @@ public class DateUtil extends DateUtils {
     * @Description: 获取当前时间的前几天后后几天
     * @Param:  interval间隔天数（正数为当前时间的后几天、负数为当前时间的前几天）
     * @return:
-    * @Author: shengkai
     * @Date: 2018/12/26
     */
 	public static String getIntervalDay(int interval){

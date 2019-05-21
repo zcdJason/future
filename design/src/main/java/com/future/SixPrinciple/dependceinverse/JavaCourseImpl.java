@@ -1,4 +1,4 @@
-package com.future.dependceinverse;
+package com.future.SixPrinciple.dependceinverse;
 
 /**
  * @author: zcd

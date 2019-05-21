@@ -19,6 +19,7 @@
     </modules>
 
     <properties>
+        <future.version>1.0-SNAPSHOT</future.version>
         <v.plugin.assembly>2.4</v.plugin.assembly>
         <v.plugin.jar>2.3.1</v.plugin.jar>
         <commons-lang3.version>3.7</commons-lang3.version>
