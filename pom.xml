@@ -16,6 +16,7 @@
         <module>server</module>
         <module>common</module>
         <module>design</module>
+        <module>lab</module>
     </modules>
 
     <properties>

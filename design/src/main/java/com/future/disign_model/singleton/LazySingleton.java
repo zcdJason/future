@@ -8,7 +8,17 @@ public class LazySingleton
 {
     private static LazySingleton lazySingleton = null;
 
-    private LazySingleton() {}
+//    private static  boolean flag = true;
+    private LazySingleton() {
+        if(lazySingleton != null){
+            throw new RuntimeException("单例模式禁止反射调用");
+        }
+//        if(flag){
+//            flag = false;
+//        }else{
+//            throw new RuntimeException("单例模式禁止反射调用");
+//        }
+    }
 
     /**
      * 非线程安全
