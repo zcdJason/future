@@ -6,8 +6,19 @@ import java.io.Serializable;
  * 饿汉式类加载的时候就初始化好了
  * 缺点就是如果这个单例不用，那么就浪费类内存空间
  */
-public class HungrySingleton implements Serializable
+public class HungrySingleton implements Serializable, Cloneable
 {
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException
+    {
+        /**
+         * 单例模式如何实现Cloneable接口，那么lone方法体需要调用单例的创建方法
+         */
+        return getInstance();
+//        return super.clone();
+    }
+
     /**
      * 类加载到时候就初始化
      * final 表示初始化后就不可更改了；final修饰的变量必须在类加载的时候就完成初始化
