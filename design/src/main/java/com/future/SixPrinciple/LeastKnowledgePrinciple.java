@@ -20,7 +20,7 @@ public class LeastKnowledgePrinciple
 {
     public static void main(String[] args)
     {
-        Agent a1 = new Agent("test-agent");
+        Agent a1 = new Agent("mapper.test-agent");
         CarFactory c1 = new CarFactory("bmw");
         Custermer cr = new Custermer("zhang");
 

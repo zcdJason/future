@@ -5,50 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72ba396f-78da-48c3-831b-2c398638a830" name="Default Changelist" comment="project build ok">
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/ResponsibilityChain/DeptHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/ResponsibilityChain/Handler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/ResponsibilityChain/ManagerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/ResponsibilityChain/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/adapter/AC220.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/adapter/Adapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/adapter/Dc5v.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/adapter/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/command/AudioPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/command/Keyboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/command/PlayCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/command/RewindCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/command/StopCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/command/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/composite/CatalogComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/composite/Cause.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/composite/CauseCatalog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/composite/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/decorator/v1/BattleCake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/decorator/v1/BattleCakeEgg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/decorator/v1/BattleCakeWithEggSausage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/decorator/v1/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/decorator/v2/ABattercake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/decorator/v2/AbstractDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/decorator/v2/Battercacke.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/decorator/v2/EggDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/decorator/v2/SuggerDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/decorator/v2/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/flyweight/ConcreteFlyWeight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/flyweight/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/flyweight/EmployeeFacotry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/flyweight/FlyWeight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/flyweight/FlyWeightFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/flyweight/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/flyweight/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/proxy/AProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/proxy/ChengduTrain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/proxy/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/proxy/Train.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/singleton/ContainerSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/singleton/ContainerSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/future.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab/lab.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab/src/main/java/com/future/express/ExpressFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab/src/main/java/com/future/express/ExpressFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-gen/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-gen/src/main/java/com/zdww/demo/GenServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-gen/src/main/java/com/zdww/demo/dao/MyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-gen/src/main/java/com/zdww/demo/service/AbstractService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-gen/src/main/java/com/zdww/demo/service/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-gen/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-gen/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-gen/src/test/java/com/codegen/main/CodeGeneratorMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-gen/src/test/java/com/codegen/service/CodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-gen/src/test/java/com/codegen/service/CodeGeneratorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-gen/src/test/java/com/codegen/service/CodeGeneratorManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-gen/src/test/java/com/codegen/service/impl/ControllerGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-gen/src/test/java/com/codegen/service/impl/ModelAndMapperGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-gen/src/test/java/com/codegen/service/impl/ServiceGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-gen/src/test/java/com/codegen/util/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-gen/src/test/resources/generator/template/controller.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-gen/src/test/resources/generator/template/service-impl.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-gen/src/test/resources/generator/template/service.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-gen/src/test/resources/generatorConfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab/src/main/java/com/future/metabase/TestConn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zdww/demo/base/BaseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zdww/demo/base/BaseModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/generator/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/code-gen/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/src/main/java/com/future/SixPrinciple/LeastKnowledgePrinciple.java" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/main/java/com/future/SixPrinciple/LeastKnowledgePrinciple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/prototype/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/prototype/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/src/test/java/com/future/SixPrinciple/opencolse/JavaDiscountCourseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/test/java/com/future/SixPrinciple/opencolse/JavaDiscountCourseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/future.iml" beforeDir="false" afterPath="$PROJECT_DIR$/future.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lab/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/future/bootstrap/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/future/bootstrap/Server.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/server/target/" />
@@ -59,11 +52,26 @@
     <ignored path="$PROJECT_DIR$/common/target/" />
     <ignored path="$PROJECT_DIR$/design/target/" />
     <ignored path="$PROJECT_DIR$/lab/target/" />
+    <ignored path="$PROJECT_DIR$/code-gen/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -71,110 +79,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab/src/main/java/com/future/express/method/ExpressValidateAtomMethod.java">
+        <entry file="file://$PROJECT_DIR$/code-gen/src/main/java/com/zdww/demo/GenServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7182">
-              <caret line="359" column="58" selection-start-line="359" selection-start-column="58" selection-end-line="359" selection-end-column="58" />
+            <state relative-caret-position="252">
+              <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3700#3701#0" expanded="true" />
-                <element signature="e#3757#3758#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab/src/main/java/com/future/express/ExpressFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab/src/test/java/com/future/express/test/HelloWorldTestTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab/src/test/java/com/future/express/BindObjectMethod.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lab/src/test/java/com/future/express/ExpressTest.java">
+        <entry file="file://$PROJECT_DIR$/code-gen/src/test/java/com/codegen/main/CodeGeneratorMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+            <state relative-caret-position="616">
+              <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code-gen/src/test/java/com/codegen/service/CodeGeneratorManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="109" column="24" lean-forward="true" selection-start-line="109" selection-start-column="24" selection-end-line="109" selection-end-column="24" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/text/DateFormat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13482">
-              <caret line="713" column="16" selection-start-line="713" selection-start-column="16" selection-end-line="713" selection-end-column="16" />
-              <folding>
-                <element signature="e#27786#27787#0" expanded="true" />
-                <element signature="e#27830#27831#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/text/SimpleDateFormat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11025">
-              <caret line="577" column="11" selection-start-line="577" selection-start-column="11" selection-end-line="577" selection-end-column="11" />
-              <folding>
-                <element signature="e#23443#23444#0" expanded="true" />
-                <element signature="e#23515#23516#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/regex/Matcher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1701">
-              <caret line="104" column="19" selection-start-line="104" selection-start-column="19" selection-end-line="104" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/regex/Pattern.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16254">
-              <caret line="809" column="28" selection-start-line="809" selection-start-column="28" selection-end-line="809" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/Character.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117285">
-              <caret line="5651" column="26" selection-start-line="5651" selection-start-column="26" selection-end-line="5651" selection-end-column="26" />
-              <folding>
-                <element signature="e#198712#198713#0" expanded="true" />
-                <element signature="e#198751#198752#0" expanded="true" />
+                <element signature="e#2779#2780#0" expanded="true" />
+                <element signature="e#2831#2832#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -199,6 +131,8 @@
       <find>commons-lang3</find>
       <find>regex</find>
       <find>Matcher</find>
+      <find>.xml</find>
+      <find>IDENTITY</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -207,43 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/prototype/TestDeepClone.java" />
-        <option value="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/prototype/MailDeep.java" />
-        <option value="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/prototype/PrototypeDestroySingle.java" />
-        <option value="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/singleton/hungry/HungrySingleton.java" />
-        <option value="$PROJECT_DIR$/server/src/main/java/com/future/bootstrap/web/Student.java" />
-        <option value="$PROJECT_DIR$/server/src/main/java/com/future/bootstrap/web/JsonUtil.java" />
-        <option value="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/decorator/v1/v2/ABattercake.java" />
-        <option value="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/decorator/v1/v2/Battercacke.java" />
-        <option value="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/decorator/v1/BattleCake.java" />
-        <option value="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/decorator/v1/BattleCakeEgg.java" />
-        <option value="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/decorator/v1/BattleCakeWithEggSausage.java" />
-        <option value="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/decorator/v1/Test.java" />
-        <option value="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/decorator/Battercake.java" />
-        <option value="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/decorator/v2/Battercacke.java" />
-        <option value="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/decorator/v2/Test.java" />
-        <option value="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/decorator/v2/AbstractDecorator.java" />
-        <option value="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/decorator/v2/EggDecorator.java" />
-        <option value="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/decorator/v2/SuggerDecorator.java" />
-        <option value="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/adapter/AC220.java" />
-        <option value="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/adapter/Test.java" />
-        <option value="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/adapter/Adapter.java" />
-        <option value="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/adapter/Dc5v.java" />
-        <option value="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/flyweight/FlyWeight.java" />
-        <option value="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/flyweight/ConcreteFlyWeight.java" />
-        <option value="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/flyweight/FlyWeightFactory.java" />
-        <option value="$PROJECT_DIR$/design/src/main/java/com/future/proxy/Train.java" />
-        <option value="$PROJECT_DIR$/design/src/main/java/com/future/proxy/ChengduTrain.java" />
-        <option value="$PROJECT_DIR$/design/src/main/java/com/future/proxy/AProxy.java" />
-        <option value="$PROJECT_DIR$/design/src/main/java/com/future/proxy/Test.java" />
-        <option value="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/ResponsibilityChain/Handler.java" />
-        <option value="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/ResponsibilityChain/ManagerHandler.java" />
-        <option value="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/ResponsibilityChain/ParterHandler.java" />
-        <option value="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/ResponsibilityChain/DeptHandler.java" />
-        <option value="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/ResponsibilityChain/Test.java" />
-        <option value="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/command/Command.java" />
-        <option value="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/command/AudioPlayer.java" />
-        <option value="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/command/PlayCommand.java" />
         <option value="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/command/StopCommand.java" />
         <option value="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/command/RewindCommand.java" />
         <option value="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/command/Keyboard.java" />
@@ -258,6 +155,43 @@
         <option value="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/composite/CauseCatalog.java" />
         <option value="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/composite/Test.java" />
         <option value="$PROJECT_DIR$/lab/src/main/java/com/future/express/ExpressFactory.java" />
+        <option value="$PROJECT_DIR$/lab/pom.xml" />
+        <option value="$PROJECT_DIR$/lab/src/main/java/com/future/metabase/TestConn.java" />
+        <option value="$PROJECT_DIR$/code-gen/src/main/java/demo/web/controller/test/DemoController.java" />
+        <option value="$PROJECT_DIR$/code-gen/src/test/java/codegen/service/impl/ControllerGenerator.java" />
+        <option value="$PROJECT_DIR$/code-gen/src/test/java/com/codegen/service/impl/ControllerGenerator.java" />
+        <option value="$PROJECT_DIR$/code-gen/src/main/java/com/zdww/demo/service/impl/test/DemoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/code-gen/src/test/resources/generatorConfig.properties" />
+        <option value="$PROJECT_DIR$/code-gen/src/main/java/com/zdww/demo/web/controller/test/ZcdTestController.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/demo/dao/MyMapper.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/zdww/demo/dao/MyMapper.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/zdww/demo/model/test/Demo.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/zdww/demo/model/test/ZcdTest.java" />
+        <option value="$PROJECT_DIR$/code-gen/src/main/java/com/zdww/demo/Server.java" />
+        <option value="$PROJECT_DIR$/code-gen/src/main/java/com/zdww/demo/dao/BaseMapper.java" />
+        <option value="$PROJECT_DIR$/code-gen/src/main/java/com/zdww/demo/dao/mapper/test/DemoMapper.java" />
+        <option value="$PROJECT_DIR$/code-gen/src/main/java/com/zdww/demo/service/AbstractService.java" />
+        <option value="$PROJECT_DIR$/config/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/config/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/future/bootstrap/Server.java" />
+        <option value="$PROJECT_DIR$/code-gen/src/main/java/com/zdww/demo/dao/MyMapper.java" />
+        <option value="$PROJECT_DIR$/code-gen/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/code-gen/src/main/java/com/zdww/demo/GenServer.java" />
+        <option value="$PROJECT_DIR$/code-gen/src/main/java/com/zdww/demo/dao/mapper/test/ZcdTestMapper.java" />
+        <option value="$PROJECT_DIR$/code-gen/src/test/resources/generator/template/controller.ftl" />
+        <option value="$PROJECT_DIR$/code-gen/src/test/java/com/codegen/service/impl/ModelAndMapperGenerator.java" />
+        <option value="$PROJECT_DIR$/code-gen/src/main/java/com/zdww/demo/model/test/ZcdTest.java" />
+        <option value="$PROJECT_DIR$/code-gen/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zdww/demo/base/BaseDao.java" />
+        <option value="$PROJECT_DIR$/server/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/hdu/mbgdemo/dao/generator/ZcdTestMapper.java" />
+        <option value="$PROJECT_DIR$/code-gen/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/generator/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zdww/demo/model/ZcdTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zdww/demo/base/BaseModel.java" />
+        <option value="$PROJECT_DIR$/code-gen/src/test/java/com/codegen/service/CodeGeneratorManager.java" />
+        <option value="$PROJECT_DIR$/code-gen/src/test/java/com/codegen/main/CodeGeneratorMain.java" />
       </list>
     </option>
   </component>
@@ -286,18 +220,32 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="code-gen" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="future" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="future" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="future" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="mybatis-generator" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="model" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="1027" />
@@ -312,7 +260,6 @@
     <panes>
       <pane id="CatdeaLogs" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -323,127 +270,100 @@
             <path>
               <item name="future" type="b2602c69:ProjectViewProjectNode" />
               <item name="future" type="462c0819:PsiDirectoryNode" />
-              <item name="lab" type="462c0819:PsiDirectoryNode" />
+              <item name="code-gen" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="future" type="b2602c69:ProjectViewProjectNode" />
               <item name="future" type="462c0819:PsiDirectoryNode" />
-              <item name="lab" type="462c0819:PsiDirectoryNode" />
+              <item name="code-gen" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="future" type="b2602c69:ProjectViewProjectNode" />
               <item name="future" type="462c0819:PsiDirectoryNode" />
-              <item name="lab" type="462c0819:PsiDirectoryNode" />
+              <item name="code-gen" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="future" type="b2602c69:ProjectViewProjectNode" />
+              <item name="future" type="462c0819:PsiDirectoryNode" />
+              <item name="code-gen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="future" type="b2602c69:ProjectViewProjectNode" />
+              <item name="future" type="462c0819:PsiDirectoryNode" />
+              <item name="code-gen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="future" type="b2602c69:ProjectViewProjectNode" />
+              <item name="future" type="462c0819:PsiDirectoryNode" />
+              <item name="code-gen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="future" type="b2602c69:ProjectViewProjectNode" />
+              <item name="future" type="462c0819:PsiDirectoryNode" />
+              <item name="code-gen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="future" type="b2602c69:ProjectViewProjectNode" />
+              <item name="future" type="462c0819:PsiDirectoryNode" />
+              <item name="code-gen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="future" type="b2602c69:ProjectViewProjectNode" />
+              <item name="future" type="462c0819:PsiDirectoryNode" />
+              <item name="code-gen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="codegen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="future" type="b2602c69:ProjectViewProjectNode" />
+              <item name="future" type="462c0819:PsiDirectoryNode" />
+              <item name="code-gen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="codegen" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="future" type="b2602c69:ProjectViewProjectNode" />
               <item name="future" type="462c0819:PsiDirectoryNode" />
-              <item name="lab" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="future" type="b2602c69:ProjectViewProjectNode" />
               <item name="future" type="462c0819:PsiDirectoryNode" />
-              <item name="lab" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="future" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="future" type="b2602c69:ProjectViewProjectNode" />
               <item name="future" type="462c0819:PsiDirectoryNode" />
-              <item name="lab" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="future" type="462c0819:PsiDirectoryNode" />
-              <item name="express" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="future" type="b2602c69:ProjectViewProjectNode" />
-              <item name="future" type="462c0819:PsiDirectoryNode" />
-              <item name="lab" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="future" type="462c0819:PsiDirectoryNode" />
-              <item name="express" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="future" type="b2602c69:ProjectViewProjectNode" />
-              <item name="future" type="462c0819:PsiDirectoryNode" />
-              <item name="lab" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="future" type="462c0819:PsiDirectoryNode" />
-              <item name="kettle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="future" type="b2602c69:ProjectViewProjectNode" />
-              <item name="future" type="462c0819:PsiDirectoryNode" />
-              <item name="lab" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="future" type="b2602c69:ProjectViewProjectNode" />
-              <item name="future" type="462c0819:PsiDirectoryNode" />
-              <item name="lab" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="future" type="b2602c69:ProjectViewProjectNode" />
-              <item name="future" type="462c0819:PsiDirectoryNode" />
-              <item name="lab" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="express" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="future" type="b2602c69:ProjectViewProjectNode" />
-              <item name="future" type="462c0819:PsiDirectoryNode" />
-              <item name="lab" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="express" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="future" type="b2602c69:ProjectViewProjectNode" />
-              <item name="future" type="462c0819:PsiDirectoryNode" />
-              <item name="lab" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="express" type="462c0819:PsiDirectoryNode" />
-              <item name="BindObjectMethod" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="future" type="b2602c69:ProjectViewProjectNode" />
-              <item name="future" type="462c0819:PsiDirectoryNode" />
-              <item name="lab" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="express" type="462c0819:PsiDirectoryNode" />
-              <item name="JoinOperator" type="1a9f42e2:ClassTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -458,12 +378,12 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/config/src/main/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.33610272" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -471,15 +391,23 @@
       <recent name="com.future.express" />
       <recent name="com.future.express.test" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/code-gen/src/main/resources/mapper/test" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zdww.demo" />
       <recent name="com.future.disign_model.ResponsibilityChain" />
       <recent name="com.future.web" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lab/src/main/java/com/future" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
+      <recent name="$PROJECT_DIR$/config/src/main/resources" />
+      <recent name="$PROJECT_DIR$/code-gen/src/main/resources" />
+      <recent name="$PROJECT_DIR$/server/src/main/java" />
+      <recent name="$PROJECT_DIR$/code-gen/src/test" />
+      <recent name="$PROJECT_DIR$/code-gen/src/test/java" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.future.bootstrap.web" />
@@ -490,6 +418,10 @@
       <expand>
         <path>
           <item name="Found 7 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+        </path>
+        <path>
+          <item name="Found 7 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="code-gen" type="c588b436:RestServiceStructure$ProjectNode" />
         </path>
       </expand>
       <select />
@@ -512,34 +444,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ExpressTest.testOne">
-    <configuration name="ExpressTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lab" />
+  <component name="RunManager" selected="Application.CodeGeneratorMain">
+    <configuration name="CodeGeneratorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegen.main.CodeGeneratorMain" />
+      <module name="code-gen" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.future.express.*" />
+          <option name="PATTERN" value="com.codegen.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.future.express" />
-      <option name="MAIN_CLASS_NAME" value="com.future.express.ExpressTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExpressTest.macroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestConn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.future.metabase.TestConn" />
       <module name="lab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.future.express.*" />
+          <option name="PATTERN" value="com.future.metabase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.future.express" />
-      <option name="MAIN_CLASS_NAME" value="com.future.express.ExpressTest" />
-      <option name="METHOD_NAME" value="macroTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -560,11 +487,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GenServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="code-gen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zdww.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zdww.demo.GenServer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.future.bootstrap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.future.bootstrap.Server" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.CodeGeneratorMain" />
+      <item itemvalue="Application.TestConn" />
+      <item itemvalue="JUnit.ExpressTest.testOne" />
+      <item itemvalue="Spring Boot.Server" />
+      <item itemvalue="Spring Boot.GenServer" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CodeGeneratorMain" />
+        <item itemvalue="Spring Boot.Server" />
+        <item itemvalue="Spring Boot.GenServer" />
+        <item itemvalue="Application.TestConn" />
         <item itemvalue="JUnit.ExpressTest.testOne" />
-        <item itemvalue="JUnit.ExpressTest" />
-        <item itemvalue="JUnit.ExpressTest.macroTest" />
       </list>
     </recent_temporary>
   </component>
@@ -613,6 +575,8 @@
       <workItem from="1562748368664" duration="5000" />
       <workItem from="1562748438839" duration="314000" />
       <workItem from="1562749655438" duration="79000" />
+      <workItem from="1563428938771" duration="3659000" />
+      <workItem from="1563848202751" duration="15645000" />
     </task>
     <task id="LOCAL-00001" summary="java-basic model-design">
       <created>1558428377276</created>
@@ -685,13 +649,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94117000" />
+    <option name="totallyTimeSpent" value="113421000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23015873" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24297924" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -700,8 +664,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5736677" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3291536" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44096133" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38035527" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -720,11 +684,11 @@
       <window_info anchor="right" id="Maven" order="3" weight="0.32967034" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32967034" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="RestServices" order="9" weight="0.32967034" />
-      <window_info anchor="right" id="Bean Validation" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="10" weight="0.14713065" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21550672" />
@@ -811,635 +775,409 @@
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/code-gen/src/test/java/com/codegen/service/CodeGeneratorManager.java</url>
+          <line>285</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="uml://JAVA/com.future.disign_model.decorator">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.future.disign_model.decorator</OriginalElement>
-          <nodes>
-            <node x="" y="">com.future.disign_model.decorator.v1</node>
-            <node x="" y="">com.future.disign_model.decorator.v2</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="65.0" y="54.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.future.disign_model.flyweight">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.future.disign_model.flyweight</OriginalElement>
-          <nodes>
-            <node x="" y="">com.future.disign_model.flyweight.FlyWeightFactory</node>
-            <node x="" y="">com.future.disign_model.flyweight.FlyWeight</node>
-            <node x="" y="">com.future.disign_model.flyweight.Test</node>
-            <node x="" y="">com.future.disign_model.flyweight.ConcreteFlyWeight</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="108.0" y="132.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.future.proxy">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.future.proxy</OriginalElement>
-          <nodes>
-            <node x="274.375" y="0.0">com.future.proxy.Test</node>
-            <node x="7.375" y="206.0">com.future.proxy.AProxy</node>
-            <node x="0.0" y="103.0">com.future.proxy.ChengduTrain</node>
-            <node x="53.625" y="0.0">com.future.proxy.Train</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="com.future.proxy.ChengduTrain" target="com.future.proxy.Train">
-              <point x="0.0" y="-26.5" />
-              <point x="83.0" y="78.0" />
-              <point x="90.875" y="78.0" />
-              <point x="-37.25" y="26.5" />
-            </edge>
-            <edge source="com.future.proxy.AProxy" target="com.future.proxy.Train">
-              <point x="74.0" y="-38.0" />
-              <point x="192.375" y="181.0" />
-              <point x="176.5" y="181.0" />
-              <point x="176.5" y="78.0" />
-              <point x="165.375" y="78.0" />
-              <point x="37.25" y="26.5" />
-            </edge>
-            <edge source="com.future.proxy.AProxy" target="com.future.proxy.ChengduTrain">
-              <point x="0.0" y="-38.0" />
-              <point x="118.375" y="181.0" />
-              <point x="124.5" y="181.0" />
-              <point x="41.5" y="26.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.4000000000000004" x="-325.0" y="-72.0" />
-          <SelectedNodes>
-            <node>com.future.proxy.Test</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/src/main/java/com/future/disign_model/ResponsibilityChain/Handler.java">
+    <entry file="file://$PROJECT_DIR$/code-gen/src/main/java/com/zdww/demo/dao/mapper/test/DemoMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding>
-            <element signature="e#212#213#0" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/design/src/main/java/com/future/disign_model/ResponsibilityChain/ManagerHandler.java">
+    <entry file="file://$PROJECT_DIR$/code-gen/src/main/java/com/zdww/demo/service/test/DemoService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="147">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/design/src/main/java/com/future/disign_model/ResponsibilityChain/DeptHandler.java">
+    <entry file="file://$PROJECT_DIR$/code-gen/src/main/java/com/zdww/demo/service/impl/test/DemoServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        <state relative-caret-position="159">
+          <caret line="12" column="73" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/design/src/main/java/com/future/proxy/AProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/src/main/java/com/future/proxy/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/src/main/java/com/future/proxy/Train.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/src/main/java/com/future/proxy/ChengduTrain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/src/main/java/com/future/disign_model/ResponsibilityChain/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/src/main/java/com/future/disign_model/adapter/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.future.disign_model.command">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.future.disign_model.command</OriginalElement>
-          <nodes>
-            <node x="503.0" y="177.0">com.future.disign_model.command.PlayCommand</node>
-            <node x="217.0" y="0.0">com.future.disign_model.command.AudioPlayer</node>
-            <node x="0.0" y="545.0">com.future.disign_model.command.Test</node>
-            <node x="228.89583333333331" y="336.0">com.future.disign_model.command.Keyboard</node>
-            <node x="393.0" y="22.0">com.future.disign_model.command.Command</node>
-            <node x="0.0" y="177.0">com.future.disign_model.command.RewindCommand</node>
-            <node x="259.0" y="177.0">com.future.disign_model.command.StopCommand</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="com.future.disign_model.command.Keyboard" target="com.future.disign_model.command.PlayCommand">
-              <point x="60.75" y="-82.0" />
-              <point x="411.1458333333333" y="306.0" />
-              <point x="558.0" y="306.0" />
-              <point x="-55.0" y="49.5" />
-            </edge>
-            <edge source="com.future.disign_model.command.PlayCommand" target="com.future.disign_model.command.Command">
-              <point x="73.33333333333331" y="-49.5" />
-              <point x="686.3333333333333" y="117.0" />
-              <point x="504.6666666666667" y="117.0" />
-              <point x="44.666666666666686" y="26.5" />
-            </edge>
-            <edge source="com.future.disign_model.command.RewindCommand" target="com.future.disign_model.command.AudioPlayer">
-              <point x="0.0" y="-49.5" />
-              <point x="119.5" y="147.0" />
-              <point x="256.0" y="147.0" />
-              <point x="-39.0" y="48.5" />
-            </edge>
-            <edge source="com.future.disign_model.command.StopCommand" target="com.future.disign_model.command.Command">
-              <point x="74.66666666666669" y="-49.5" />
-              <point x="445.6666666666667" y="157.0" />
-              <point x="460.0" y="157.0" />
-              <point x="0.0" y="26.5" />
-            </edge>
-            <edge source="com.future.disign_model.command.PlayCommand" target="com.future.disign_model.command.AudioPlayer">
-              <point x="0.0" y="-49.5" />
-              <point x="613.0" y="127.0" />
-              <point x="360.0" y="127.0" />
-              <point x="65.0" y="48.5" />
-            </edge>
-            <edge source="com.future.disign_model.command.RewindCommand" target="com.future.disign_model.command.Command">
-              <point x="79.66666666666663" y="-49.5" />
-              <point x="199.16666666666663" y="157.0" />
-              <point x="415.3333333333333" y="157.0" />
-              <point x="-44.66666666666666" y="26.5" />
-            </edge>
-            <edge source="com.future.disign_model.command.Keyboard" target="com.future.disign_model.command.StopCommand">
-              <point x="-20.25" y="-82.0" />
-              <point x="330.1458333333333" y="316.0" />
-              <point x="315.0" y="316.0" />
-              <point x="-56.0" y="49.5" />
-            </edge>
-            <edge source="com.future.disign_model.command.StopCommand" target="com.future.disign_model.command.AudioPlayer">
-              <point x="-74.66666666666669" y="-49.5" />
-              <point x="296.3333333333333" y="147.0" />
-              <point x="282.0" y="147.0" />
-              <point x="-13.0" y="48.5" />
-            </edge>
-            <edge source="com.future.disign_model.command.Keyboard" target="com.future.disign_model.command.RewindCommand">
-              <point x="-101.25" y="-82.0" />
-              <point x="249.14583333333331" y="316.0" />
-              <point x="59.75" y="316.0" />
-              <point x="-59.75" y="49.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-136.0" y="-119.0" />
-          <SelectedNodes>
-            <node>com.future.disign_model.command.AudioPlayer</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/src/main/java/com/future/disign_model/command/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/src/main/java/com/future/disign_model/command/Command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/src/main/java/com/future/disign_model/command/AudioPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-          <folding>
-            <element signature="e#145#146#0" expanded="true" />
-            <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/src/main/java/com/future/disign_model/command/PlayCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-          <folding>
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/src/main/java/com/future/disign_model/command/StopCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-          <folding>
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/src/main/java/com/future/disign_model/command/RewindCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-          <folding>
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/src/main/java/com/future/disign_model/command/Keyboard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-          <folding>
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/src/main/java/com/future/disign_model/prototype/MailDeep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/src/main/java/com/future/disign_model/flyweight/ConcreteFlyWeight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding>
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/src/main/java/com/future/disign_model/flyweight/FlyWeight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/src/main/java/com/future/disign_model/flyweight/FlyWeightFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.future.disign_model.composite">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.future.disign_model.composite</OriginalElement>
-          <nodes>
-            <node x="0.0" y="191.0">com.future.disign_model.composite.Cause</node>
-            <node x="197.66666666666666" y="0.0">com.future.disign_model.composite.CatalogComponent</node>
-            <node x="292.0" y="191.0">com.future.disign_model.composite.CauseCatalog</node>
-            <node x="0.0" y="401.0">com.future.disign_model.composite.Test</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="com.future.disign_model.composite.Cause" target="com.future.disign_model.composite.CatalogComponent">
-              <point x="-68.0" y="-82.5" />
-              <point x="68.0" y="161.0" />
-              <point x="224.86666666666667" y="161.0" />
-              <point x="-108.8" y="70.5" />
-            </edge>
-            <edge source="com.future.disign_model.composite.CauseCatalog" target="com.future.disign_model.composite.CatalogComponent">
-              <point x="-83.33333333333331" y="-82.5" />
-              <point x="0.0" y="70.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-257.0" y="-119.0" />
-          <SelectedNodes>
-            <node>com.future.disign_model.composite.CauseCatalog</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/src/main/java/com/future/disign_model/flyweight/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/src/main/java/com/future/disign_model/flyweight/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/src/main/java/com/future/disign_model/flyweight/Manager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-          <folding>
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#228#229#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/src/main/java/com/future/disign_model/flyweight/EmployeeFacotry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/src/main/java/com/future/disign_model/singleton/ContainerSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-          <folding>
-            <element signature="e#845#846#0" expanded="true" />
-            <element signature="e#886#887#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/src/main/java/com/future/disign_model/composite/CatalogComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/src/main/java/com/future/disign_model/composite/Cause.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-          <folding>
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
-            <element signature="e#554#555#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#678#679#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/src/main/java/com/future/disign_model/composite/CauseCatalog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/src/main/java/com/future/disign_model/composite/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab/src/main/java/com/future/express/method/ExpressTransformExtraMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab/src/main/java/com/future/express/loader/ExpressRunnerLoader.java">
+    <entry file="file://$PROJECT_DIR$/code-gen/src/main/java/com/zdww/demo/model/test/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab/src/main/java/com/future/express/model/ExpressModel.java">
+    <entry file="file://$PROJECT_DIR$/code-gen/src/main/java/com/zdww/demo/dao/mapper/test/ZcdTestMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-          <folding>
-            <element signature="e#678#679#0" expanded="true" />
-            <element signature="e#699#700#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="42">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab/src/test/java/com/future/express/JoinOperator.java">
+    <entry file="file://$PROJECT_DIR$/code-gen/src/main/java/com/zdww/demo/service/impl/test/ZcdTestServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="252">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab/src/test/java/com/future/express/ExpressFactoryTest.java">
+    <entry file="file://$PROJECT_DIR$/code-gen/src/main/java/com/zdww/demo/service/test/ZcdTestService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab/src/main/java/com/future/kettle/KettleFactory.java">
+    <entry file="jar://$PROJECT_DIR$/../apache-maven-3.6.1/repository/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar!/javax/persistence/GenerationType.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        <state relative-caret-position="147">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab/src/main/java/com/future/express/method/ExpressTransformAtomMethod.java">
+    <entry file="file://$PROJECT_DIR$/code-gen/src/main/java/com/zdww/demo/web/controller/test/ZcdTestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3150">
-          <caret line="156" column="25" selection-start-line="156" selection-start-column="25" selection-end-line="156" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab/src/main/java/com/future/express/method/ExpressValidateAtomMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7182">
-          <caret line="359" column="58" selection-start-line="359" selection-start-column="58" selection-end-line="359" selection-end-column="58" />
+        <state relative-caret-position="673">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3700#3701#0" expanded="true" />
-            <element signature="e#3757#3758#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab/src/main/java/com/future/express/ExpressFactory.java">
+    <entry file="file://$PROJECT_DIR$/code-gen/src/test/resources/generator/template/service.ftl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../apache-maven-3.6.1/repository/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar!/org/mybatis/generator/api/MyBatisGenerator.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+        <state relative-caret-position="294">
+          <caret line="63" column="16" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab/src/test/java/com/future/express/test/HelloWorldTestTest.java">
+    <entry file="jar://$PROJECT_DIR$/../apache-maven-3.6.1/repository/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar!/org/mybatis/generator/config/GeneratedKey.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        <state relative-caret-position="273">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab/src/test/java/com/future/express/BindObjectMethod.java">
+    <entry file="jar://$PROJECT_DIR$/../apache-maven-3.6.1/repository/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5-sources.jar!/org/mybatis/generator/api/MyBatisGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="136" column="16" selection-start-line="136" selection-start-column="16" selection-end-line="136" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-gen/src/main/java/com/zdww/demo/dao/MyMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../apache-maven-3.6.1/repository/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5-sources.jar!/org/mybatis/generator/config/ModelType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../apache-maven-3.6.1/repository/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5-sources.jar!/org/mybatis/generator/config/GeneratedKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2152">
+          <caret line="47" column="23" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../apache-maven-3.6.1/repository/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5-sources.jar!/org/mybatis/generator/config/TableConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2099">
+          <caret line="369" column="16" selection-start-line="369" selection-start-column="16" selection-end-line="369" selection-end-column="16" />
+          <folding>
+            <element signature="e#13149#13150#0" expanded="true" />
+            <element signature="e#13197#13198#0" expanded="true" />
+            <element signature="e#13791#13792#0" expanded="true" />
+            <element signature="e#13829#13830#0" expanded="true" />
+            <element signature="e#14207#14208#0" expanded="true" />
+            <element signature="e#14263#14264#0" expanded="true" />
+            <element signature="e#14543#14544#0" expanded="true" />
+            <element signature="e#14579#14580#0" expanded="true" />
+            <element signature="e#22175#22176#0" expanded="true" />
+            <element signature="e#22235#22236#0" expanded="true" />
+            <element signature="e#26449#26450#0" expanded="true" />
+            <element signature="e#26493#26494#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-gen/src/test/java/com/codegen/service/impl/ModelAndMapperGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="56" column="12" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../apache-maven-3.6.1/repository/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5-sources.jar!/org/mybatis/generator/config/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2760">
+          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../apache-maven-3.6.1/repository/javax/persistence/persistence-api/1.0/persistence-api-1.0-sources.jar!/javax/persistence/Id.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../apache-maven-3.6.1/repository/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar!/javax/persistence/Id.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../apache-maven-3.6.1/repository/javax/persistence/persistence-api/1.0/persistence-api-1.0-sources.jar!/javax/persistence/GeneratedValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-gen/src/main/java/com/zdww/demo/model/test/ZcdTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-gen/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-gen/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-gen/src/test/resources/generator/template/service-impl.ftl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-gen/src/test/resources/generator/template/controller.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="824">
+          <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-gen/src/test/resources/generatorConfig.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-gen/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="53" selection-start-line="1" selection-start-column="53" selection-end-line="1" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-gen/src/main/resources/mapper/test/ZcdTestMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/future/livy/Batch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/future/livy/SessionKind.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/future/livy/Statement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/text/DateFormat.java">
+    <entry file="jar://$PROJECT_DIR$/../apache-maven-3.6.1/repository/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar!/org/mybatis/generator/config/xml/mybatis-generator-config_1_0.dtd">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13482">
-          <caret line="713" column="16" selection-start-line="713" selection-start-column="16" selection-end-line="713" selection-end-column="16" />
-          <folding>
-            <element signature="e#27786#27787#0" expanded="true" />
-            <element signature="e#27830#27831#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="721">
+          <caret line="243" column="26" selection-start-line="243" selection-start-column="10" selection-end-line="243" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/text/SimpleDateFormat.java">
+    <entry file="file://$PROJECT_DIR$/../apache-maven-3.6.1/repository/org/springframework/boot/spring-boot-dependencies/2.0.4.RELEASE/spring-boot-dependencies-2.0.4.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11025">
-          <caret line="577" column="11" selection-start-line="577" selection-start-column="11" selection-end-line="577" selection-end-column="11" />
-          <folding>
-            <element signature="e#23443#23444#0" expanded="true" />
-            <element signature="e#23515#23516#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="195">
+          <caret line="506" column="12" selection-start-line="506" selection-start-column="12" selection-end-line="506" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/regex/Matcher.java">
+    <entry file="file://$PROJECT_DIR$/service/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1701">
-          <caret line="104" column="19" selection-start-line="104" selection-start-column="19" selection-end-line="104" selection-end-column="19" />
+        <state relative-caret-position="420">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/regex/Pattern.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/hdu/mbgdemo/dao/generator/ZcdTestMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16254">
-          <caret line="809" column="28" selection-start-line="809" selection-start-column="28" selection-end-line="809" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/Character.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117285">
-          <caret line="5651" column="26" selection-start-line="5651" selection-start-column="26" selection-end-line="5651" selection-end-column="26" />
-          <folding>
-            <element signature="e#198712#198713#0" expanded="true" />
-            <element signature="e#198751#198752#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab/src/test/java/com/future/express/ExpressTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        <state relative-caret-position="273">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-gen/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/src/main/resources/generator/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zdww/demo/dao/ZcdTestMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zdww/demo/model/ZcdTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+          <folding>
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zdww/demo/base/BaseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zdww/demo/base/BaseModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/generator/ZcdTestMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generator/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/future/bootstrap/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="170" column="89" selection-start-line="170" selection-start-column="89" selection-end-line="170" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-gen/src/main/java/com/zdww/demo/GenServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-gen/src/test/java/com/codegen/service/CodeGeneratorManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="109" column="24" lean-forward="true" selection-start-line="109" selection-start-column="24" selection-end-line="109" selection-end-column="24" />
+          <folding>
+            <element signature="e#2779#2780#0" expanded="true" />
+            <element signature="e#2831#2832#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-gen/src/test/java/com/codegen/main/CodeGeneratorMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1454,7 +1192,6 @@
             <option name="proportions">
               <list>
                 <option value="0.33610272" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1497,12 +1234,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>common</last-edited>
+          <last-edited>Spring|server</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.33610272" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1521,5 +1257,9 @@
         </settings>
       </state>
     </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$/src" />
+    <option value="mybatis-generator:generate" />
   </component>
 </project>

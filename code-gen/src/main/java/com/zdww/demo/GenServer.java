@@ -1,19 +1,20 @@
-package com.future.bootstrap;
+package com.zdww.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ComponentScan;
+import tk.mybatis.spring.annotation.MapperScan;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.PropertySource;
 
 /**
  * @author zcd
  */
 @SpringBootApplication
 @Configuration
-public class Server {
+@MapperScan("com.zdww.demo.dao.mapper.test")
+public class GenServer
+{
     public static void main(String[] args) {
-        SpringApplication.run(Server.class, args);
+        SpringApplication.run(GenServer.class, args);
     }
 
 //    @Configuration

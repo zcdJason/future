@@ -18,9 +18,9 @@ public class Test
         for(int i = 0 ; i <= 10; i++)
         {
             Mail mail12 = (Mail)mail.clone();
-            mail12.setContext("test" + i);
+            mail12.setContext("mapper.test" + i);
             mail12.setAddress("testaddres");
-            mail12.setName("test-name"+i);
+            mail12.setName("mapper.test-name"+i);
             System.out.println(mail12);
         }
     }

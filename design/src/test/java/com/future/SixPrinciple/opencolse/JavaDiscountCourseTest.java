@@ -22,7 +22,7 @@ public class JavaDiscountCourseTest {
 
     @After
     public void tearDown() throws Exception {
-        logger.info("end test-suite");
+        logger.info("end mapper.test-suite");
     }
 
     @Test

@@ -2,5 +2,5 @@ spring:
   application:
     name: future
   profiles:
-    active: prod
+    active: dev
 
