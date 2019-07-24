@@ -32,7 +32,7 @@ public class CodeGeneratorMain {
 		CodeGeneratorManager cgm = new CodeGeneratorManager();
 
 //		定义一个业务package名称
-		String sign="zcd";
+		String sign="test";
 		cgm.genCodeWithSimpleName(sign, TABLE);
 		
 //		cgm.genCodeWithMultiTablesName(sign, TABLES);
