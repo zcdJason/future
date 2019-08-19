@@ -3,6 +3,9 @@ package com.future.metabase;
 import org.springframework.security.jwt.Jwt;
 import org.springframework.security.jwt.JwtHelper;
 import org.springframework.security.jwt.crypto.sign.MacSigner;
+
+import java.util.HashMap;
+
 /**
  * @author zcd
  * @date 2019-07-18 13:55
@@ -15,7 +18,8 @@ public class TestConn
 
     public static void main(String[] args){
         TestConn testConn = new TestConn();
-
+        HashMap<String, String>  t = new HashMap();
+        t.put("t", "s");
         System.out.println(testConn.indexAction());
     }
     public DashboardParams indexAction() {
