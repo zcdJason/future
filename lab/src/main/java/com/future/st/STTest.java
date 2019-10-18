@@ -25,20 +25,24 @@ public class STTest
      */
     public static void main(String[] args)
     {
-//        ST hello = new ST("hello , <name>");
-//        hello.add("name", "world");
-//        System.out.println(hello.render());
+        ST hello = new ST("hello , <name>");
+        hello.add("name", "world");
+        System.out.println(hello.render());
 
         STGroup stg = new STGroupFile("/Users/zcd/files/NewX/future/lab/src/main/resources/sqlTemplate.stg");
+
+        //获取查询模版
         ST st = stg.getInstanceOf("querySql");
 
-        st.add("nativeQuery", false);
+        st.add("nativeQuery", true);
 
-        List<String> groupsList = new ArrayList<>();
-        groupsList.add("c1");
-        groupsList.add("c2");
-        st.add("groups", groupsList);
+        //分组名称
+//        List<String> groupsList = new ArrayList<>();
+//        groupsList.add("c1");
+//        groupsList.add("c2");
+//        st.add("groups", groupsList);
 
+        //聚合函数
         List<Aggregator>  aggregators = new ArrayList<>();
         Aggregator  a1 = new Aggregator("c1", "max");
         Aggregator  a2 = new Aggregator("c2", "count");
@@ -58,10 +62,10 @@ public class STTest
         Order o2 = new Order("c2", "asc");
         orders.add(o1);
         orders.add(o2);
-
         st.add("orders", orders);
-        st.add("keywordPrefix", "prefix");
-        st.add("keywordSuffix", "suffix");
+
+//        st.add("keywordPrefix", "prefix");
+//        st.add("keywordSuffix", "suffix");
 
         st.add("sql", "select c1, c2 from test where c1 = 1 and c2=5");
         System.out.println(st.render());

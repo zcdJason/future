@@ -12,14 +12,14 @@ import com.ql.util.express.ExpressRunner;
 public class ExpressRunnerLoader {
 	
 	private ExpressRunner runner;
-	private static ExpressRunnerLoader loader;
+	private static volatile ExpressRunnerLoader loader;
 	
 	private ExpressRunnerLoader(){
 		this.runner = new ExpressRunner();
 	}
 	
 	/**
-	 * 单例模型
+	 * 单例模型,双重验证，兼顾性能和多线程安全到解决方案
 	 * @return
 	 * @throws Exception 
 	 */
@@ -30,15 +30,15 @@ public class ExpressRunnerLoader {
                 	loader = new ExpressRunnerLoader();
                 	//加载验证函数方法
                 	loader.initValidateMethods();
-                	//加载清洗函数
+                	//加载函数
                 	loader.initCleanMethods();
                 	//从类中加载验证函数方法
                 	loader.initMethodsFromClass(ExpressValidateAtomMethod.class);
-                	//从类中加载清洗函数方法
+                	//从类中加载函数方法
                 	loader.initMethodsFromClass(ExpressTransformAtomMethod.class);
                 	//从类中加载扩展验证函数方法
                 	loader.initMethodsFromClass(ExpressValidateExtraMethod.class);
-                	//从类中加载扩展清洗函数方法
+                	//从类中加载扩展函数方法
                 	loader.initMethodsFromClass(ExpressTransformExtraMethod.class);
                 }
         	}
