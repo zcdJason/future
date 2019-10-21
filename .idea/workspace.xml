@@ -5,49 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72ba396f-78da-48c3-831b-2c398638a830" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/callback/AskQuestion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/callback/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/callback/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/callback/TestMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab/src/main/java/com/future/azkaban/plugin/BaseDataProtocol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab/src/main/java/com/future/azkaban/plugin/BaseProtocol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab/src/main/java/com/future/azkaban/plugin/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab/src/main/java/com/future/azkaban/plugin/DataBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab/src/main/java/com/future/azkaban/plugin/FileType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab/src/main/java/com/future/azkaban/plugin/MetaInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab/src/main/java/com/future/azkaban/plugin/Protocol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab/src/main/java/com/future/azkaban/plugin/ProtocolType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab/src/main/java/com/future/azkaban/plugin/SchemaItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab/src/main/java/com/future/azkaban/plugin/SimpleDataProtocol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab/src/main/java/com/future/azkaban/plugin/StoreEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab/src/main/java/com/future/azkaban/plugin/impl/EtlProtocol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab/src/main/java/com/future/azkaban/plugin/impl/EtlStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/callback/example1/CommonCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/callback/example1/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/callback/example1/ExampleMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/callback/example1/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/callback/example2/AnswerRes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/callback/example2/ExampleMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/callback/example2/RoomMate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/callback/example2/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/callback/example2/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/callback/example3/Ant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/callback/example3/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/callback/example3/SuperStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/callback/example3/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/callback/example3/TestMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/callback/example3/WorkCallBack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-gen/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/code-gen/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-gen/src/main/java/com/zdww/demo/GenServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/code-gen/src/main/java/com/zdww/demo/GenServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-gen/src/main/java/com/zdww/demo/dao/MyMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-gen/src/main/java/com/zdww/demo/service/AbstractService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-gen/src/main/java/com/zdww/demo/service/Service.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-gen/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/code-gen/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-gen/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/code-gen/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-gen/src/test/resources/generatorConfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/code-gen/src/test/resources/generatorConfig.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design/src/main/java/com/future/proxy/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/main/java/com/future/proxy/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/future.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab/lab.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lab/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab/src/main/java/com/future/akka/AkkaDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/lab/src/main/java/com/future/akka/AkkaDemo.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab/src/main/java/com/future/akka/AkkaDemoAddPosionPill.scala" beforeDir="false" afterPath="$PROJECT_DIR$/lab/src/main/java/com/future/akka/AkkaDemoAddPosionPill.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab/src/main/java/com/future/akka/StudentSimulatorApp.scala" beforeDir="false" afterPath="$PROJECT_DIR$/lab/src/main/java/com/future/akka/StudentSimulatorApp.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab/src/main/java/com/future/express/loader/ExpressRunnerLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab/src/main/java/com/future/express/loader/ExpressRunnerLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab/src/main/java/com/future/st/STTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab/src/main/java/com/future/st/STTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab/src/test/java/com/future/express/ExpressFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab/src/test/java/com/future/express/ExpressFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab/src/test/java/com/future/express/ExpressTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab/src/test/java/com/future/express/ExpressTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab/src/test/java/com/future/express/test/HelloWorldTestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab/src/test/java/com/future/express/test/HelloWorldTestTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/src/main/java/com/future/callback/AskQuestion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/src/main/java/com/future/callback/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/src/main/java/com/future/callback/Teacher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/src/main/java/com/future/callback/TestMain.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,9 +59,9 @@
         <option value="Enum" />
         <option value="JUnit5 Test Class" />
         <option value="Singleton" />
+        <option value="JUnit4 Test Class" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -153,11 +130,11 @@
       <recent name="$PROJECT_DIR$/code-gen/src/main/resources/mapper/test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.future.callback.example3" />
       <recent name="com.future.easyrules.riskAler" />
       <recent name="com.future.easyrules.fizzbuzzRules" />
       <recent name="com.future.azkaban.plugin" />
       <recent name="com.zdww.demo" />
-      <recent name="com.future.disign_model.ResponsibilityChain" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/essyrules/src/main/java/com/future/easyrules" />
@@ -193,13 +170,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Server">
-    <configuration name="STTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.future.st.STTest" />
-      <module name="lab" />
+  <component name="RunManager" selected="Application.TestMain">
+    <configuration name="ExampleMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.future.callback.example1.ExampleMain" />
+      <module name="design" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.future.st.*" />
+          <option name="PATTERN" value="com.future.callback.example1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -207,18 +184,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExpressFactoryTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lab" />
+    <configuration name="ExampleMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.future.callback.example2.ExampleMain" />
+      <module name="design" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.future.express.*" />
+          <option name="PATTERN" value="com.future.callback.example2.DoWork" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.future.express" />
-      <option name="MAIN_CLASS_NAME" value="com.future.express.ExpressFactoryTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.future.callback.example3.TestMain" />
+      <module name="design" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.future.callback.example3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -239,22 +226,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExpressFactoryTest.transform" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.future.express.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.future.express" />
-      <option name="MAIN_CLASS_NAME" value="com.future.express.ExpressFactoryTest" />
-      <option name="METHOD_NAME" value="transform" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Server" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="server" />
       <extension name="coverage">
@@ -269,19 +240,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.STTest" />
-      <item itemvalue="JUnit.ExpressFactoryTest.transform" />
-      <item itemvalue="JUnit.ExpressFactoryTest.test" />
       <item itemvalue="JUnit.ExpressFactoryTest.testTime" />
       <item itemvalue="Spring Boot.Server" />
+      <item itemvalue="Application.ExampleMain" />
+      <item itemvalue="Application.ExampleMain (1)" />
+      <item itemvalue="Application.TestMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestMain" />
+        <item itemvalue="Application.ExampleMain" />
+        <item itemvalue="Application.ExampleMain (1)" />
         <item itemvalue="Spring Boot.Server" />
         <item itemvalue="JUnit.ExpressFactoryTest.testTime" />
-        <item itemvalue="JUnit.ExpressFactoryTest.test" />
-        <item itemvalue="Application.STTest" />
-        <item itemvalue="JUnit.ExpressFactoryTest.transform" />
       </list>
     </recent_temporary>
   </component>
@@ -371,7 +342,7 @@
       <workItem from="1570616937530" duration="115000" />
       <workItem from="1570677461321" duration="1322000" />
       <workItem from="1571065545586" duration="214000" />
-      <workItem from="1571377353394" duration="277000" />
+      <workItem from="1571377353394" duration="11869000" />
     </task>
     <task id="LOCAL-00001" summary="java-basic model-design">
       <created>1558428377276</created>
@@ -429,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566179214830</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="delete multiple dependence">
+      <created>1571377695591</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1571377695591</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -456,7 +434,8 @@
     <MESSAGE value="add mybatis code generate" />
     <MESSAGE value="add  st template" />
     <MESSAGE value="akka-demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="akka-demo" />
+    <MESSAGE value="delete multiple dependence" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete multiple dependence" />
   </component>
   <component name="WindowStateProjectService">
     <state width="462" height="486" key="Git.Branch.Popup" />
