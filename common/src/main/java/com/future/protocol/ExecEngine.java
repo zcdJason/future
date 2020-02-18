@@ -10,8 +10,8 @@ public enum ExecEngine
     spark,
 
     /** 数据库自身查询引擎 */
-    DbSelf,
+    db_self,
 
     /** hadoop-MapReduce */
-    MapReduce
+    mapreduce
 }
