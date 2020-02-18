@@ -16,4 +16,7 @@ public class JDBCInfo
 
     /**数据库 */
     private String dataBase;
+
+    /**数据表 */
+    private String table;
 }

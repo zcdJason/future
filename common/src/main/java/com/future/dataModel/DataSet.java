@@ -17,11 +17,16 @@ public class DataSet implements Serializable {
      */
     private DataSetType dsType;
     /**
-     * 数据存储系统
+     * 数据集存储系统
      **/
     private StoreInfo storeInfo;
+
     /**
-     * 数据块的元数据信息
+     数据集的参数信息
+     **/
+    private DataSetParameter parameter;
+    /**
+     * 数据集的元数据信息
      **/
     private MetaInfo metaInfo;
 }

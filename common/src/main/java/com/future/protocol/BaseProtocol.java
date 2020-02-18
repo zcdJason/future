@@ -15,4 +15,7 @@ public class BaseProtocol implements Protocol
 
 	/** 执行引擎 */
 	private ExecEngine execEngine;
+
+	/**节点类型 */
+	private String nodeType;
 }
