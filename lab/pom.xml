@@ -55,6 +55,13 @@
             <version>4.1.6.Final</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.clojars.chapmanb/jama -->
+        <dependency>
+            <groupId>org.clojars.chapmanb</groupId>
+            <artifactId>jama</artifactId>
+            <version>1.0.2</version>
+        </dependency>
+
         <!--akka-->
         <dependency>
             <groupId>com.typesafe.akka</groupId>
