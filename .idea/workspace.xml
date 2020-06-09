@@ -5,28 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72ba396f-78da-48c3-831b-2c398638a830" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/callback/example1/CommonCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/callback/example1/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/callback/example1/ExampleMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/callback/example1/Shop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/callback/example2/AnswerRes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/callback/example2/ExampleMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/callback/example2/RoomMate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/callback/example2/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/callback/example2/Worker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/callback/example3/Ant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/callback/example3/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/callback/example3/SuperStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/callback/example3/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/callback/example3/TestMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/callback/example3/WorkCallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/linearStructure/LinearStructure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/linearStructure/Map/letcode/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/linearStructure/MyArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/linearStructure/MyDynamicArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/linearStructure/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/linearStructure/linkedList/ILinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/linearStructure/linkedList/MyDummyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/linearStructure/linkedList/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/linearStructure/linkedList/QueueLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/linearStructure/linkedList/StackLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/linearStructure/queue/IQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/linearStructure/queue/MyArrayQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/linearStructure/queue/MyLoop2Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/linearStructure/queue/MyLoopQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/linearStructure/queue/leetcode/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/linearStructure/stack/IStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/linearStructure/stack/MyStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/linearStructure/stack/leetcode/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/test/java/com/future/data/structure/linearStructure/MyArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/test/java/com/future/data/structure/linearStructure/MyDynamicArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/test/java/com/future/data/structure/linearStructure/linkedList/MyDummyListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/test/java/com/future/data/structure/linearStructure/linkedList/MyLinkedListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/test/java/com/future/data/structure/linearStructure/linkedList/QueueLinkedListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/test/java/com/future/data/structure/linearStructure/linkedList/StackLinkedListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/test/java/com/future/data/structure/linearStructure/queue/MyArrayQueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/test/java/com/future/data/structure/linearStructure/queue/MyLoop2QueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/test/java/com/future/data/structure/linearStructure/queue/MyLoopQueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/test/java/com/future/data/structure/linearStructure/stack/MyStackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design/src/main/java/com/future/callback/AskQuestion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design/src/main/java/com/future/callback/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design/src/main/java/com/future/callback/Teacher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design/src/main/java/com/future/callback/TestMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,12 +70,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Enum" />
         <option value="JUnit5 Test Class" />
         <option value="Singleton" />
-        <option value="JUnit4 Test Class" />
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -82,11 +96,6 @@
         <option name="userSettingsFile" value="$PROJECT_DIR$/../apache-maven-3.6.1/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -95,14 +104,23 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="GO_FMT" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -111,17 +129,20 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.33610272" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.splitter.proportion" value="0.22957198" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.future.express" />
-      <recent name="com.future.disign_model.singleton" />
-      <recent name="com.future.express.test" />
+      <recent name="com.future.data.structure.linearStructure.linkedList" />
+      <recent name="com.future.data.structure.linearStructure.queue" />
+      <recent name="com.future.data.structure.linearStructure.stack" />
+      <recent name="com.future.data.structure.linearStructure" />
+      <recent name="com.future.protocol" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -130,18 +151,18 @@
       <recent name="$PROJECT_DIR$/code-gen/src/main/resources/mapper/test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.future.callback.example3" />
-      <recent name="com.future.easyrules.riskAler" />
-      <recent name="com.future.easyrules.fizzbuzzRules" />
-      <recent name="com.future.azkaban.plugin" />
-      <recent name="com.zdww.demo" />
+      <recent name="com.future.data.structure.linearStructure.queue.leetcode" />
+      <recent name="com.future.data.structure.linearStructure.queue" />
+      <recent name="com.future.data.structure.linearStructure" />
+      <recent name="com.future.dataModel" />
+      <recent name="com.future.protocol" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/common/src/main/java/com/future" />
       <recent name="$PROJECT_DIR$/essyrules/src/main/java/com/future/easyrules" />
       <recent name="$PROJECT_DIR$/lab/src/main/java/com/future" />
       <recent name="$PROJECT_DIR$/lab/src/main/java/com/future/DAGA" />
       <recent name="$PROJECT_DIR$/lab/src/main/java/com/future/akka" />
-      <recent name="$PROJECT_DIR$/lab/src/main/resources" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.future.bootstrap.web" />
@@ -158,101 +179,102 @@
       <command value="1 + 1" />
     </option>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.TestMain">
-    <configuration name="ExampleMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.future.callback.example1.ExampleMain" />
-      <module name="design" />
+  <component name="RunManager" selected="JUnit.StackLinkedListTest.push">
+    <configuration name="MyDummyListTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.future.callback.example1.*" />
+          <option name="PATTERN" value="com.future.data.structure.linearStructure.linkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExampleMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.future.callback.example2.ExampleMain" />
-      <module name="design" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.future.callback.example2.DoWork" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.future.callback.example3.TestMain" />
-      <module name="design" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.future.callback.example3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExpressFactoryTest.testTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.future.express.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.future.express" />
-      <option name="MAIN_CLASS_NAME" value="com.future.express.ExpressFactoryTest" />
-      <option name="METHOD_NAME" value="testTime" />
+      <option name="PACKAGE_NAME" value="com.future.data.structure.linearStructure.linkedList" />
+      <option name="MAIN_CLASS_NAME" value="com.future.data.structure.linearStructure.linkedList.MyDummyListTest" />
+      <option name="METHOD_NAME" value="add" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="server" />
+    <configuration name="MyLinkedListTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.future.bootstrap.*" />
+          <option name="PATTERN" value="com.future.data.structure.linearStructure.linkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.future.bootstrap.Server" />
+      <option name="PACKAGE_NAME" value="com.future.data.structure.linearStructure.linkedList" />
+      <option name="MAIN_CLASS_NAME" value="com.future.data.structure.linearStructure.linkedList.MyLinkedListTest" />
+      <option name="METHOD_NAME" value="add" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyLoopQueueTest.Test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.future.data.structure.linearStructure.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.future.data.structure.linearStructure.queue" />
+      <option name="MAIN_CLASS_NAME" value="com.future.data.structure.linearStructure.queue.MyLoopQueueTest" />
+      <option name="METHOD_NAME" value="Test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueLinkedListTest.enqueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.future.data.structure.linearStructure.linkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.future.data.structure.linearStructure.linkedList" />
+      <option name="MAIN_CLASS_NAME" value="com.future.data.structure.linearStructure.linkedList.QueueLinkedListTest" />
+      <option name="METHOD_NAME" value="enqueue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackLinkedListTest.push" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.future.data.structure.linearStructure.linkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.future.data.structure.linearStructure.linkedList" />
+      <option name="MAIN_CLASS_NAME" value="com.future.data.structure.linearStructure.linkedList.StackLinkedListTest" />
+      <option name="METHOD_NAME" value="push" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.ExpressFactoryTest.testTime" />
-      <item itemvalue="Spring Boot.Server" />
-      <item itemvalue="Application.ExampleMain" />
-      <item itemvalue="Application.ExampleMain (1)" />
-      <item itemvalue="Application.TestMain" />
+      <item itemvalue="JUnit.MyLoopQueueTest.Test2" />
+      <item itemvalue="JUnit.MyLinkedListTest.add" />
+      <item itemvalue="JUnit.MyDummyListTest.add" />
+      <item itemvalue="JUnit.StackLinkedListTest.push" />
+      <item itemvalue="JUnit.QueueLinkedListTest.enqueue" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestMain" />
-        <item itemvalue="Application.ExampleMain" />
-        <item itemvalue="Application.ExampleMain (1)" />
-        <item itemvalue="Spring Boot.Server" />
-        <item itemvalue="JUnit.ExpressFactoryTest.testTime" />
+        <item itemvalue="JUnit.StackLinkedListTest.push" />
+        <item itemvalue="JUnit.QueueLinkedListTest.enqueue" />
+        <item itemvalue="JUnit.MyDummyListTest.add" />
+        <item itemvalue="JUnit.MyLinkedListTest.add" />
+        <item itemvalue="JUnit.MyLoopQueueTest.Test2" />
       </list>
     </recent_temporary>
   </component>
@@ -342,7 +364,38 @@
       <workItem from="1570616937530" duration="115000" />
       <workItem from="1570677461321" duration="1322000" />
       <workItem from="1571065545586" duration="214000" />
-      <workItem from="1571377353394" duration="11869000" />
+      <workItem from="1571377353394" duration="12230000" />
+      <workItem from="1571724255078" duration="3035000" />
+      <workItem from="1571816737002" duration="2549000" />
+      <workItem from="1571879943142" duration="5664000" />
+      <workItem from="1572419924780" duration="2616000" />
+      <workItem from="1572485238121" duration="18000" />
+      <workItem from="1572514172787" duration="444000" />
+      <workItem from="1572576203720" duration="447000" />
+      <workItem from="1573439253603" duration="173000" />
+      <workItem from="1574326427170" duration="3000" />
+      <workItem from="1574754922430" duration="5425000" />
+      <workItem from="1575883738725" duration="25000" />
+      <workItem from="1575942052128" duration="25000" />
+      <workItem from="1576575185966" duration="820000" />
+      <workItem from="1576823972089" duration="34000" />
+      <workItem from="1581994359574" duration="8665000" />
+      <workItem from="1582014326286" duration="665000" />
+      <workItem from="1582016566848" duration="620000" />
+      <workItem from="1582017475218" duration="250000" />
+      <workItem from="1582019214228" duration="952000" />
+      <workItem from="1582360629528" duration="715000" />
+      <workItem from="1583906457664" duration="699000" />
+      <workItem from="1587869774031" duration="350000" />
+      <workItem from="1587870180885" duration="780000" />
+      <workItem from="1590502511009" duration="193000" />
+      <workItem from="1590541745062" duration="5473000" />
+      <workItem from="1590672048263" duration="144000" />
+      <workItem from="1590672213241" duration="177000" />
+      <workItem from="1590672414158" duration="611000" />
+      <workItem from="1591059499140" duration="12646000" />
+      <workItem from="1591146059102" duration="11855000" />
+      <workItem from="1591234505850" duration="10927000" />
     </task>
     <task id="LOCAL-00001" summary="java-basic model-design">
       <created>1558428377276</created>
@@ -407,24 +460,58 @@
       <option name="project" value="LOCAL" />
       <updated>1571377695591</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="callback method example">
+      <created>1571623420025</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1571623420025</updated>
+    </task>
+    <task id="LOCAL-00011" summary="设计模式分类（创建/行为/结构）">
+      <created>1571903040861</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1571903040861</updated>
+    </task>
+    <task id="LOCAL-00012" summary="设计数据模型">
+      <created>1582009933833</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1582009933833</updated>
+    </task>
+    <task id="LOCAL-00013" summary="设计数据模型">
+      <created>1582010166237</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1582010166237</updated>
+    </task>
+    <task id="LOCAL-00014" summary="修改数据模型">
+      <created>1582019310818</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1582019310818</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="java-basic model-design" />
@@ -435,12 +522,81 @@
     <MESSAGE value="add  st template" />
     <MESSAGE value="akka-demo" />
     <MESSAGE value="delete multiple dependence" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete multiple dependence" />
+    <MESSAGE value="callback method example" />
+    <MESSAGE value="设计模式分类（创建/行为/结构）" />
+    <MESSAGE value="设计数据模型" />
+    <MESSAGE value="修改数据模型" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改数据模型" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="462" height="486" key="Git.Branch.Popup" />
-    <state width="462" height="486" key="Git.Branch.Popup/3360.2100" />
-    <state width="462" height="486" key="Git.Branch.Popup@3360.2100@192dpi" />
+    <state x="717" y="393" width="635" height="341" key="#Notifications" timestamp="1590660360557">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="717" y="393" width="635" height="341" key="#Notifications/0.0.1680.1050@0.0.1680.1050" timestamp="1590660360557" />
+    <state x="653" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1591252333333">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="653" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1591252333332" />
+    <state width="1638" height="256" key="GridCell.Tab.0.bottom" timestamp="1591252380759">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="256" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1591252380759" />
+    <state width="1638" height="256" key="GridCell.Tab.0.center" timestamp="1591252380757">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="256" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1591252380757" />
+    <state width="1638" height="256" key="GridCell.Tab.0.left" timestamp="1591252380755">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="256" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1591252380755" />
+    <state width="1638" height="256" key="GridCell.Tab.0.right" timestamp="1591252380758">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="256" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1591252380758" />
+    <state width="1638" height="328" key="GridCell.Tab.1.bottom" timestamp="1591240831282">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="328" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1591240831282" />
+    <state width="1638" height="328" key="GridCell.Tab.1.center" timestamp="1591240831281">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="328" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1591240831281" />
+    <state width="1638" height="328" key="GridCell.Tab.1.left" timestamp="1591240831280">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="328" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1591240831280" />
+    <state width="1638" height="328" key="GridCell.Tab.1.right" timestamp="1591240831281">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="328" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1591240831281" />
+    <state x="428" y="268" key="IDE.errors.dialog" timestamp="1591146111823">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="428" y="268" key="IDE.errors.dialog/0.0.1680.1050@0.0.1680.1050" timestamp="1591146111823" />
+    <state x="467" y="303" key="SettingsEditor" timestamp="1591146125429">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="467" y="303" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1591146125429" />
+    <state x="570" y="275" width="540" height="524" key="StructurePopup" timestamp="1591079899965">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="570" y="275" width="540" height="524" key="StructurePopup/0.0.1680.1050@0.0.1680.1050" timestamp="1591079899965" />
+    <state x="555" y="282" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1591252212410">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="555" y="282" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1591252212410" />
+    <state x="499" y="286" width="681" height="478" key="find.popup" timestamp="1591155739800">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="499" y="286" width="681" height="478" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1591155739800" />
+    <state x="208" y="148" key="new project wizard" timestamp="1590502570785">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="208" y="148" key="new project wizard/0.0.1680.1050@0.0.1680.1050" timestamp="1590502570785" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1591251655009">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1591251655009" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
@@ -494,83 +650,6 @@ st.render()</expression-string>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>future:war exploded</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.33610272" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.33610272" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.33610272" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8.0_211</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.33610272" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>lab</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.33610272" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.33610272" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
   <component name="mavenExecuteGoalHistory">
     <option value="$PROJECT_DIR$/src" />

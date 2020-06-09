@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="dataStructure" />
         <module name="lab" />
         <module name="common" />
         <module name="service" />
@@ -27,6 +28,7 @@
       <module name="code-gen" options="-parameters" />
       <module name="common" options="-parameters" />
       <module name="config" options="-parameters" />
+      <module name="dataStructure" options="-parameters" />
       <module name="design" options="-parameters" />
       <module name="drools" options="-parameters" />
       <module name="essyrules" options="-parameters" />
