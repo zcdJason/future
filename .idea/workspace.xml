@@ -5,41 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72ba396f-78da-48c3-831b-2c398638a830" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/linearStructure/LinearStructure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/linearStructure/Map/letcode/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/linearStructure/MyArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/linearStructure/MyDynamicArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/linearStructure/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/linearStructure/linkedList/ILinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/linearStructure/linkedList/MyDummyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/linearStructure/linkedList/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/linearStructure/linkedList/QueueLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/linearStructure/linkedList/StackLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/linearStructure/queue/IQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/linearStructure/queue/MyArrayQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/linearStructure/queue/MyLoop2Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/linearStructure/queue/MyLoopQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/linearStructure/queue/leetcode/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/linearStructure/stack/IStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/linearStructure/stack/MyStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/linearStructure/stack/leetcode/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/test/java/com/future/data/structure/linearStructure/MyArrayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/test/java/com/future/data/structure/linearStructure/MyDynamicArrayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/test/java/com/future/data/structure/linearStructure/linkedList/MyDummyListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/test/java/com/future/data/structure/linearStructure/linkedList/MyLinkedListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/test/java/com/future/data/structure/linearStructure/linkedList/QueueLinkedListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/test/java/com/future/data/structure/linearStructure/linkedList/StackLinkedListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/test/java/com/future/data/structure/linearStructure/queue/MyArrayQueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/test/java/com/future/data/structure/linearStructure/queue/MyLoop2QueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/test/java/com/future/data/structure/linearStructure/queue/MyLoopQueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/test/java/com/future/data/structure/linearStructure/stack/MyStackTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/nonlinearStructure/binarySearchTree/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/nonlinearStructure/binarySearchTree/BST2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/nonlinearStructure/binarySearchTree/BST3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/nonlinearStructure/binarySearchTree/LeetCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/nonlinearStructure/binarySearchTree/LeetCode2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/recursion/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/recursion/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/recursion/Solution2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/recursion/Solution3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/recursion/Solution4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/recursion/TestSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/test/java/com/future/data/structure/nonlinearStructure/binarySearchTree/BST3Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/test/java/com/future/data/structure/recursion/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,8 +54,8 @@
         <option value="Singleton" />
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -127,7 +107,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/recursion" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
@@ -138,11 +118,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.future.data.structure.nonlinearStructure.binarySearchTree" />
+      <recent name="com.future.data.structure.recursion" />
       <recent name="com.future.data.structure.linearStructure.linkedList" />
       <recent name="com.future.data.structure.linearStructure.queue" />
       <recent name="com.future.data.structure.linearStructure.stack" />
-      <recent name="com.future.data.structure.linearStructure" />
-      <recent name="com.future.protocol" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -151,18 +131,18 @@
       <recent name="$PROJECT_DIR$/code-gen/src/main/resources/mapper/test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.future.data.structure.nonlinearStructure.binarySearchTree" />
+      <recent name="com.future.data.structure.recursion" />
       <recent name="com.future.data.structure.linearStructure.queue.leetcode" />
       <recent name="com.future.data.structure.linearStructure.queue" />
       <recent name="com.future.data.structure.linearStructure" />
-      <recent name="com.future.dataModel" />
-      <recent name="com.future.protocol" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/recursion" />
       <recent name="$PROJECT_DIR$/common/src/main/java/com/future" />
       <recent name="$PROJECT_DIR$/essyrules/src/main/java/com/future/easyrules" />
       <recent name="$PROJECT_DIR$/lab/src/main/java/com/future" />
       <recent name="$PROJECT_DIR$/lab/src/main/java/com/future/DAGA" />
-      <recent name="$PROJECT_DIR$/lab/src/main/java/com/future/akka" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.future.bootstrap.web" />
@@ -179,102 +159,92 @@
       <command value="1 + 1" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StackLinkedListTest.push">
-    <configuration name="MyDummyListTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.LeetCode2">
+    <configuration name="LeetCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.future.data.structure.nonlinearStructure.binarySearchTree.LeetCode" />
       <module name="dataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.future.data.structure.linearStructure.linkedList.*" />
+          <option name="PATTERN" value="com.future.data.structure.nonlinearStructure.binarySearchTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.future.data.structure.linearStructure.linkedList" />
-      <option name="MAIN_CLASS_NAME" value="com.future.data.structure.linearStructure.linkedList.MyDummyListTest" />
-      <option name="METHOD_NAME" value="add" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.future.data.structure.nonlinearStructure.binarySearchTree.LeetCode2" />
+      <module name="dataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.future.data.structure.nonlinearStructure.binarySearchTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.future.data.structure.recursion.TestSum" />
+      <module name="dataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.future.data.structure.recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BST3Test.size" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.future.data.structure.nonlinearStructure.binarySearchTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.future.data.structure.nonlinearStructure.binarySearchTree" />
+      <option name="MAIN_CLASS_NAME" value="com.future.data.structure.nonlinearStructure.binarySearchTree.BST3Test" />
+      <option name="METHOD_NAME" value="size" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyLinkedListTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest.removeElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.future.data.structure.linearStructure.linkedList.*" />
+          <option name="PATTERN" value="com.future.data.structure.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.future.data.structure.linearStructure.linkedList" />
-      <option name="MAIN_CLASS_NAME" value="com.future.data.structure.linearStructure.linkedList.MyLinkedListTest" />
-      <option name="METHOD_NAME" value="add" />
+      <option name="PACKAGE_NAME" value="com.future.data.structure.recursion" />
+      <option name="MAIN_CLASS_NAME" value="com.future.data.structure.recursion.SolutionTest" />
+      <option name="METHOD_NAME" value="removeElements" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyLoopQueueTest.Test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.future.data.structure.linearStructure.queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.future.data.structure.linearStructure.queue" />
-      <option name="MAIN_CLASS_NAME" value="com.future.data.structure.linearStructure.queue.MyLoopQueueTest" />
-      <option name="METHOD_NAME" value="Test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueueLinkedListTest.enqueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.future.data.structure.linearStructure.linkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.future.data.structure.linearStructure.linkedList" />
-      <option name="MAIN_CLASS_NAME" value="com.future.data.structure.linearStructure.linkedList.QueueLinkedListTest" />
-      <option name="METHOD_NAME" value="enqueue" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StackLinkedListTest.push" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.future.data.structure.linearStructure.linkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.future.data.structure.linearStructure.linkedList" />
-      <option name="MAIN_CLASS_NAME" value="com.future.data.structure.linearStructure.linkedList.StackLinkedListTest" />
-      <option name="METHOD_NAME" value="push" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MyLoopQueueTest.Test2" />
-      <item itemvalue="JUnit.MyLinkedListTest.add" />
-      <item itemvalue="JUnit.MyDummyListTest.add" />
-      <item itemvalue="JUnit.StackLinkedListTest.push" />
-      <item itemvalue="JUnit.QueueLinkedListTest.enqueue" />
+      <item itemvalue="JUnit.SolutionTest.removeElements" />
+      <item itemvalue="Application.TestSum" />
+      <item itemvalue="JUnit.BST3Test.size" />
+      <item itemvalue="Application.LeetCode" />
+      <item itemvalue="Application.LeetCode2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StackLinkedListTest.push" />
-        <item itemvalue="JUnit.QueueLinkedListTest.enqueue" />
-        <item itemvalue="JUnit.MyDummyListTest.add" />
-        <item itemvalue="JUnit.MyLinkedListTest.add" />
-        <item itemvalue="JUnit.MyLoopQueueTest.Test2" />
+        <item itemvalue="Application.LeetCode2" />
+        <item itemvalue="Application.LeetCode" />
+        <item itemvalue="JUnit.BST3Test.size" />
+        <item itemvalue="Application.TestSum" />
+        <item itemvalue="JUnit.SolutionTest.removeElements" />
       </list>
     </recent_temporary>
   </component>
@@ -396,6 +366,8 @@
       <workItem from="1591059499140" duration="12646000" />
       <workItem from="1591146059102" duration="11855000" />
       <workItem from="1591234505850" duration="10927000" />
+      <workItem from="1591690759109" duration="4147000" />
+      <workItem from="1591751030279" duration="13331000" />
     </task>
     <task id="LOCAL-00001" summary="java-basic model-design">
       <created>1558428377276</created>
@@ -495,7 +467,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582019310818</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="添加数据结构模块">
+      <created>1591690790995</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1591690790995</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -526,33 +505,42 @@
     <MESSAGE value="设计模式分类（创建/行为/结构）" />
     <MESSAGE value="设计数据模型" />
     <MESSAGE value="修改数据模型" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改数据模型" />
+    <MESSAGE value="添加数据结构模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加数据结构模块" />
   </component>
   <component name="WindowStateProjectService">
     <state x="717" y="393" width="635" height="341" key="#Notifications" timestamp="1590660360557">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="717" y="393" width="635" height="341" key="#Notifications/0.0.1680.1050@0.0.1680.1050" timestamp="1590660360557" />
-    <state x="653" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1591252333333">
+    <state x="653" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1591757277531">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="653" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1591252333332" />
-    <state width="1638" height="256" key="GridCell.Tab.0.bottom" timestamp="1591252380759">
+    <state x="653" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1591757277531" />
+    <state x="402" y="96" key="CommitChangelistDialog2" timestamp="1591690790684">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="256" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1591252380759" />
-    <state width="1638" height="256" key="GridCell.Tab.0.center" timestamp="1591252380757">
+    <state x="402" y="96" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1591690790684" />
+    <state width="1638" height="203" key="GridCell.Tab.0.bottom" timestamp="1591769579745">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="256" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1591252380757" />
-    <state width="1638" height="256" key="GridCell.Tab.0.left" timestamp="1591252380755">
+    <state width="1638" height="203" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1591769579745" />
+    <state width="1638" height="266" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1591768803132" />
+    <state width="1638" height="203" key="GridCell.Tab.0.center" timestamp="1591769579743">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="256" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1591252380755" />
-    <state width="1638" height="256" key="GridCell.Tab.0.right" timestamp="1591252380758">
+    <state width="1638" height="203" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1591769579743" />
+    <state width="1638" height="266" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1591768803131" />
+    <state width="1638" height="203" key="GridCell.Tab.0.left" timestamp="1591769579741">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="256" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1591252380758" />
+    <state width="1638" height="203" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1591769579741" />
+    <state width="1638" height="266" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1591768803130" />
+    <state width="1638" height="203" key="GridCell.Tab.0.right" timestamp="1591769579744">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="203" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1591769579744" />
+    <state width="1638" height="266" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1591768803132" />
     <state width="1638" height="328" key="GridCell.Tab.1.bottom" timestamp="1591240831282">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -581,14 +569,18 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="570" y="275" width="540" height="524" key="StructurePopup/0.0.1680.1050@0.0.1680.1050" timestamp="1591079899965" />
-    <state x="555" y="282" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1591252212410">
+    <state x="440" y="266" key="Vcs.Push.Dialog.v2" timestamp="1591690792919">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="555" y="282" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1591252212410" />
-    <state x="499" y="286" width="681" height="478" key="find.popup" timestamp="1591155739800">
+    <state x="440" y="266" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1591690792919" />
+    <state x="555" y="282" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1591764579439">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="499" y="286" width="681" height="478" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1591155739800" />
+    <state x="555" y="282" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1591764579439" />
+    <state x="499" y="286" width="681" height="478" key="find.popup" timestamp="1591764572908">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="499" y="286" width="681" height="478" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1591764572908" />
     <state x="208" y="148" key="new project wizard" timestamp="1590502570785">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
