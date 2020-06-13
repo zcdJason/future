@@ -1,12 +1,14 @@
-package com.future.data.structure.linearStructure;
+package com.future.data.structure.HeapAndPriorityQueue;
+
+import com.future.data.structure.linearStructure.LinearStructure;
 
 import java.util.Arrays;
 import java.util.Objects;
 
-public class MyArray<E> implements LinearStructure<E>{
+public class MyArray<E> implements LinearStructure<E> {
 
-    E[] data;
-    int size;
+    private E[] data;
+    private int size;
 
     public MyArray(){
         this(8);
@@ -63,6 +65,14 @@ public class MyArray<E> implements LinearStructure<E>{
     @Override
     public int size() {
         return size;
+    }
+
+    public void swap(int i, int j){
+        if(i < 0 || i > size || j < 0 || j > size)
+            throw new IllegalArgumentException("size out of index");
+        E tmp = data[i];
+        data[i] = data[j];
+        data[j] = tmp;
     }
 
     @Override

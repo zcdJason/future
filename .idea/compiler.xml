@@ -8,12 +8,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="dataStructure" />
-        <module name="server" />
         <module name="lab" />
         <module name="common" />
+        <module name="service" />
         <module name="model" />
         <module name="code-gen" />
-        <module name="service" />
+        <module name="server" />
         <module name="design" />
         <module name="config" />
       </profile>

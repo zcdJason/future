@@ -1,6 +1,7 @@
 package com.future.data.structure.linearStructure;
 
 
+import com.future.data.structure.HeapAndPriorityQueue.MyArray;
 import org.junit.Test;
 
 public class MyArrayTest {
