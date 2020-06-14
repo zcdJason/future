@@ -4,22 +4,30 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72ba396f-78da-48c3-831b-2c398638a830" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/HeapAndPriorityQueue/MaxHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/map/BSTMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/map/IMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/map/LinkedListMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/nonlinearStructure/binarySearchTree/BST4Overwrite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/nonlinearStructure/binarySearchTree/BSTSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/nonlinearStructure/binarySearchTree/Set.java" afterDir="false" />
+    <list default="true" id="acb4d6e8-0b11-4731-9074-6e810efb29d7" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/future_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/linearStructure/MyArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/HeapAndPriorityQueue/MyArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/nonlinearStructure/binarySearchTree/BST3.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/nonlinearStructure/binarySearchTree/BST3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/nonlinearStructure/binarySearchTree/LeetCode2.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/nonlinearStructure/binarySearchTree/LeetCode2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructure/src/test/java/com/future/data/structure/linearStructure/MyArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/src/test/java/com/future/data/structure/linearStructure/MyArrayTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructure/src/test/java/com/future/data/structure/nonlinearStructure/binarySearchTree/BST3Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/src/test/java/com/future/data/structure/nonlinearStructure/binarySearchTree/BST3Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/HeapAndPriorityQueue/MaxHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/HeapAndPriorityQueue/MaxHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/HeapAndPriorityQueue/MyArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/HeapAndPriorityQueue/MyArray.java" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/model/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/config/target/" />
+    <ignored path="$PROJECT_DIR$/server/target/" />
+    <ignored path="$PROJECT_DIR$/service/target/" />
+    <ignored path="$PROJECT_DIR$/lab/target/" />
+    <ignored path="$PROJECT_DIR$/design/target/" />
+    <ignored path="$PROJECT_DIR$/code-gen/target/" />
+    <ignored path="$PROJECT_DIR$/common/target/" />
+    <ignored path="$PROJECT_DIR$/dataStructure/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,6 +53,44 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="MaxHeap.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/HeapAndPriorityQueue/MaxHeap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="972">
+              <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+              <folding>
+                <element signature="e#180#181#0" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
+                <element signature="e#250#251#0" expanded="true" />
+                <element signature="e#284#285#0" expanded="true" />
+                <element signature="e#315#316#0" expanded="true" />
+                <element signature="e#352#353#0" expanded="true" />
+                <element signature="e#620#621#0" expanded="true" />
+                <element signature="e#656#657#0" expanded="true" />
+                <element signature="e#716#717#0" expanded="true" />
+                <element signature="e#751#752#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyArray.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/HeapAndPriorityQueue/MyArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="415">
+              <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="26" />
+              <folding>
+                <element signature="e#1502#1503#0" expanded="true" />
+                <element signature="e#1529#1530#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -59,13 +105,28 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/HeapAndPriorityQueue/MyArray.java" />
+        <option value="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/HeapAndPriorityQueue/MaxHeap.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -76,12 +137,91 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="2500" />
+    <option name="height" value="1460" />
+  </component>
   <component name="ProjectId" id="1RJsgJz3uJ9Iq3XpPJLJLLkHKdR" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="future" type="b2602c69:ProjectViewProjectNode" />
+              <item name="future" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="future" type="b2602c69:ProjectViewProjectNode" />
+              <item name="future" type="462c0819:PsiDirectoryNode" />
+              <item name="dataStructure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="future" type="b2602c69:ProjectViewProjectNode" />
+              <item name="future" type="462c0819:PsiDirectoryNode" />
+              <item name="dataStructure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="future" type="b2602c69:ProjectViewProjectNode" />
+              <item name="future" type="462c0819:PsiDirectoryNode" />
+              <item name="dataStructure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="future" type="b2602c69:ProjectViewProjectNode" />
+              <item name="future" type="462c0819:PsiDirectoryNode" />
+              <item name="dataStructure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="future" type="b2602c69:ProjectViewProjectNode" />
+              <item name="future" type="462c0819:PsiDirectoryNode" />
+              <item name="dataStructure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="structure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="future" type="b2602c69:ProjectViewProjectNode" />
+              <item name="future" type="462c0819:PsiDirectoryNode" />
+              <item name="dataStructure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="structure" type="462c0819:PsiDirectoryNode" />
+              <item name="HeapAndPriorityQueue" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -89,31 +229,10 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="GO_FMT" value="true" />
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="go.gopath.indexing.explicitly.defined" value="true" />
-    <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/nonlinearStructure/binarySearchTree" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.33610272" />
-    <property name="restartRequiresConfirmation" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
-    <property name="settings.editor.splitter.proportion" value="0.22957198" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -147,465 +266,202 @@
       <recent name="com.future.bootstrap.web" />
     </key>
   </component>
-  <component name="RestServicesNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
-  </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="1 + 1" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BST3Test.size">
-    <configuration name="LeetCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.future.data.structure.nonlinearStructure.binarySearchTree.LeetCode" />
-      <module name="dataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.future.data.structure.nonlinearStructure.binarySearchTree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LeetCode2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.future.data.structure.nonlinearStructure.binarySearchTree.LeetCode2" />
-      <module name="dataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.future.data.structure.nonlinearStructure.binarySearchTree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.future.data.structure.recursion.TestSum" />
-      <module name="dataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.future.data.structure.recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BST3Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.future.data.structure.nonlinearStructure.binarySearchTree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.future.data.structure.nonlinearStructure.binarySearchTree" />
-      <option name="MAIN_CLASS_NAME" value="com.future.data.structure.nonlinearStructure.binarySearchTree.BST3Test" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BSP.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BST3Test.size" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.future.data.structure.nonlinearStructure.binarySearchTree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.future.data.structure.nonlinearStructure.binarySearchTree" />
-      <option name="MAIN_CLASS_NAME" value="com.future.data.structure.nonlinearStructure.binarySearchTree.BST3Test" />
-      <option name="METHOD_NAME" value="size" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BSP.BeforeRunTask" enabled="true" />
-      </method>
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
-    <list>
-      <item itemvalue="Application.TestSum" />
-      <item itemvalue="Application.LeetCode" />
-      <item itemvalue="Application.LeetCode2" />
-      <item itemvalue="JUnit.BST3Test.size" />
-      <item itemvalue="JUnit.BST3Test" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.BST3Test.size" />
-        <item itemvalue="JUnit.BST3Test" />
-        <item itemvalue="Application.LeetCode2" />
-        <item itemvalue="Application.LeetCode" />
-        <item itemvalue="Application.TestSum" />
-      </list>
-    </recent_temporary>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="72ba396f-78da-48c3-831b-2c398638a830" name="Default Changelist" comment="" />
-      <created>1557758595539</created>
+      <changelist id="acb4d6e8-0b11-4731-9074-6e810efb29d7" name="Default" comment="" />
+      <created>1592011949581</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1557758595539</updated>
-      <workItem from="1557758596844" duration="1109000" />
-      <workItem from="1557901845858" duration="3007000" />
-      <workItem from="1557913658846" duration="564000" />
-      <workItem from="1558104194646" duration="9000" />
-      <workItem from="1558104284802" duration="7382000" />
-      <workItem from="1558419070826" duration="10297000" />
-      <workItem from="1558534564565" duration="3342000" />
-      <workItem from="1558592071758" duration="5163000" />
-      <workItem from="1558622458974" duration="4625000" />
-      <workItem from="1558665383977" duration="87000" />
-      <workItem from="1558683670010" duration="838000" />
-      <workItem from="1558851542195" duration="660000" />
-      <workItem from="1558944254751" duration="907000" />
-      <workItem from="1558964518922" duration="606000" />
-      <workItem from="1559012466958" duration="2789000" />
-      <workItem from="1559034718579" duration="84000" />
-      <workItem from="1559034887588" duration="2997000" />
-      <workItem from="1559196823870" duration="758000" />
-      <workItem from="1559290968890" duration="1647000" />
-      <workItem from="1559292878051" duration="12197000" />
-      <workItem from="1559568881146" duration="5171000" />
-      <workItem from="1559753579429" duration="514000" />
-      <workItem from="1559782426411" duration="560000" />
-      <workItem from="1559904418444" duration="44000" />
-      <workItem from="1560127122958" duration="1711000" />
-      <workItem from="1560157433460" duration="1288000" />
-      <workItem from="1560178829626" duration="3883000" />
-      <workItem from="1560214241162" duration="7697000" />
-      <workItem from="1560242999446" duration="3445000" />
-      <workItem from="1560318413249" duration="6577000" />
-      <workItem from="1560387915255" duration="55000" />
-      <workItem from="1562726119928" duration="3706000" />
-      <workItem from="1562748368664" duration="5000" />
-      <workItem from="1562748438839" duration="314000" />
-      <workItem from="1562749655438" duration="79000" />
-      <workItem from="1563428938771" duration="3659000" />
-      <workItem from="1563848202751" duration="16221000" />
-      <workItem from="1563896762412" duration="1096000" />
-      <workItem from="1563938984333" duration="6733000" />
-      <workItem from="1564018347780" duration="19000" />
-      <workItem from="1564367032002" duration="3089000" />
-      <workItem from="1564383732750" duration="1247000" />
-      <workItem from="1564554253040" duration="5584000" />
-      <workItem from="1565066259984" duration="191000" />
-      <workItem from="1565246152127" duration="690000" />
-      <workItem from="1565341634281" duration="33000" />
-      <workItem from="1565667864755" duration="34000" />
-      <workItem from="1565682238119" duration="371000" />
-      <workItem from="1565684392990" duration="857000" />
-      <workItem from="1565947987359" duration="17000" />
-      <workItem from="1566179122369" duration="6025000" />
-      <workItem from="1566369812391" duration="16000" />
-      <workItem from="1566443204324" duration="1939000" />
-      <workItem from="1566525369132" duration="3465000" />
-      <workItem from="1566530957564" duration="3115000" />
-      <workItem from="1566577177093" duration="385000" />
-      <workItem from="1566578739625" duration="3277000" />
-      <workItem from="1566616798286" duration="112000" />
-      <workItem from="1566631838431" duration="20000" />
-      <workItem from="1566632985103" duration="20691000" />
-      <workItem from="1566780779938" duration="2146000" />
-      <workItem from="1567149492871" duration="822000" />
-      <workItem from="1567152124873" duration="5444000" />
-      <workItem from="1567403306839" duration="6628000" />
-      <workItem from="1567731094500" duration="104000" />
-      <workItem from="1567745126901" duration="1898000" />
-      <workItem from="1567990949047" duration="2454000" />
-      <workItem from="1567993463409" duration="10663000" />
-      <workItem from="1568079142581" duration="1215000" />
-      <workItem from="1569396643682" duration="257000" />
-      <workItem from="1569398062069" duration="1822000" />
-      <workItem from="1569431379100" duration="763000" />
-      <workItem from="1569480199749" duration="6000" />
-      <workItem from="1570616937530" duration="115000" />
-      <workItem from="1570677461321" duration="1322000" />
-      <workItem from="1571065545586" duration="214000" />
-      <workItem from="1571377353394" duration="12230000" />
-      <workItem from="1571724255078" duration="3035000" />
-      <workItem from="1571816737002" duration="2549000" />
-      <workItem from="1571879943142" duration="5664000" />
-      <workItem from="1572419924780" duration="2616000" />
-      <workItem from="1572485238121" duration="18000" />
-      <workItem from="1572514172787" duration="444000" />
-      <workItem from="1572576203720" duration="447000" />
-      <workItem from="1573439253603" duration="173000" />
-      <workItem from="1574326427170" duration="3000" />
-      <workItem from="1574754922430" duration="5425000" />
-      <workItem from="1575883738725" duration="25000" />
-      <workItem from="1575942052128" duration="25000" />
-      <workItem from="1576575185966" duration="820000" />
-      <workItem from="1576823972089" duration="34000" />
-      <workItem from="1581994359574" duration="8665000" />
-      <workItem from="1582014326286" duration="665000" />
-      <workItem from="1582016566848" duration="620000" />
-      <workItem from="1582017475218" duration="250000" />
-      <workItem from="1582019214228" duration="952000" />
-      <workItem from="1582360629528" duration="715000" />
-      <workItem from="1583906457664" duration="699000" />
-      <workItem from="1587869774031" duration="350000" />
-      <workItem from="1587870180885" duration="780000" />
-      <workItem from="1590502511009" duration="193000" />
-      <workItem from="1590541745062" duration="5473000" />
-      <workItem from="1590672048263" duration="144000" />
-      <workItem from="1590672213241" duration="177000" />
-      <workItem from="1590672414158" duration="611000" />
-      <workItem from="1591059499140" duration="12646000" />
-      <workItem from="1591146059102" duration="11855000" />
-      <workItem from="1591234505850" duration="10927000" />
-      <workItem from="1591690759109" duration="4147000" />
-      <workItem from="1591751030279" duration="13613000" />
-      <workItem from="1591846201488" duration="162000" />
-      <workItem from="1591846383121" duration="19563000" />
-      <workItem from="1591924223199" duration="10998000" />
+      <updated>1592011949581</updated>
+      <workItem from="1592011951492" duration="42000" />
+      <workItem from="1592012237295" duration="524000" />
+      <workItem from="1592012804280" duration="4922000" />
     </task>
-    <task id="LOCAL-00001" summary="java-basic model-design">
-      <created>1558428377276</created>
+    <task id="LOCAL-00001" summary="aa">
+      <created>1592012581960</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1558428377276</updated>
+      <updated>1592012581960</updated>
     </task>
-    <task id="LOCAL-00002" summary="example simple-factory model">
-      <created>1558432376692</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1558432376692</updated>
-    </task>
-    <task id="LOCAL-00003" summary="ali qexpress example">
-      <created>1558919977607</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1558919977607</updated>
-    </task>
-    <task id="LOCAL-00004" summary="project build ok">
-      <created>1559293096093</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1559293096093</updated>
-    </task>
-    <task id="LOCAL-00005" summary="project build ok">
-      <created>1559904449188</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1559904449188</updated>
-    </task>
-    <task id="LOCAL-00006" summary="add mybatis code generate">
-      <created>1563896159514</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1563896159514</updated>
-    </task>
-    <task id="LOCAL-00007" summary="add  st template">
-      <created>1563964886812</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1563964886812</updated>
-    </task>
-    <task id="LOCAL-00008" summary="akka-demo">
-      <created>1566179214830</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1566179214830</updated>
-    </task>
-    <task id="LOCAL-00009" summary="delete multiple dependence">
-      <created>1571377695591</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1571377695591</updated>
-    </task>
-    <task id="LOCAL-00010" summary="callback method example">
-      <created>1571623420025</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1571623420025</updated>
-    </task>
-    <task id="LOCAL-00011" summary="设计模式分类（创建/行为/结构）">
-      <created>1571903040861</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1571903040861</updated>
-    </task>
-    <task id="LOCAL-00012" summary="设计数据模型">
-      <created>1582009933833</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1582009933833</updated>
-    </task>
-    <task id="LOCAL-00013" summary="设计数据模型">
-      <created>1582010166237</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1582010166237</updated>
-    </task>
-    <task id="LOCAL-00014" summary="修改数据模型">
-      <created>1582019310818</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1582019310818</updated>
-    </task>
-    <task id="LOCAL-00015" summary="添加数据结构模块">
-      <created>1591690790995</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1591690790995</updated>
-    </task>
-    <task id="LOCAL-00016" summary="添加二叉查找树">
-      <created>1591769853493</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1591769853493</updated>
-    </task>
-    <option name="localTasksCounter" value="17" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4878000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="2500" height="1456" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="RestServices" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32946634" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32991803" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24303278" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info id="Web" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="java-basic model-design" />
-    <MESSAGE value="example simple-factory model" />
-    <MESSAGE value="ali qexpress example" />
-    <MESSAGE value="project build ok" />
-    <MESSAGE value="add mybatis code generate" />
-    <MESSAGE value="add  st template" />
-    <MESSAGE value="akka-demo" />
-    <MESSAGE value="delete multiple dependence" />
-    <MESSAGE value="callback method example" />
-    <MESSAGE value="设计模式分类（创建/行为/结构）" />
-    <MESSAGE value="设计数据模型" />
-    <MESSAGE value="修改数据模型" />
-    <MESSAGE value="添加数据结构模块" />
-    <MESSAGE value="添加二叉查找树" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加二叉查找树" />
+    <MESSAGE value="aa" />
+    <option name="LAST_COMMIT_MESSAGE" value="aa" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="717" y="393" width="635" height="341" key="#Notifications" timestamp="1590660360557">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="717" y="393" width="635" height="341" key="#Notifications/0.0.1680.1050@0.0.1680.1050" timestamp="1590660360557" />
-    <state x="653" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1591928618433">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="653" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1591928618433" />
-    <state x="402" y="96" key="CommitChangelistDialog2" timestamp="1591769853352">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="402" y="96" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1591769853352" />
-    <state width="1638" height="387" key="GridCell.Tab.0.bottom" timestamp="1591926628171">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1638" height="387" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1591926628171" />
-    <state width="1638" height="266" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1591768803132" />
-    <state width="1638" height="387" key="GridCell.Tab.0.center" timestamp="1591926628169">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1638" height="387" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1591926628169" />
-    <state width="1638" height="266" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1591768803131" />
-    <state width="1638" height="387" key="GridCell.Tab.0.left" timestamp="1591926628168">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1638" height="387" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1591926628168" />
-    <state width="1638" height="266" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1591768803130" />
-    <state width="1638" height="387" key="GridCell.Tab.0.right" timestamp="1591926628170">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1638" height="387" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1591926628170" />
-    <state width="1638" height="266" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1591768803132" />
-    <state width="1638" height="328" key="GridCell.Tab.1.bottom" timestamp="1591240831282">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1638" height="328" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1591240831282" />
-    <state width="1638" height="328" key="GridCell.Tab.1.center" timestamp="1591240831281">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1638" height="328" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1591240831281" />
-    <state width="1638" height="328" key="GridCell.Tab.1.left" timestamp="1591240831280">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1638" height="328" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1591240831280" />
-    <state width="1638" height="328" key="GridCell.Tab.1.right" timestamp="1591240831281">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1638" height="328" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1591240831281" />
-    <state x="428" y="268" key="IDE.errors.dialog" timestamp="1591146111823">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="428" y="268" key="IDE.errors.dialog/0.0.1680.1050@0.0.1680.1050" timestamp="1591146111823" />
-    <state x="446" y="233" key="SettingsEditor" timestamp="1591846291874">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="446" y="233" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1591846291874" />
-    <state x="570" y="275" width="540" height="524" key="StructurePopup" timestamp="1591079899965">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="570" y="275" width="540" height="524" key="StructurePopup/0.0.1680.1050@0.0.1680.1050" timestamp="1591079899965" />
-    <state x="440" y="266" key="Vcs.Push.Dialog.v2" timestamp="1591769855054">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="440" y="266" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1591769855054" />
-    <state x="555" y="282" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1591764579439">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="555" y="282" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1591764579439" />
-    <state x="499" y="286" width="681" height="478" key="find.popup" timestamp="1591881589187">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="499" y="286" width="681" height="478" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1591881589187" />
-    <state x="208" y="148" key="new project wizard" timestamp="1590502570785">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="208" y="148" key="new project wizard/0.0.1680.1050@0.0.1680.1050" timestamp="1590502570785" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1591251655009">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1591251655009" />
+    <state x="717" y="393" width="635" height="341" key="#Notifications" />
+    <state x="717" y="393" width="635" height="341" key="#Notifications/0.0.1680.1050@0.0.1680.1050" />
+    <state x="653" y="235" key="#com.intellij.ide.util.MemberChooser" />
+    <state x="653" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" />
+    <state x="402" y="96" key="CommitChangelistDialog2" />
+    <state x="402" y="96" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" />
+    <state width="1638" height="387" key="GridCell.Tab.0.bottom" />
+    <state width="1638" height="387" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" />
+    <state width="1638" height="266" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" />
+    <state width="1638" height="387" key="GridCell.Tab.0.center" />
+    <state width="1638" height="387" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" />
+    <state width="1638" height="266" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" />
+    <state width="1638" height="387" key="GridCell.Tab.0.left" />
+    <state width="1638" height="387" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" />
+    <state width="1638" height="266" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" />
+    <state width="1638" height="387" key="GridCell.Tab.0.right" />
+    <state width="1638" height="387" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" />
+    <state width="1638" height="266" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" />
+    <state width="1638" height="328" key="GridCell.Tab.1.bottom" />
+    <state width="1638" height="328" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" />
+    <state width="1638" height="328" key="GridCell.Tab.1.center" />
+    <state width="1638" height="328" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" />
+    <state width="1638" height="328" key="GridCell.Tab.1.left" />
+    <state width="1638" height="328" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" />
+    <state width="1638" height="328" key="GridCell.Tab.1.right" />
+    <state width="1638" height="328" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" />
+    <state x="428" y="268" key="IDE.errors.dialog" />
+    <state x="428" y="268" key="IDE.errors.dialog/0.0.1680.1050@0.0.1680.1050" />
+    <state x="446" y="233" key="SettingsEditor" />
+    <state x="446" y="233" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" />
+    <state x="570" y="275" width="540" height="524" key="StructurePopup" />
+    <state x="570" y="275" width="540" height="524" key="StructurePopup/0.0.1680.1050@0.0.1680.1050" />
+    <state x="440" y="266" key="Vcs.Push.Dialog.v2" />
+    <state x="440" y="266" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" />
+    <state x="555" y="282" key="com.intellij.testIntegration.createTest.CreateTestDialog" />
+    <state x="555" y="282" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1680.1050@0.0.1680.1050" />
+    <state x="499" y="286" width="681" height="478" key="find.popup" />
+    <state x="499" y="286" width="681" height="478" key="find.popup/0.0.1680.1050@0.0.1680.1050" />
+    <state x="208" y="148" key="new project wizard" />
+    <state x="208" y="148" key="new project wizard/0.0.1680.1050@0.0.1680.1050" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
@@ -659,6 +515,38 @@ st.render()</expression-string>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/HeapAndPriorityQueue/MyArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="26" />
+          <folding>
+            <element signature="e#1502#1503#0" expanded="true" />
+            <element signature="e#1529#1530#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/HeapAndPriorityQueue/MaxHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+          <folding>
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="mavenExecuteGoalHistory">
     <option value="$PROJECT_DIR$/src" />

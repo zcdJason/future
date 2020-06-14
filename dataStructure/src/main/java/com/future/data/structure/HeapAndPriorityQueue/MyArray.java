@@ -39,6 +39,14 @@ public class MyArray<E> implements LinearStructure<E> {
             throw new IllegalArgumentException("get element failed, index illegal!");
     }
 
+
+    public E removeLast(){
+        E  ret = data[size -1];
+        size --;
+        data[size] = null;
+        return  ret;
+    }
+
     @Override
     public E remove(int index) {
         checkIndex(index);

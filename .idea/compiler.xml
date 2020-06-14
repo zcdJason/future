@@ -7,20 +7,30 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="dataStructure" />
-        <module name="lab" />
-        <module name="common" />
-        <module name="service" />
-        <module name="model" />
         <module name="code-gen" />
-        <module name="server" />
-        <module name="design" />
+        <module name="common" />
         <module name="config" />
+        <module name="dataStructure" />
+        <module name="design" />
+        <module name="lab" />
+        <module name="model" />
+        <module name="server" />
+        <module name="service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="code-gen" target="1.8" />
+      <module name="common" target="1.8" />
+      <module name="config" target="1.8" />
+      <module name="dataStructure" target="1.8" />
+      <module name="design" target="1.8" />
       <module name="drools" target="1.8" />
       <module name="essyrules" target="1.8" />
+      <module name="future" target="1.8" />
+      <module name="lab" target="1.8" />
+      <module name="model" target="1.8" />
+      <module name="server" target="1.8" />
+      <module name="service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

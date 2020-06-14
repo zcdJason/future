@@ -47,6 +47,25 @@ public class MaxHeap<E extends Comparable<E>> {
         }
     }
 
+    private void shiftDown(int k){
+        //循环的条件是左孩子小于个数
+        while(leftChild(k) < data.size()){
+            int j = leftChild(k);
+            //j+1 即为右孩子，如果右孩子大于左孩子，则交换右孩子索引
+            if(j + 1 < data.size() && data.get(j+1).compareTo(data.get(k)) > 0){
+                j = leftChild(k);
+            }
+            //如果输入的节点大于 左右孩子最大的节点则不交换，推出循环
+            if(data.get(k).compareTo(data.get(j)) > 0){
+                break;
+            }
+            data.swap(k, j);
+            //继续比较下一个
+            k = j;
+        }
+    }
+
+
     //找出最大堆的最大值，即为第一个根节点。
     public E getMax(){
         if(data.size() == 0){
@@ -55,7 +74,27 @@ public class MaxHeap<E extends Comparable<E>> {
         return data.get(0);
     }
 
+    public E extractMax(){
+        //switch the last  and root
+        E  ret = getMax();
+        int lastIndex = data.size() -1;
+        data.swap(0, lastIndex);
+        data.removeLast();
+        shiftDown(0);
+
+        return ret;
+    }
+
+    //remove the element from root
     public boolean remove(E e){
+    return false;
+    }
+
+    public void replaeElement(){
+
+    }
+
+    public void heapfify(E[] e){
 
     }
 }
