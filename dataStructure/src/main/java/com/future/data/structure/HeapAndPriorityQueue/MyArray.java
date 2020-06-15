@@ -20,6 +20,14 @@ public class MyArray<E> implements LinearStructure<E> {
         size = 0;
     }
 
+    public MyArray(E[] array){
+        data = (E[])new Object[array.length];
+        for(int i = 0 ; i< array.length; i++){
+            data[i] = array[i];
+        }
+        size = array.length;
+    }
+
     @Override
     public void add(E e, int index) {
         if(size == data.length)
@@ -81,6 +89,12 @@ public class MyArray<E> implements LinearStructure<E> {
         E tmp = data[i];
         data[i] = data[j];
         data[j] = tmp;
+    }
+
+    public  void set(int index, E e){
+        if(index < 0 || index > size)
+            throw new IllegalArgumentException("size out of index");
+        data[index] = e;
     }
 
     @Override

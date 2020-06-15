@@ -3,9 +3,30 @@ package com.future.data.structure.HeapAndPriorityQueue;
 public class MaxHeap<E extends Comparable<E>> {
     MyArray<E> data;
 
+    @Override
+    public String toString() {
+        return "MaxHeap{" +
+                "data=" + data +
+                '}';
+    }
+
     //build max heap
     public MaxHeap(int capacity){
         data = new MyArray<>(capacity);
+    }
+
+    public MaxHeap(){
+        data = new MyArray<>();
+    }
+
+    //heapify array;从最后一个非叶子节点开始执行下沉操作；这样第一时间就抛弃了一半的节点
+    public MaxHeap(E[] input){
+        data = new MyArray(input);
+        if(data.size() > 1){
+            for(int i = parent(data.size()-1); i >= 0; i--){
+                shiftDown(i);
+            }
+        }
     }
 
     public int size(){
@@ -86,15 +107,14 @@ public class MaxHeap<E extends Comparable<E>> {
     }
 
     //remove the element from root
-    public boolean remove(E e){
-    return false;
+    public E remove(){
+        return  extractMax();
     }
 
-    public void replaeElement(){
-
-    }
-
-    public void heapfify(E[] e){
-
+    public E replaceElement(E e){
+            E ret = getMax();
+            data.set(0, e);
+            shiftDown(0);
+            return  ret;
     }
 }
