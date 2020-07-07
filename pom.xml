@@ -30,7 +30,7 @@
         <fastjson.version>1.2.7</fastjson.version>
         <hutool.version>4.1.14</hutool.version>
         <commons-httpclient.version>3.1</commons-httpclient.version>
-        <commons-beanutils.version>1.9.3</commons-beanutils.version>
+        <commons-beanutils.version>1.9.4</commons-beanutils.version>
     </properties>
 
 
