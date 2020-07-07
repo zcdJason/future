@@ -3,14 +3,75 @@
   <component name="AnalysisUIOptions">
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:lab" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="acb4d6e8-0b11-4731-9074-6e810efb29d7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/HeapAndPriorityQueue/IQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/HeapAndPriorityQueue/PriorityQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/test/java/com/future/data/structure/HeapAndPriorityQueue/PriorityQueueTest.java" afterDir="false" />
+    <list default="true" id="acb4d6e8-0b11-4731-9074-6e810efb29d7" name="Default" comment="add heap structure">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/thriftCompiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrentPkg/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrentPkg/src/main/java/TestCountDownLatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrentPkg/src/main/java/TestCyclicBarrier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrentPkg/src/main/java/TestCyclicBarrier2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrentPkg/src/main/java/TestExchanger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrentPkg/src/main/java/TestSemaphore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/HeapAndPriorityQueue/MinHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/nonlinearStructure/segmentTree/Merger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/nonlinearStructure/segmentTree/SegmentQueryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/nonlinearStructure/segmentTree/SegmentTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/nonlinearStructure/trie/Trie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/test/java/com/future/data/structure/nonlinearStructure/segmentTree/SegmentTreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/HeapAndPriorityQueue/MaxHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/HeapAndPriorityQueue/MaxHeap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/HeapAndPriorityQueue/MyArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/HeapAndPriorityQueue/MyArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/HeapAndPriorityQueue/PriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/HeapAndPriorityQueue/PriorityQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructure/src/test/java/com/future/data/structure/HeapAndPriorityQueue/PriorityQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/src/test/java/com/future/data/structure/HeapAndPriorityQueue/PriorityQueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/src/test/java/com/future/SixPrinciple/dependceinverse/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/test/java/com/future/SixPrinciple/dependceinverse/StudentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/src/test/java/com/future/disign_model/creator/singleton/EnumSingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/test/java/com/future/disign_model/creator/singleton/EnumSingletonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +106,9 @@
         <option value="Singleton" />
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
+        <option value="Swagger" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -72,12 +134,6 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="2500" />
-    <option name="height" value="1460" />
-  </component>
   <component name="ProjectId" id="1RJsgJz3uJ9Iq3XpPJLJLLkHKdR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -88,20 +144,28 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.5482759" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.future.data.structure.nonlinearStructure.segmentTree" />
       <recent name="com.future.data.structure.HeapAndPriorityQueue" />
       <recent name="com.future.data.structure.nonlinearStructure.binarySearchTree" />
       <recent name="com.future.data.structure.recursion" />
       <recent name="com.future.data.structure.linearStructure.linkedList" />
-      <recent name="com.future.data.structure.linearStructure.queue" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -110,11 +174,11 @@
       <recent name="$PROJECT_DIR$/code-gen/src/main/resources/mapper/test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.future.data.structure.nonlinearStructure.segmentTree" />
+      <recent name="" />
       <recent name="com.future.data.structure.HeapAndPriorityQueue" />
       <recent name="com.future.data.structure.nonlinearStructure.binarySearchTree" />
       <recent name="com.future.data.structure.recursion" />
-      <recent name="com.future.data.structure.linearStructure.queue.leetcode" />
-      <recent name="com.future.data.structure.linearStructure.queue" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/nonlinearStructure/binarySearchTree" />
@@ -132,24 +196,42 @@
       <command value="1 + 1" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.SegmentTreeTest.getSize">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PriorityQueueTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SegmentTreeTest.getSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.future.data.structure.HeapAndPriorityQueue.*" />
+          <option name="PATTERN" value="com.future.data.structure.nonlinearStructure.segmentTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.future.data.structure.HeapAndPriorityQueue" />
-      <option name="MAIN_CLASS_NAME" value="com.future.data.structure.HeapAndPriorityQueue.PriorityQueueTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="com.future.data.structure.nonlinearStructure.segmentTree" />
+      <option name="MAIN_CLASS_NAME" value="com.future.data.structure.nonlinearStructure.segmentTree.SegmentTreeTest" />
+      <option name="METHOD_NAME" value="getSize" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentTest.testCutdownLatch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="design" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.future.SixPrinciple.dependceinverse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.future.SixPrinciple.dependceinverse" />
+      <option name="MAIN_CLASS_NAME" value="com.future.SixPrinciple.dependceinverse.StudentTest" />
+      <option name="METHOD_NAME" value="testCutdownLatch" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -176,7 +258,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PriorityQueueTest.test" />
+        <item itemvalue="JUnit.SegmentTreeTest.getSize" />
+        <item itemvalue="JUnit.StudentTest.testCutdownLatch" />
       </list>
     </recent_temporary>
   </component>
@@ -193,6 +276,14 @@
       <workItem from="1592011951492" duration="42000" />
       <workItem from="1592012237295" duration="524000" />
       <workItem from="1592012804280" duration="4922000" />
+      <workItem from="1592274288919" duration="1014000" />
+      <workItem from="1592297579222" duration="8000" />
+      <workItem from="1592380823017" duration="2690000" />
+      <workItem from="1592441619668" duration="77000" />
+      <workItem from="1592443751102" duration="626000" />
+      <workItem from="1593505990525" duration="8332000" />
+      <workItem from="1593652156166" duration="1736000" />
+      <workItem from="1594087871653" duration="11469000" />
     </task>
     <task id="LOCAL-00001" summary="aa">
       <created>1592012581960</created>
@@ -201,11 +292,18 @@
       <option name="project" value="LOCAL" />
       <updated>1592012581960</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add heap structure">
+      <created>1592184855702</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592184855702</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -220,109 +318,123 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="aa" />
-    <option name="LAST_COMMIT_MESSAGE" value="aa" />
+    <MESSAGE value="add heap structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="add heap structure" />
   </component>
   <component name="WindowStateProjectService">
     <state x="717" y="393" width="635" height="341" key="#Notifications" timestamp="1592182614825" />
     <state x="717" y="393" width="635" height="341" key="#Notifications/0.0.1680.1050@0.0.1680.1050" timestamp="1592182614825" />
-    <state x="653" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1592184741840">
+    <state x="440" y="184" key="#Plugins" timestamp="1593487360507">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="440" y="184" key="#Plugins/0.23.1680.1027@0.23.1680.1027" timestamp="1593487360507" />
+    <state x="328" y="106" key="#Project_Structure" timestamp="1593597904472">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="653" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1592184741840" />
-    <state x="402" y="96" key="CommitChangelistDialog2" timestamp="1592182614825" />
-    <state x="402" y="96" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1592182614825" />
-    <state width="1638" height="387" key="GridCell.Tab.0.bottom" timestamp="1592182614825" />
-    <state width="1638" height="387" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1592182614825" />
+    <state x="328" y="106" key="#Project_Structure/0.0.1680.1050@0.0.1680.1050" timestamp="1593597904472" />
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593673789998">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1593673789998" />
+    <state x="546" y="335" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593595795435">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="546" y="335" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1593595795435" />
+    <state x="653" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1594111556633">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="653" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1594111556633" />
+    <state x="739" y="477" key="#xdebugger.evaluate" timestamp="1592197216125">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="739" y="477" key="#xdebugger.evaluate/0.0.1680.1050@0.0.1680.1050" timestamp="1592197216125" />
+    <state x="402" y="96" key="CommitChangelistDialog2" timestamp="1592184855547">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="402" y="96" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1592184855547" />
+    <state width="1638" height="272" key="GridCell.Tab.0.bottom" timestamp="1594114533607">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="272" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1594114533607" />
     <state width="1638" height="266" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1592182614825" />
-    <state width="1638" height="387" key="GridCell.Tab.0.center" timestamp="1592182614825" />
-    <state width="1638" height="387" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1592182614825" />
+    <state width="1638" height="272" key="GridCell.Tab.0.center" timestamp="1594114533605">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="272" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1594114533605" />
     <state width="1638" height="266" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1592182614825" />
-    <state width="1638" height="387" key="GridCell.Tab.0.left" timestamp="1592182614825" />
-    <state width="1638" height="387" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1592182614825" />
+    <state width="1638" height="272" key="GridCell.Tab.0.left" timestamp="1594114533604">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="272" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1594114533604" />
     <state width="1638" height="266" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1592182614825" />
-    <state width="1638" height="387" key="GridCell.Tab.0.right" timestamp="1592182614825" />
-    <state width="1638" height="387" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1592182614825" />
+    <state width="1638" height="272" key="GridCell.Tab.0.right" timestamp="1594114533606">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="272" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1594114533606" />
     <state width="1638" height="266" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1592182614825" />
-    <state width="1638" height="328" key="GridCell.Tab.1.bottom" timestamp="1592182614825" />
-    <state width="1638" height="328" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1592182614825" />
-    <state width="1638" height="328" key="GridCell.Tab.1.center" timestamp="1592182614825" />
-    <state width="1638" height="328" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1592182614825" />
-    <state width="1638" height="328" key="GridCell.Tab.1.left" timestamp="1592182614825" />
-    <state width="1638" height="328" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1592182614825" />
-    <state width="1638" height="328" key="GridCell.Tab.1.right" timestamp="1592182614825" />
-    <state width="1638" height="328" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1592182614825" />
-    <state x="428" y="268" key="IDE.errors.dialog" timestamp="1592182614825" />
-    <state x="428" y="268" key="IDE.errors.dialog/0.0.1680.1050@0.0.1680.1050" timestamp="1592182614825" />
-    <state x="446" y="233" key="SettingsEditor" timestamp="1592182614825" />
-    <state x="446" y="233" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1592182614825" />
+    <state width="1638" height="343" key="GridCell.Tab.1.bottom" timestamp="1592197515934">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="343" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1592197515934" />
+    <state width="1638" height="343" key="GridCell.Tab.1.center" timestamp="1592197515933">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="343" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1592197515933" />
+    <state width="1638" height="343" key="GridCell.Tab.1.left" timestamp="1592197515932">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="343" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1592197515932" />
+    <state width="1638" height="343" key="GridCell.Tab.1.right" timestamp="1592197515933">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="343" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1592197515933" />
+    <state x="428" y="268" key="IDE.errors.dialog" timestamp="1594112849200">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="428" y="268" key="IDE.errors.dialog/0.0.1680.1050@0.0.1680.1050" timestamp="1594112849200" />
+    <state x="348" y="160" key="SettingsEditor" timestamp="1594114379651">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="348" y="160" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1594114379651" />
+    <state x="360" y="213" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1593487974700" />
     <state x="570" y="275" width="540" height="524" key="StructurePopup" timestamp="1592182614825" />
     <state x="570" y="275" width="540" height="524" key="StructurePopup/0.0.1680.1050@0.0.1680.1050" timestamp="1592182614825" />
-    <state x="440" y="266" key="Vcs.Push.Dialog.v2" timestamp="1592182614825" />
-    <state x="440" y="266" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1592182614825" />
-    <state x="555" y="282" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1592184671071">
+    <state width="582" height="445" key="SwitcherDM" timestamp="1594089602129">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="555" y="282" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1592184671071" />
+    <state width="582" height="445" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1594089602129" />
+    <state x="440" y="266" key="Vcs.Push.Dialog.v2" timestamp="1592184857134">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="266" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1592184857134" />
+    <state x="555" y="282" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1594111225650">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="555" y="282" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1594111225650" />
     <state x="499" y="286" width="681" height="478" key="find.popup" timestamp="1592182614825" />
     <state x="499" y="286" width="681" height="478" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1592182614825" />
-    <state x="208" y="148" key="new project wizard" timestamp="1592182614825" />
-    <state x="208" y="148" key="new project wizard/0.0.1680.1050@0.0.1680.1050" timestamp="1592182614825" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1592182614825" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1592182614825" />
+    <state x="208" y="147" key="new project wizard" timestamp="1593595888702">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="208" y="147" key="new project wizard/0.0.1680.1050@0.0.1680.1050" timestamp="1593595888702" />
+    <state x="208" y="148" key="new project wizard/0.23.1680.1027@0.23.1680.1027" timestamp="1593487350397" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1594113992542">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1594113992542" />
   </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="evaluateCodeFragment">
-      <expression>
-        <expression-string>this.getRepository();</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>st.render();</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>st.render()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>st</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>st.add(&quot;sql&quot;, &quot;select c1, c2 from test where c1 = 1 and c2=5&quot;);
-st.render();</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>st.add(&quot;sql&quot;, &quot;select c1, c2 from test where c1 = 1 and c2=5&quot;);
-st.render()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-    </expressions>
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>st.add(&quot;sql&quot;, &quot;select c1, c2 from test where c1 = 1 and c2=5&quot;)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>st.render()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>st</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/HeapAndPriorityQueue/MaxHeap.java</url>
+          <line>135</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="mavenExecuteGoalHistory">
     <option value="$PROJECT_DIR$/src" />

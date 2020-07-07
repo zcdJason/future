@@ -14,6 +14,10 @@ public class MyArray<E> implements LinearStructure<E> {
         this(8);
     }
 
+    public E[] getData(){
+        return data;
+    }
+
     public MyArray(int capacity)
     {
         data = (E[]) new Object[capacity];

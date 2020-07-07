@@ -1,8 +1,11 @@
 package com.future.disign_model.creator.singleton;
 
-import org.junit.jupiter.api.Test;
+
+import org.junit.Test;
 
 import java.io.*;
+import java.util.concurrent.CountDownLatch;
+import java.util.concurrent.locks.Lock;
 
 
 /**
@@ -27,6 +30,22 @@ class EnumSingletonTest
         System.out.println(enumSingleton.getData());
         System.out.println(getIns.getData());
         System.out.println(getIns == enumSingleton);
+    }
+
+    @Test
+    void testCutdownLatch() throws Exception{
+         CountDownLatch c = new CountDownLatch(2);
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                System.out.println(1);
+                c.countDown();
+                System.out.println(2);
+                c.countDown();
+            }
+        }).start();
+        c.await();
+        System.out.println(3);
     }
 
 }

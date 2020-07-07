@@ -4,6 +4,8 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.concurrent.CountDownLatch;
+
 /**
  * @author: zcd
  * @date: 2019/3/1 16:45
@@ -19,7 +21,7 @@ public class StudentTest {
     }
 
     @Test
-    public void studyCourse() {
+     public void studyCourse() {
         /**
          * 依赖倒置的原则
          * 针对接口编程
@@ -37,5 +39,21 @@ public class StudentTest {
         ICourse scala = new ScalaCouseImpl();
         zcd.setiCourse(scala);
         zcd.studyCourse();
+    }
+
+    @Test
+    public void testCutdownLatch() throws Exception{
+        CountDownLatch c = new CountDownLatch(2);
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                System.out.println(1);
+                c.countDown();
+                System.out.println(2);
+                c.countDown();
+            }
+        }).start();
+        c.await();
+        System.out.println(3);
     }
 }

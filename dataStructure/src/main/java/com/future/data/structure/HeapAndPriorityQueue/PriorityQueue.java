@@ -39,4 +39,8 @@ public class PriorityQueue<E extends Comparable<E>> implements IQueue<E> {
     public boolean isEmpty() {
         return data.isEmpty();
     }
+
+    public E[] orderQueue(){
+        return null;
+    }
 }

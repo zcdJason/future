@@ -19,6 +19,7 @@
         <module>lab</module>
         <module>code-gen</module>
         <module>dataStructure</module>
+        <module>concurrentPkg</module>
     </modules>
 
     <properties>
