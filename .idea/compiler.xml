@@ -7,16 +7,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="dataStructure" />
+        <module name="concurrentPkg" />
         <module name="lab" />
         <module name="common" />
+        <module name="config" />
         <module name="service" />
         <module name="design" />
-        <module name="concurrentPkg" />
         <module name="model" />
         <module name="server" />
+        <module name="dataStructure" />
         <module name="code-gen" />
-        <module name="config" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
