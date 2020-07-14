@@ -8,14 +8,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="concurrentPkg" />
+        <module name="server" />
         <module name="lab" />
         <module name="common" />
-        <module name="config" />
-        <module name="service" />
         <module name="design" />
         <module name="model" />
-        <module name="server" />
+        <module name="service" />
         <module name="dataStructure" />
+        <module name="config" />
         <module name="code-gen" />
       </profile>
     </annotationProcessing>
