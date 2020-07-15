@@ -46,21 +46,20 @@ public class InsertionSort<E extends Comparable<E>> {
 
     public static void main(String[] args) {
         Integer[] input = {5, 8, 3, 2, 11};
-        StdRandom st= new StdRandom();
-        st.shuffle(input);
-        print(input);
-//
-//        InsertionSort s = new InsertionSort();
-//        s.sort2(input, new ComparableMy<Integer>() {
-//            @Override
-//            public boolean compare(Integer a, Integer b) {
-//                return a < b;
-//            }
-//        });
-//        for (int i = 0; i < input.length; i++) {
-//            System.out.println(input[i]);
-//        }
-//        System.out.println();
+        StdRandom.shuffle(input);
+//        print(input);
+
+        InsertionSort s = new InsertionSort();
+        s.sort2(input, new ComparableMy<Integer>() {
+            @Override
+            public boolean compare(Integer a, Integer b) {
+                return a < b;
+            }
+        });
+        for (int i = 0; i < input.length; i++) {
+            System.out.println(input[i]);
+        }
+        System.out.println();
     }
 
     public static void print(Integer[] input){
