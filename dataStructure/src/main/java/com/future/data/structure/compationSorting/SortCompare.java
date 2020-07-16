@@ -9,6 +9,8 @@ import org.springframework.expression.spel.ast.Selection;
 public class SortCompare {
 
     public static double time(String alg, Double[] a) {
+//        for(int i = 0 ; i< a.length ; i++)
+//            StdOut.println(a[i]);
         StopWatch timer = new StopWatch();
         if (alg.equals("Insertion")) {
             new Insertion().sort(a);
@@ -24,6 +26,9 @@ public class SortCompare {
         }
         if (alg.equals("Quick3")) {
             new Quick3().sort(a);
+        }
+        if (alg.equals("Ex22")) {
+            Ex22.sort(a);
         }
 //        if (alg.equals("Heap")) {
 //            Heap.sort(a);
@@ -53,9 +58,14 @@ public class SortCompare {
 
     public static void main(String[] args) {
 //        String alg1 = args[0];
-//        String alg1 = "Merge";
-        String alg1 = "Shell";
+//        String alg2 = "Merge";
         String alg2 = "Quick";
+        String alg1 = "Quick3";
+//        String alg1 = "Ex22";
+//        String alg2 = "Shell";
+
+//        String.intern();
+
 //        int N = Integer.parseInt(args[2]);
 //        int T = Integer.parseInt(args[3]);
         int N = 1000; //排序数组规模

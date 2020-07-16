@@ -58,24 +58,15 @@ public class Ex22 {
         int p = lo, q = hi + 1;
         Comparable v = a[lo];
         while (true) {
-            while (less(a[++i], v))
-                if (i == hi)
-                    break;
-            while (less(v, a[--j]))
-                if (j == lo)
-                    break;
-
+            while (less(a[++i], v)) if (i == hi) break;
+            while (less(v, a[--j])) if (j == lo) break;
             // pointers cross
-            if (i == j && eq(a[i], v))
-                exch(a, ++p, i);
-            if (i >= j)
-                break;
+            if (i == j && eq(a[i], v)) exch(a, ++p, i);
+            if (i >= j) break;
 
             exch(a, i, j);
-            if (eq(a[i], v))
-                exch(a, ++p, i);
-            if (eq(a[j], v))
-                exch(a, --q, j);
+            if (eq(a[i], v)) exch(a, ++p, i);
+            if (eq(a[j], v)) exch(a, --q, j);
         }
 
         i = j + 1;

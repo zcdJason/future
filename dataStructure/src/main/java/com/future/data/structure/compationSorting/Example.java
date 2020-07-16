@@ -8,6 +8,11 @@ public abstract class Example {
     public static boolean less(Comparable a, Comparable b){
         return a.compareTo(b) < 0;
     }
+
+    public static boolean equals(Comparable a, Comparable b){
+        return a.compareTo(b) == 0;
+    }
+
     public static boolean more(Comparable a, Comparable b){
         return a.compareTo(b) > 0;
     }

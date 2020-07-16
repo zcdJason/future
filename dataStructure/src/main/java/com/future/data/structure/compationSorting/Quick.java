@@ -7,12 +7,15 @@ public class Quick extends Example {
 
     @Override
     public void sort(Comparable[] a) {
+        if(isSorted(a)){
+            return;
+        }
         StdRandom.shuffle(a);
         sort(a, 0, a.length - 1);
     }
 
     public void sort(Comparable[] a, int lo, int hi) {
-//        if(lo >= hi) return;
+        if (lo >= hi) return;
         int M = 15;//如果待排序的数组在(5~15之间)任意值，使用插入排序效果更好
         if (hi <= lo + M) {
             new Insertion().sort(a);
@@ -43,8 +46,9 @@ public class Quick extends Example {
         int i = lo, j = hi + 1;  //定义左右扫描索引
         Comparable v = a[lo];
         for (; ; ) {
-            while (less(a[++i], v)) if (i == hi) break; //i 元素比 v要小移动左指针
-            while (less(v, a[--j])) if (j == lo) break;//j 元素比v要大移动右指针
+            //加equal的目的是如果相等也移动指针，这样才能收敛，否则大数据两相等的情况，会导致递归栈溢出
+            while (less(a[++i], v) || equals(a[i], v)) if (i == hi) break; //i 元素比 v要小移动左指针
+            while (less(v, a[--j]) || equals(a[j], v)) if (j == lo) break;//j 元素比v要大移动右指针
             if (i >= j) break; //i和j相遇的适合退出
             swap(a, i, j); // i元素比v大，j元素比v小，则交换元素
         }
@@ -54,7 +58,8 @@ public class Quick extends Example {
 
 
     public static void main(String[] args) {
-        Double[] a = {3.0, 8.0, 8.0, 11.0, 18.0, 9.0};
+//        Double[] a = {3.0, 8.0, 8.0, 11.0, 18.0, 9.0};
+        Double[] a = {9.0, 8.0, 8.0, 8.0, 8.0, 8.0};
         int i = 0;
         System.out.println(a[i++]);
         Quick q = new Quick();

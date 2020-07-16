@@ -21,6 +21,7 @@ public class Quick3 extends Example {
         }
         int lt = lo, i = lo + 1, gt = hi;
         Comparable v = a[lo];
+        //三路快速排序交换比较多，但是元素相等的情况只是移动索引而已，因此对于部分相等的情况，效果要好些
         while (i <= gt) {
             int cmp = a[i].compareTo(v);
             if (cmp < 0) swap(a, lt++, i++); //a[i] < v  a[lt] a[i] exchange     lt and i  + 1;
@@ -33,7 +34,8 @@ public class Quick3 extends Example {
 
 
     public static void main(String[] args) {
-        Double[] a = {3.0, 8.0, 2.0, 11.0, 18.0, 9.0};
+//        Double[] a = {3.0, 8.0, 2.0, 11.0, 18.0, 9.0};
+        Double[] a = {8.0, 8.0, 8.0, 8.0, 8.0, 8.0};
         Quick3 q = new Quick3();
         q.sort(a);
         q.show(a);
