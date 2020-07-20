@@ -11,10 +11,10 @@
         <module name="server" />
         <module name="lab" />
         <module name="common" />
-        <module name="design" />
         <module name="model" />
-        <module name="service" />
         <module name="dataStructure" />
+        <module name="service" />
+        <module name="design" />
         <module name="config" />
         <module name="code-gen" />
       </profile>

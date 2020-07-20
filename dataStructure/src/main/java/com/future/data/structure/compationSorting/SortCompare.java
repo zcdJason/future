@@ -56,13 +56,23 @@ public class SortCompare {
         return total;
     }
 
+    int a;
+
+    public int getA() {
+        return a;
+    }
+
+    public void setA(int a) {
+        this.a = a;
+    }
+
     public static void main(String[] args) {
 //        String alg1 = args[0];
 //        String alg2 = "Merge";
-        String alg2 = "Quick";
-        String alg1 = "Quick3";
-//        String alg1 = "Ex22";
-//        String alg2 = "Shell";
+//        String alg2 = "Quick";
+//        String alg2 = "Quick3";
+        String alg1 = "Ex22";
+        String alg2 = "Shell";
 
 //        String.intern();
 

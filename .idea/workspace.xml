@@ -43,12 +43,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acb4d6e8-0b11-4731-9074-6e810efb29d7" name="Default" comment="添加排序算法">
+    <list default="true" id="acb4d6e8-0b11-4731-9074-6e810efb29d7" name="Default" comment="优化排序算法">
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/BuileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/OverLoadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/StaticClassAna.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/ThreadQuestion/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/ThreadQuestion/VolatileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/ThreadQuestion/VolatileTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/compationSorting/Ex22.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/compationSorting/Ex22.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/compationSorting/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/compationSorting/Example.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/compationSorting/Quick.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/compationSorting/Quick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/compationSorting/Quick3.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/compationSorting/Quick3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/compationSorting/SortCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/compationSorting/SortCompare.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -135,7 +140,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.5482759" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -153,11 +158,11 @@
       <recent name="$PROJECT_DIR$/code-gen/src/main/resources/mapper/test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.future.data.structure.ThreadQuestion" />
+      <recent name="com.future.data.structure" />
       <recent name="com.future.data.structure.compationSorting" />
       <recent name="com.future.data.structure.nonlinearStructure.UnionFind" />
       <recent name="com.future.data.structure.nonlinearStructure.segmentTree" />
-      <recent name="" />
-      <recent name="com.future.data.structure.HeapAndPriorityQueue" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/nonlinearStructure/AVL" />
@@ -175,14 +180,14 @@
       <command value="1 + 1" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.SortCompare">
-    <configuration name="Ex22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.future.data.structure.compationSorting.Ex22" />
+  <component name="RunManager" selected="Application.VolatileTest2">
+    <configuration name="BuileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.future.data.structure.BuileTest" />
       <module name="dataStructure" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.future.data.structure.compationSorting.*" />
+          <option name="PATTERN" value="com.future.data.structure.ThreadQuestion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,13 +195,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.future.data.structure.compationSorting.MergeSort" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.future.data.structure.ThreadQuestion.Solution" />
       <module name="dataStructure" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.future.data.structure.compationSorting.*" />
+          <option name="PATTERN" value="com.future.data.structure.ThreadQuestion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,13 +209,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Quick" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.future.data.structure.compationSorting.Quick" />
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.future.data.structure.Test1" />
       <module name="dataStructure" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.future.data.structure.compationSorting.*" />
+          <option name="PATTERN" value="com.future.data.structure.ThreadQuestion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,13 +223,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Quick3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.future.data.structure.compationSorting.Quick3" />
+    <configuration name="VolatileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.future.data.structure.ThreadQuestion.VolatileTest" />
       <module name="dataStructure" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.future.data.structure.compationSorting.*" />
+          <option name="PATTERN" value="com.future.data.structure.ThreadQuestion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -232,13 +237,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.future.data.structure.compationSorting.SortCompare" />
+    <configuration name="VolatileTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.future.data.structure.ThreadQuestion.VolatileTest2" />
       <module name="dataStructure" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.future.data.structure.compationSorting.*" />
+          <option name="PATTERN" value="com.future.data.structure.ThreadQuestion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -271,11 +276,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SortCompare" />
-        <item itemvalue="Application.Quick" />
-        <item itemvalue="Application.Quick3" />
-        <item itemvalue="Application.Ex22" />
-        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.VolatileTest2" />
+        <item itemvalue="Application.VolatileTest" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Test1" />
+        <item itemvalue="Application.BuileTest" />
       </list>
     </recent_temporary>
   </component>
@@ -302,7 +307,9 @@
       <workItem from="1594087871653" duration="19722000" />
       <workItem from="1594256110029" duration="12071000" />
       <workItem from="1594275986437" duration="65671000" />
-      <workItem from="1594721454656" duration="25890000" />
+      <workItem from="1594721454656" duration="39009000" />
+      <workItem from="1594948347981" duration="10536000" />
+      <workItem from="1595206275240" duration="1169000" />
     </task>
     <task id="LOCAL-00001" summary="aa">
       <created>1592012581960</created>
@@ -353,7 +360,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594797930431</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="优化排序算法">
+      <created>1594865046062</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1594865046062</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -378,7 +392,8 @@
     <MESSAGE value="add dataStructure" />
     <MESSAGE value="add AVL tree" />
     <MESSAGE value="添加排序算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加排序算法" />
+    <MESSAGE value="优化排序算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化排序算法" />
   </component>
   <component name="WindowStateProjectService">
     <state x="717" y="393" width="635" height="341" key="#Notifications" timestamp="1592182614825" />
@@ -399,77 +414,77 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="546" y="335" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1593595795435" />
-    <state x="653" y="253" key="#com.intellij.ide.util.MemberChooser" timestamp="1594782689681">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="653" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1594974073996">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="653" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1594715098823" />
-    <state x="653" y="253" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1594782689681" />
+    <state x="653" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1594974073996" />
+    <state x="653" y="253" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1594880711037" />
     <state x="457" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1594346102213">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="457" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1594346102213" />
-    <state x="739" y="471" key="#xdebugger.evaluate" timestamp="1594709871778">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="739" y="471" key="#xdebugger.evaluate" timestamp="1594978281749">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="739" y="477" key="#xdebugger.evaluate/0.0.1680.1050@0.0.1680.1050" timestamp="1592197216125" />
+    <state x="739" y="471" key="#xdebugger.evaluate/0.0.1680.1050@0.0.1680.1050" timestamp="1594978281749" />
     <state x="739" y="471" key="#xdebugger.evaluate/0.23.1680.1027@0.23.1680.1027" timestamp="1594709871778" />
-    <state x="394" y="136" key="CommitChangelistDialog2" timestamp="1594797930302">
+    <state x="394" y="136" key="CommitChangelistDialog2" timestamp="1594865045922">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="394" y="116" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1594723347590" />
-    <state x="394" y="136" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1594797930302" />
-    <state width="1638" height="411" key="GridCell.Tab.0.bottom" timestamp="1594864751974">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state width="1638" height="262" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1594724366265" />
-    <state width="1638" height="411" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1594864751974" />
-    <state width="1638" height="411" key="GridCell.Tab.0.center" timestamp="1594864751973">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state width="1638" height="262" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1594724366264" />
-    <state width="1638" height="411" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1594864751973" />
-    <state width="1638" height="411" key="GridCell.Tab.0.left" timestamp="1594864751973">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state width="1638" height="262" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1594724366263" />
-    <state width="1638" height="411" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1594864751973" />
-    <state width="1638" height="411" key="GridCell.Tab.0.right" timestamp="1594864751974">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state width="1638" height="262" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1594724366265" />
-    <state width="1638" height="411" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1594864751974" />
-    <state width="1638" height="325" key="GridCell.Tab.1.bottom" timestamp="1594715044326">
+    <state x="394" y="136" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1594865045922" />
+    <state width="1638" height="374" key="GridCell.Tab.0.bottom" timestamp="1595207589574">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="325" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1594715044326" />
+    <state width="1638" height="374" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1595207589574" />
+    <state width="1638" height="354" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1594973411132" />
+    <state width="1638" height="374" key="GridCell.Tab.0.center" timestamp="1595207589573">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="374" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1595207589573" />
+    <state width="1638" height="354" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1594973411131" />
+    <state width="1638" height="374" key="GridCell.Tab.0.left" timestamp="1595207589573">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="374" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1595207589573" />
+    <state width="1638" height="354" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1594973411130" />
+    <state width="1638" height="374" key="GridCell.Tab.0.right" timestamp="1595207589574">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="374" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1595207589574" />
+    <state width="1638" height="354" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1594973411131" />
+    <state width="1638" height="348" key="GridCell.Tab.1.bottom" timestamp="1594978286103">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="348" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1594978286103" />
     <state width="1638" height="325" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1594713775887" />
-    <state width="1638" height="325" key="GridCell.Tab.1.center" timestamp="1594715044325">
+    <state width="1638" height="348" key="GridCell.Tab.1.center" timestamp="1594978286103">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="325" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1594715044325" />
+    <state width="1638" height="348" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1594978286103" />
     <state width="1638" height="325" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1594713775886" />
-    <state width="1638" height="325" key="GridCell.Tab.1.left" timestamp="1594715044324">
+    <state width="1638" height="348" key="GridCell.Tab.1.left" timestamp="1594978286102">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="325" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1594715044324" />
+    <state width="1638" height="348" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1594978286102" />
     <state width="1638" height="325" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1594713775885" />
-    <state width="1638" height="325" key="GridCell.Tab.1.right" timestamp="1594715044325">
+    <state width="1638" height="348" key="GridCell.Tab.1.right" timestamp="1594978286103">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="325" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1594715044325" />
+    <state width="1638" height="348" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1594978286103" />
     <state width="1638" height="325" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1594713775886" />
-    <state x="428" y="268" key="IDE.errors.dialog" timestamp="1594286242540">
+    <state x="428" y="268" key="IDE.errors.dialog" timestamp="1595207353556">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="428" y="268" key="IDE.errors.dialog/0.0.1680.1050@0.0.1680.1050" timestamp="1594286242540" />
+    <state x="428" y="268" key="IDE.errors.dialog/0.0.1680.1050@0.0.1680.1050" timestamp="1595207353556" />
     <state x="378" y="187" key="Maven.ArtifactSearchDialog" timestamp="1594707912259">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="378" y="187" key="Maven.ArtifactSearchDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1594707912259" />
-    <state x="171" y="167" key="SettingsEditor" timestamp="1594605290346">
+    <state x="584" y="166" key="SettingsEditor" timestamp="1594884600873">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="171" y="167" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1594605290346" />
+    <state x="584" y="166" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1594884600873" />
     <state x="360" y="213" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1593487974700" />
     <state x="570" y="275" width="540" height="524" key="StructurePopup" timestamp="1592182614825" />
     <state x="570" y="275" width="540" height="524" key="StructurePopup/0.0.1680.1050@0.0.1680.1050" timestamp="1592182614825" />
@@ -477,11 +492,15 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="582" height="456" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1594200573100" />
-    <state x="440" y="283" key="Vcs.Push.Dialog.v2" timestamp="1594797932082">
+    <state x="440" y="283" key="Vcs.Push.Dialog.v2" timestamp="1594865048715">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="440" y="266" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1594723349038" />
-    <state x="440" y="283" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1594797932082" />
+    <state x="440" y="283" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1594865048715" />
+    <state width="1264" height="1050" key="com.intellij.byteCodeViewer.ShowByteCodeAction" timestamp="1594884994297">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1264" height="1050" key="com.intellij.byteCodeViewer.ShowByteCodeAction/0.0.1680.1050@0.0.1680.1050" timestamp="1594884994297" />
     <state x="555" y="282" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1594261667864">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -495,10 +514,16 @@
     </state>
     <state x="208" y="147" key="new project wizard/0.0.1680.1050@0.0.1680.1050" timestamp="1593595888702" />
     <state x="208" y="148" key="new project wizard/0.23.1680.1027@0.23.1680.1027" timestamp="1593487350397" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1594627899980">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="505" y="251" width="670" height="662" key="search.everywhere.popup" timestamp="1594875424723">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1594627899980" />
+    <state x="505" y="251" width="670" height="662" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1594875424723" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/future$VolatileTest2.ic" NAME="VolatileTest2 Coverage Results" MODIFIED="1594978232531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.future.data.structure.ThreadQuestion.*</FILTER>
+    </SUITE>
   </component>
   <component name="mavenExecuteGoalHistory">
     <option value="$PROJECT_DIR$/src" />

@@ -7,9 +7,9 @@ public class Quick extends Example {
 
     @Override
     public void sort(Comparable[] a) {
-        if(isSorted(a)){
-            return;
-        }
+//        if(isSorted(a)){
+//            return;
+//        }
         StdRandom.shuffle(a);
         sort(a, 0, a.length - 1);
     }
@@ -59,7 +59,7 @@ public class Quick extends Example {
 
     public static void main(String[] args) {
 //        Double[] a = {3.0, 8.0, 8.0, 11.0, 18.0, 9.0};
-        Double[] a = {9.0, 8.0, 8.0, 8.0, 8.0, 8.0};
+        Double[] a = {8.0, 8.0, 8.0, 8.0, 8.0, 8.0};
         int i = 0;
         System.out.println(a[i++]);
         Quick q = new Quick();
