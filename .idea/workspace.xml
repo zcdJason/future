@@ -43,18 +43,47 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acb4d6e8-0b11-4731-9074-6e810efb29d7" name="Default" comment="优化排序算法">
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/BuileTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/OverLoadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/StaticClassAna.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/ThreadQuestion/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/ThreadQuestion/VolatileTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/ThreadQuestion/VolatileTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="acb4d6e8-0b11-4731-9074-6e810efb29d7" name="Default" comment="add thread question">
+      <change afterPath="$PROJECT_DIR$/concurrentPkg/src/main/java/basic/CreateThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrentPkg/src/main/java/basic/CreateThread2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrentPkg/src/main/java/basic/DaemonThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrentPkg/src/main/java/basic/TPTInterrupt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrentPkg/src/main/java/basic/TestDeadLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/ThreadQuestion/DefineLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/ThreadQuestion/VolatileTest3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/ThreadQuestion/Volatitle3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/classInit/Base.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/classInit/Derved.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/action/Memento/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/action/Memento/Memento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/action/Memento/Originator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/action/template/ChefCook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/action/template/Cook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/action/template/MeCook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/action/template/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/action/visitor/Element.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/action/visitor/ElementCC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/action/visitor/ElementDC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/action/visitor/ElementLB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/action/visitor/ObsStructure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/action/visitor/Visitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/action/visitor/VisitorA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/action/visitor/VisitorB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/creator/SimpleFactory/readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab/src/main/java/com/future/effectJava/Class33.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab/src/main/java/com/future/effectJava/Complex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab/src/main/java/com/future/effectJava/TInter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/compationSorting/Quick.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/compationSorting/Quick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/compationSorting/SortCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/compationSorting/SortCompare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrentPkg/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/concurrentPkg/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/BuileTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/GenericTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/ThreadQuestion/VolatileTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/ThreadQuestion/VolatileTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/src/main/java/com/future/SixPrinciple/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/main/java/com/future/SixPrinciple/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/creator/prototype/TestDeepClone.java" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/creator/prototype/TestDeepClone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/creator/singleton/EnumSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/creator/singleton/EnumSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/creator/singleton/LazySingletonDoubleCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/creator/singleton/LazySingletonDoubleCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/structure/composite/Cause.java" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/structure/composite/Cause.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,12 +164,12 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/nonlinearStructure/AVL" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.5482759" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -158,11 +187,11 @@
       <recent name="$PROJECT_DIR$/code-gen/src/main/resources/mapper/test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="basic" />
+      <recent name="com.future.disign_model.action.visitor" />
       <recent name="com.future.data.structure.ThreadQuestion" />
       <recent name="com.future.data.structure" />
       <recent name="com.future.data.structure.compationSorting" />
-      <recent name="com.future.data.structure.nonlinearStructure.UnionFind" />
-      <recent name="com.future.data.structure.nonlinearStructure.segmentTree" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/nonlinearStructure/AVL" />
@@ -172,6 +201,7 @@
       <recent name="$PROJECT_DIR$/essyrules/src/main/java/com/future/easyrules" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.future.disign_model.action.visitor" />
       <recent name="com.future.bootstrap.web" />
     </key>
   </component>
@@ -180,14 +210,14 @@
       <command value="1 + 1" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.VolatileTest2">
-    <configuration name="BuileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.future.data.structure.BuileTest" />
-      <module name="dataStructure" />
+  <component name="RunManager" selected="Application.TPTInterrupt">
+    <configuration name="Class33" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.future.effectJava.Class33" />
+      <module name="lab" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.future.data.structure.ThreadQuestion.*" />
+          <option name="PATTERN" value="com.future.effectJava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -195,13 +225,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.future.data.structure.ThreadQuestion.Solution" />
-      <module name="dataStructure" />
+    <configuration name="DaemonThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic.DaemonThread" />
+      <module name="concurrentPkg" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.future.data.structure.ThreadQuestion.*" />
+          <option name="PATTERN" value="basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -209,13 +239,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.future.data.structure.Test1" />
-      <module name="dataStructure" />
+    <configuration name="TInter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.future.effectJava.TInter" />
+      <module name="lab" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.future.data.structure.ThreadQuestion.*" />
+          <option name="PATTERN" value="com.future.effectJava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -223,13 +253,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VolatileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.future.data.structure.ThreadQuestion.VolatileTest" />
-      <module name="dataStructure" />
+    <configuration name="TPTInterrupt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic.TPTInterrupt" />
+      <module name="concurrentPkg" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.future.data.structure.ThreadQuestion.*" />
+          <option name="PATTERN" value="basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -237,13 +267,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VolatileTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.future.data.structure.ThreadQuestion.VolatileTest2" />
-      <module name="dataStructure" />
+    <configuration name="TestDeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic.TestDeadLock" />
+      <module name="concurrentPkg" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.future.data.structure.ThreadQuestion.*" />
+          <option name="PATTERN" value="basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -276,11 +306,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.VolatileTest2" />
-        <item itemvalue="Application.VolatileTest" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Test1" />
-        <item itemvalue="Application.BuileTest" />
+        <item itemvalue="Application.TPTInterrupt" />
+        <item itemvalue="Application.TestDeadLock" />
+        <item itemvalue="Application.DaemonThread" />
+        <item itemvalue="Application.TInter" />
+        <item itemvalue="Application.Class33" />
       </list>
     </recent_temporary>
   </component>
@@ -309,7 +339,20 @@
       <workItem from="1594275986437" duration="65671000" />
       <workItem from="1594721454656" duration="39009000" />
       <workItem from="1594948347981" duration="10536000" />
-      <workItem from="1595206275240" duration="1169000" />
+      <workItem from="1595206275240" duration="16952000" />
+      <workItem from="1595293511762" duration="22714000" />
+      <workItem from="1595471937714" duration="2917000" />
+      <workItem from="1595574458318" duration="1318000" />
+      <workItem from="1595693624073" duration="2654000" />
+      <workItem from="1595985532909" duration="591000" />
+      <workItem from="1597301874326" duration="1192000" />
+      <workItem from="1597627492674" duration="1547000" />
+      <workItem from="1597732780890" duration="232000" />
+      <workItem from="1601013524117" duration="21000" />
+      <workItem from="1603086779377" duration="4746000" />
+      <workItem from="1603099879856" duration="2796000" />
+      <workItem from="1603541580188" duration="94000" />
+      <workItem from="1603541697351" duration="76000" />
     </task>
     <task id="LOCAL-00001" summary="aa">
       <created>1592012581960</created>
@@ -367,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594865046062</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add thread question">
+      <created>1595207610727</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1595207610727</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -393,132 +443,100 @@
     <MESSAGE value="add AVL tree" />
     <MESSAGE value="添加排序算法" />
     <MESSAGE value="优化排序算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="优化排序算法" />
+    <MESSAGE value="add thread question" />
+    <option name="LAST_COMMIT_MESSAGE" value="add thread question" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="717" y="393" width="635" height="341" key="#Notifications" timestamp="1592182614825" />
-    <state x="717" y="393" width="635" height="341" key="#Notifications/0.0.1680.1050@0.0.1680.1050" timestamp="1592182614825" />
-    <state x="440" y="184" key="#Plugins" timestamp="1593487360507">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state x="440" y="184" key="#Plugins/0.23.1680.1027@0.23.1680.1027" timestamp="1593487360507" />
-    <state x="328" y="106" key="#Project_Structure" timestamp="1593597904472">
+    <state x="440" y="173" key="#Plugins" timestamp="1603541754567">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="328" y="106" key="#Project_Structure/0.0.1680.1050@0.0.1680.1050" timestamp="1593597904472" />
-    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593673789998">
+    <state x="440" y="173" key="#Plugins/0.0.1680.1050@0.0.1680.1050" timestamp="1603541754567" />
+    <state x="328" y="106" key="#Project_Structure" timestamp="1595577498784">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1593673789998" />
-    <state x="546" y="335" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593595795435">
+    <state x="328" y="106" key="#Project_Structure/0.0.1680.1050@0.0.1680.1050" timestamp="1595577498784" />
+    <state x="546" y="335" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595312699805">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="546" y="335" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1593595795435" />
-    <state x="653" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1594974073996">
+    <state x="546" y="335" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1595312699805" />
+    <state x="653" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1603091272841">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="653" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1594974073996" />
-    <state x="653" y="253" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1594880711037" />
-    <state x="457" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1594346102213">
+    <state x="653" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1603091272841" />
+    <state x="653" y="253" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1595244536752" />
+    <state x="457" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1595386695032">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="457" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1594346102213" />
+    <state x="457" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1595386695032" />
     <state x="739" y="471" key="#xdebugger.evaluate" timestamp="1594978281749">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="739" y="471" key="#xdebugger.evaluate/0.0.1680.1050@0.0.1680.1050" timestamp="1594978281749" />
-    <state x="739" y="471" key="#xdebugger.evaluate/0.23.1680.1027@0.23.1680.1027" timestamp="1594709871778" />
-    <state x="394" y="136" key="CommitChangelistDialog2" timestamp="1594865045922">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state x="394" y="116" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1594723347590" />
-    <state x="394" y="136" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1594865045922" />
-    <state width="1638" height="374" key="GridCell.Tab.0.bottom" timestamp="1595207589574">
+    <state x="394" y="116" key="CommitChangelistDialog2" timestamp="1595207610434">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="374" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1595207589574" />
-    <state width="1638" height="354" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1594973411132" />
-    <state width="1638" height="374" key="GridCell.Tab.0.center" timestamp="1595207589573">
+    <state x="394" y="116" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1595207610434" />
+    <state width="1638" height="210" key="GridCell.Tab.0.bottom" timestamp="1603104435564">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="374" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1595207589573" />
-    <state width="1638" height="354" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1594973411131" />
-    <state width="1638" height="374" key="GridCell.Tab.0.left" timestamp="1595207589573">
+    <state width="1638" height="210" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1603104435564" />
+    <state width="1638" height="248" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1595244733024" />
+    <state width="1638" height="210" key="GridCell.Tab.0.center" timestamp="1603104435563">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="374" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1595207589573" />
-    <state width="1638" height="354" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1594973411130" />
-    <state width="1638" height="374" key="GridCell.Tab.0.right" timestamp="1595207589574">
+    <state width="1638" height="210" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1603104435563" />
+    <state width="1638" height="248" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1595244733023" />
+    <state width="1638" height="210" key="GridCell.Tab.0.left" timestamp="1603104435562">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="374" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1595207589574" />
-    <state width="1638" height="354" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1594973411131" />
-    <state width="1638" height="348" key="GridCell.Tab.1.bottom" timestamp="1594978286103">
+    <state width="1638" height="210" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1603104435562" />
+    <state width="1638" height="248" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1595244733023" />
+    <state width="1638" height="210" key="GridCell.Tab.0.right" timestamp="1603104435563">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="348" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1594978286103" />
-    <state width="1638" height="325" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1594713775887" />
-    <state width="1638" height="348" key="GridCell.Tab.1.center" timestamp="1594978286103">
+    <state width="1638" height="210" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1603104435563" />
+    <state width="1638" height="248" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1595244733023" />
+    <state width="1638" height="359" key="GridCell.Tab.1.bottom" timestamp="1603096461386">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="348" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1594978286103" />
-    <state width="1638" height="325" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1594713775886" />
-    <state width="1638" height="348" key="GridCell.Tab.1.left" timestamp="1594978286102">
+    <state width="1638" height="359" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1603096461386" />
+    <state width="1638" height="359" key="GridCell.Tab.1.center" timestamp="1603096461386">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="348" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1594978286102" />
-    <state width="1638" height="325" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1594713775885" />
-    <state width="1638" height="348" key="GridCell.Tab.1.right" timestamp="1594978286103">
+    <state width="1638" height="359" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1603096461386" />
+    <state width="1638" height="359" key="GridCell.Tab.1.left" timestamp="1603096461385">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="348" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1594978286103" />
-    <state width="1638" height="325" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1594713775886" />
+    <state width="1638" height="359" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1603096461385" />
+    <state width="1638" height="359" key="GridCell.Tab.1.right" timestamp="1603096461386">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="359" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1603096461386" />
     <state x="428" y="268" key="IDE.errors.dialog" timestamp="1595207353556">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="428" y="268" key="IDE.errors.dialog/0.0.1680.1050@0.0.1680.1050" timestamp="1595207353556" />
-    <state x="378" y="187" key="Maven.ArtifactSearchDialog" timestamp="1594707912259">
+    <state x="354" y="226" key="SettingsEditor" timestamp="1603541772569">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="378" y="187" key="Maven.ArtifactSearchDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1594707912259" />
-    <state x="584" y="166" key="SettingsEditor" timestamp="1594884600873">
+    <state x="354" y="226" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1603541772569" />
+    <state width="254" height="200" key="ShowFilterAction_Filter_Popup" timestamp="1595406091880">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="584" y="166" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1594884600873" />
-    <state x="360" y="213" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1593487974700" />
-    <state x="570" y="275" width="540" height="524" key="StructurePopup" timestamp="1592182614825" />
-    <state x="570" y="275" width="540" height="524" key="StructurePopup/0.0.1680.1050@0.0.1680.1050" timestamp="1592182614825" />
-    <state width="582" height="456" key="SwitcherDM" timestamp="1594200573100">
+    <state width="254" height="200" key="ShowFilterAction_Filter_Popup/0.0.1680.1050@0.0.1680.1050" timestamp="1595406091880" />
+    <state x="440" y="266" key="Vcs.Push.Dialog.v2" timestamp="1595207612555">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="582" height="456" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1594200573100" />
-    <state x="440" y="283" key="Vcs.Push.Dialog.v2" timestamp="1594865048715">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state x="440" y="266" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1594723349038" />
-    <state x="440" y="283" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1594865048715" />
-    <state width="1264" height="1050" key="com.intellij.byteCodeViewer.ShowByteCodeAction" timestamp="1594884994297">
+    <state x="440" y="266" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1595207612555" />
+    <state x="499" y="286" width="756" height="486" key="find.popup" timestamp="1603093885546">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1264" height="1050" key="com.intellij.byteCodeViewer.ShowByteCodeAction/0.0.1680.1050@0.0.1680.1050" timestamp="1594884994297" />
-    <state x="555" y="282" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1594261667864">
+    <state x="499" y="286" width="756" height="486" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1603093885546" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1595408406010">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="555" y="282" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1594261667864" />
-    <state x="499" y="286" width="681" height="486" key="find.popup" timestamp="1594261661616">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="499" y="286" width="681" height="486" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1594261661616" />
-    <state x="208" y="147" key="new project wizard" timestamp="1593595888702">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="208" y="147" key="new project wizard/0.0.1680.1050@0.0.1680.1050" timestamp="1593595888702" />
-    <state x="208" y="148" key="new project wizard/0.23.1680.1027@0.23.1680.1027" timestamp="1593487350397" />
-    <state x="505" y="251" width="670" height="662" key="search.everywhere.popup" timestamp="1594875424723">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1594627899980" />
-    <state x="505" y="251" width="670" height="662" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1594875424723" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1595408406010" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1595408394652" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/future$VolatileTest2.ic" NAME="VolatileTest2 Coverage Results" MODIFIED="1594978232531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

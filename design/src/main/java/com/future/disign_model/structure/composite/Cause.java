@@ -9,8 +9,8 @@ public class Cause extends CatalogComponent
     /**
      * 课程有名称和价格
      */
-    private String name;
-    private double price;
+    private String name="$$$$$$";
+    private double price=0.000;
 
     public Cause(String name, double price)
     {
@@ -33,6 +33,11 @@ public class Cause extends CatalogComponent
     @Override
     public void print()
     {
-        System.out.println("course name: " + name + " price: " + price);
+        StringBuffer sb = new StringBuffer();
+        sb.append("course name");
+        sb.append(name);
+        sb.append("price: ");
+        sb.append(price);
+        System.out.println(sb.toString());
     }
 }

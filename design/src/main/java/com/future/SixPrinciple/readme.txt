@@ -6,7 +6,7 @@
 5-接口隔离
 6-单一职责
 
-"滴接单，开一里"
+"迪接单，开依里"
 
 
 一、单一职责原则 <Single Responsiblity Principle>

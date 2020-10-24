@@ -22,4 +22,10 @@ public enum EnumSingleton
     public static  EnumSingleton getInstance(){
         return  INSTANCE;
     }
+//    INSTANCE;
+//
+//    public void doSomething() {
+//        System.out.println("doSomething");
+//    }
+    //直接通过Singleton.INSTANCE.doSomething()的方式调用即可。方便、简洁又安全。
 }
