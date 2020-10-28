@@ -19,9 +19,9 @@ public class CatchCompletableExceptions {
                     System.out.println("I don't get it yet");
                 }
                 //通过将一个好的对象插入到流中来恢复到一个可行的状态
-                return new Breakable(ex.getMessage(), 0);
+                return new Breakable("ex.getMessage()", 0);
             }).thenAccept(str ->
-                System.out.println("result: " + str));
+                System.out.println("result--------: " + str));
 
         // Create a new result (recover):
         CompletableExceptions.test("handle", failcount)

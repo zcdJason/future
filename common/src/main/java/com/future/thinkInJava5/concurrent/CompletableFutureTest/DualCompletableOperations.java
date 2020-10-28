@@ -17,7 +17,7 @@ public class DualCompletableOperations {
 
     static void init() {
         cfA = Workable.make("A", 0.15);
-        cfB = Workable.make("B", 0.10); // Always wins
+        cfB = Workable.make("B", 0.15); // Always wins
     }
 
     static void join() {
@@ -35,6 +35,8 @@ public class DualCompletableOperations {
     // 它等待两个 CompletableFuture 完成，然后将它们都交给一个 BiFunction，这个 BiFunction 可以将结果加入到最终的 CompletableFuture 的有效负载中
     public static void main(String[] args) {
         init();
+        System.out.println("----------");
+
         voidr(cfA.runAfterEitherAsync(cfB, () ->
             System.out.println("runAfterEither")));
         join();
@@ -45,9 +47,10 @@ public class DualCompletableOperations {
         join();
 
         init();
+        //applyToEitherAsync任何一个返回就执行function操作，function操作结果作为新的结果
         showr(cfA.applyToEitherAsync(cfB, w -> {
-            System.out.println("applyToEither: " + w);
-            return w;
+            System.out.println("applyToEither-----------: " + w);
+            return w + "hello";
         }));
         join();
 
