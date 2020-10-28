@@ -44,46 +44,113 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acb4d6e8-0b11-4731-9074-6e810efb29d7" name="Default" comment="add thread question">
-      <change afterPath="$PROJECT_DIR$/concurrentPkg/src/main/java/basic/CreateThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrentPkg/src/main/java/basic/CreateThread2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrentPkg/src/main/java/basic/DaemonThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrentPkg/src/main/java/basic/TPTInterrupt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrentPkg/src/main/java/basic/TestDeadLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/ThreadQuestion/DefineLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/ThreadQuestion/VolatileTest3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/ThreadQuestion/Volatitle3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/classInit/Base.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/classInit/Derved.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/action/Memento/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/action/Memento/Memento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/action/Memento/Originator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/action/template/ChefCook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/action/template/Cook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/action/template/MeCook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/action/template/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/action/visitor/Element.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/action/visitor/ElementCC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/action/visitor/ElementDC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/action/visitor/ElementLB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/action/visitor/ObsStructure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/action/visitor/Visitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/action/visitor/VisitorA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/action/visitor/VisitorB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/creator/SimpleFactory/readme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab/src/main/java/com/future/effectJava/Class33.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab/src/main/java/com/future/effectJava/Complex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab/src/main/java/com/future/effectJava/TInter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PSP2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/CollectionIntoStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/CompletableFutureTest/Baked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/CompletableFutureTest/Batter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/CompletableFutureTest/CompletableApply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/CompletableFutureTest/CompletableApplyAsync.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/CompletableFutureTest/CompletableApplyChained.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/CompletableFutureTest/CompletableOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/CompletableFutureTest/CompletableUtilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/CompletableFutureTest/CompletedMachina.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/CompletableFutureTest/DualCompletableOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/CompletableFutureTest/FrostedCake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/CompletableFutureTest/Machina.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/CompletableFutureTest/QuittingCompletable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/CompletableFutureTest/Workable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/ParallelPrime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/ParallelStreamPuzzle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/ParallelStreamPuzzle2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/ParallelStreamPuzzle3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/Summing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/Summing2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/Summing3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/Summing4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/createAndRunTask/CachedThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/createAndRunTask/CachedThreadPool2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/createAndRunTask/CachedThreadPool3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/createAndRunTask/CountingStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/createAndRunTask/CountingTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/createAndRunTask/Futures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/createAndRunTask/InterferingTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/createAndRunTask/LambdasAndMethodReferences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/createAndRunTask/NapTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/createAndRunTask/SingleThreadExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/createAndRunTask/SingleThreadExecutor3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/exception/Breakable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/exception/CatchCompletableExceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/exception/CompletableExceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/exception/StreamExceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/exception/ThrowsChecked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/stopLongTimeTask/QuittableTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/stopLongTimeTask/QuittingTasks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/file/ClassInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/file/PartsOfPaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/file/PathAnalysis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/file/PathInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/file/SS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/functionCode/BiConsumerPermutations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/functionCode/ClassFunctionals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/functionCode/CtorReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/functionCode/FunctionVariants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/functionCode/FunctionWithWrapped.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/functionCode/FunctionalAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/functionCode/LambdaExpressions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/functionCode/MethodReferences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/functionCode/MultiUnbound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/functionCode/RunnableMethodReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/functionCode/Strategize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/functionCode/TriFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/functionCode/TriFunction2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/functionCode/TriFunctionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/functionCode/UnboundMethodReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/onjava/ArrayShow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/onjava/BasicSupplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/onjava/CollectionMethodDifferences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/onjava/ConvertTo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/onjava/Count.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/onjava/CountMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/onjava/CountingIntegerList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/onjava/Countries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/onjava/Enums.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/onjava/FillMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/onjava/HTMLColors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/onjava/MouseClick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/onjava/Nap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/onjava/Null.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/onjava/OSExecute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/onjava/OSExecuteException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/onjava/Operations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/onjava/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/onjava/ProcessFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/onjava/Rand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/onjava/Range.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/onjava/Repeat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/onjava/RmDir.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/onjava/Sets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/onjava/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/onjava/Suppliers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/onjava/TimedAbort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/onjava/Timer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/onjava/Tuple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/onjava/Tuple2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/onjava/Tuple3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/onjava/Tuple4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/onjava/Tuple5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/onjava/TypeCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/onjava/atunit/AtUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/onjava/atunit/ClassNameFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/onjava/atunit/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/onjava/atunit/TestObjectCleanup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/onjava/atunit/TestObjectCreate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/onjava/atunit/TestProperty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrentPkg/src/main/java/basic/Concatenation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrentPkg/src/main/java/basic/ParallelSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrentPkg/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/concurrentPkg/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/BuileTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/GenericTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/ThreadQuestion/VolatileTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/ThreadQuestion/VolatileTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design/src/main/java/com/future/SixPrinciple/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/main/java/com/future/SixPrinciple/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/creator/prototype/TestDeepClone.java" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/creator/prototype/TestDeepClone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/creator/singleton/EnumSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/creator/singleton/EnumSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/creator/singleton/LazySingletonDoubleCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/creator/singleton/LazySingletonDoubleCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/structure/composite/Cause.java" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/main/java/com/future/disign_model/structure/composite/Cause.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,6 +187,7 @@
         <option value="Swagger" />
         <option value="JUnit4 Test Class" />
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -164,7 +232,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.5482759" />
@@ -187,18 +255,18 @@
       <recent name="$PROJECT_DIR$/code-gen/src/main/resources/mapper/test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.future.thinkInJava5.functionCode" />
       <recent name="basic" />
       <recent name="com.future.disign_model.action.visitor" />
       <recent name="com.future.data.structure.ThreadQuestion" />
       <recent name="com.future.data.structure" />
-      <recent name="com.future.data.structure.compationSorting" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5" />
       <recent name="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/nonlinearStructure/AVL" />
       <recent name="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/nonlinearStructure/binarySearchTree" />
       <recent name="$PROJECT_DIR$/dataStructure/src/main/java/com/future/data/structure/recursion" />
       <recent name="$PROJECT_DIR$/common/src/main/java/com/future" />
-      <recent name="$PROJECT_DIR$/essyrules/src/main/java/com/future/easyrules" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.future.disign_model.action.visitor" />
@@ -210,14 +278,14 @@
       <command value="1 + 1" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.TPTInterrupt">
-    <configuration name="Class33" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.future.effectJava.Class33" />
-      <module name="lab" />
+  <component name="RunManager" selected="Application.CompletableExceptions">
+    <configuration name="CatchCompletableExceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.future.thinkInJava5.concurrent.exception.CatchCompletableExceptions" />
+      <module name="common" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.future.effectJava.*" />
+          <option name="PATTERN" value="com.future.thinkInJava5.concurrent.exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -225,13 +293,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DaemonThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.DaemonThread" />
-      <module name="concurrentPkg" />
+    <configuration name="CompletableExceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.future.thinkInJava5.concurrent.exception.CompletableExceptions" />
+      <module name="common" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic.*" />
+          <option name="PATTERN" value="com.future.thinkInJava5.concurrent.exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -239,13 +307,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TInter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.future.effectJava.TInter" />
-      <module name="lab" />
+    <configuration name="DualCompletableOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.future.thinkInJava5.concurrent.CompletableFutureTest.DualCompletableOperations" />
+      <module name="common" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.future.effectJava.*" />
+          <option name="PATTERN" value="com.future.thinkInJava5.concurrent.CompletableFutureTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -253,13 +321,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TPTInterrupt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.TPTInterrupt" />
-      <module name="concurrentPkg" />
+    <configuration name="FrostedCake" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.future.thinkInJava5.concurrent.CompletableFutureTest.FrostedCake" />
+      <module name="common" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic.*" />
+          <option name="PATTERN" value="com.future.thinkInJava5.concurrent.CompletableFutureTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -267,13 +335,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.TestDeadLock" />
-      <module name="concurrentPkg" />
+    <configuration name="StreamExceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.future.thinkInJava5.concurrent.exception.StreamExceptions" />
+      <module name="common" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic.*" />
+          <option name="PATTERN" value="com.future.thinkInJava5.concurrent.exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -306,11 +374,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TPTInterrupt" />
-        <item itemvalue="Application.TestDeadLock" />
-        <item itemvalue="Application.DaemonThread" />
-        <item itemvalue="Application.TInter" />
-        <item itemvalue="Application.Class33" />
+        <item itemvalue="Application.CompletableExceptions" />
+        <item itemvalue="Application.StreamExceptions" />
+        <item itemvalue="Application.CatchCompletableExceptions" />
+        <item itemvalue="Application.FrostedCake" />
+        <item itemvalue="Application.DualCompletableOperations" />
       </list>
     </recent_temporary>
   </component>
@@ -352,7 +420,9 @@
       <workItem from="1603086779377" duration="4746000" />
       <workItem from="1603099879856" duration="2796000" />
       <workItem from="1603541580188" duration="94000" />
-      <workItem from="1603541697351" duration="76000" />
+      <workItem from="1603541697351" duration="342000" />
+      <workItem from="1603542309791" duration="8259000" />
+      <workItem from="1603707517351" duration="33623000" />
     </task>
     <task id="LOCAL-00001" summary="aa">
       <created>1592012581960</created>
@@ -417,7 +487,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595207610727</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add thread question">
+      <created>1603541794834</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1603541794834</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -459,43 +536,39 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="546" y="335" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1595312699805" />
-    <state x="653" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1603091272841">
+    <state x="653" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1603701042014">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="653" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1603091272841" />
+    <state x="653" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1603701042014" />
     <state x="653" y="253" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1595244536752" />
     <state x="457" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1595386695032">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="457" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1595386695032" />
-    <state x="739" y="471" key="#xdebugger.evaluate" timestamp="1594978281749">
+    <state x="394" y="116" key="CommitChangelistDialog2" timestamp="1603541794478">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="739" y="471" key="#xdebugger.evaluate/0.0.1680.1050@0.0.1680.1050" timestamp="1594978281749" />
-    <state x="394" y="116" key="CommitChangelistDialog2" timestamp="1595207610434">
+    <state x="394" y="116" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1603541794478" />
+    <state width="1638" height="367" key="GridCell.Tab.0.bottom" timestamp="1603800696565">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="394" y="116" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1595207610434" />
-    <state width="1638" height="210" key="GridCell.Tab.0.bottom" timestamp="1603104435564">
+    <state width="1638" height="367" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1603800696565" />
+    <state width="1638" height="303" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1603799059076" />
+    <state width="1638" height="367" key="GridCell.Tab.0.center" timestamp="1603800696564">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="210" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1603104435564" />
-    <state width="1638" height="248" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1595244733024" />
-    <state width="1638" height="210" key="GridCell.Tab.0.center" timestamp="1603104435563">
+    <state width="1638" height="367" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1603800696564" />
+    <state width="1638" height="303" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1603799059074" />
+    <state width="1638" height="367" key="GridCell.Tab.0.left" timestamp="1603800696563">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="210" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1603104435563" />
-    <state width="1638" height="248" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1595244733023" />
-    <state width="1638" height="210" key="GridCell.Tab.0.left" timestamp="1603104435562">
+    <state width="1638" height="367" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1603800696563" />
+    <state width="1638" height="303" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1603799059073" />
+    <state width="1638" height="367" key="GridCell.Tab.0.right" timestamp="1603800696564">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="210" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1603104435562" />
-    <state width="1638" height="248" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1595244733023" />
-    <state width="1638" height="210" key="GridCell.Tab.0.right" timestamp="1603104435563">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1638" height="210" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1603104435563" />
-    <state width="1638" height="248" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1595244733023" />
+    <state width="1638" height="367" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1603800696564" />
+    <state width="1638" height="303" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1603799059075" />
     <state width="1638" height="359" key="GridCell.Tab.1.bottom" timestamp="1603096461386">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -516,27 +589,43 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="428" y="268" key="IDE.errors.dialog/0.0.1680.1050@0.0.1680.1050" timestamp="1595207353556" />
-    <state x="354" y="226" key="SettingsEditor" timestamp="1603541772569">
+    <state x="686" y="315" key="JpaSupport:com.ifengxue.plugin.gui.DatabaseSettingsDialog" timestamp="1603789488929">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="354" y="226" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1603541772569" />
+    <state x="686" y="315" key="JpaSupport:com.ifengxue.plugin.gui.DatabaseSettingsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1603789488929" />
+    <state x="286" y="153" key="SettingsEditor" timestamp="1603542798659">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="286" y="153" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1603542798659" />
     <state width="254" height="200" key="ShowFilterAction_Filter_Popup" timestamp="1595406091880">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="254" height="200" key="ShowFilterAction_Filter_Popup/0.0.1680.1050@0.0.1680.1050" timestamp="1595406091880" />
-    <state x="440" y="266" key="Vcs.Push.Dialog.v2" timestamp="1595207612555">
+    <state width="500" height="445" key="SwitcherDM" timestamp="1603767950049">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="266" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1595207612555" />
-    <state x="499" y="286" width="756" height="486" key="find.popup" timestamp="1603093885546">
+    <state width="500" height="445" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1603767950049" />
+    <state x="440" y="266" key="Vcs.Push.Dialog.v2" timestamp="1603541796628">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="499" y="286" width="756" height="486" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1603093885546" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1595408406010">
+    <state x="440" y="266" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1603541796628" />
+    <state x="499" y="286" width="756" height="486" key="find.popup" timestamp="1603694970988">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1595408406010" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1595408394652" />
+    <state x="499" y="286" width="756" height="486" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1603694970988" />
+    <state x="514" y="97" width="624" height="527" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1603542797292">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="514" y="97" width="624" height="527" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1603542797292" />
+    <state x="616" y="298" key="refactoring.ChangeSignatureDialog" timestamp="1603700852587">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="616" y="298" key="refactoring.ChangeSignatureDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1603700852587" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1603786329910">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1603785615396" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1603786329910" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/future$VolatileTest2.ic" NAME="VolatileTest2 Coverage Results" MODIFIED="1594978232531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
