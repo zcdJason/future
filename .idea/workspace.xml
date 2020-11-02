@@ -43,17 +43,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acb4d6e8-0b11-4731-9074-6e810efb29d7" name="Default" comment="add thinkInJava5">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/CompletableFutureTest/basic/CompareRunAsyncAndThenAsync.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/CompletableFutureTest/basic/OldExecuteTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/demo/Baked.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/demo/Batter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/demo/FrostCake.java" afterDir="false" />
+    <list default="true" id="acb4d6e8-0b11-4731-9074-6e810efb29d7" name="Default" comment="add thinkInJava5 demo">
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/BaseApiImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/BasiApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/base/BaseFuture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/base/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/Accumulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/TestFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/exception/DataBaseSaveDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/CompletableFutureTest/CompletableOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/CompletableFutureTest/CompletableOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/CompletableFutureTest/CompletableUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/CompletableFutureTest/CompletableUtilities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/CompletableFutureTest/DualCompletableOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/CompletableFutureTest/DualCompletableOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/exception/CatchCompletableExceptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/exception/CatchCompletableExceptions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,6 +172,7 @@
       <recent name="$PROJECT_DIR$/common/src/main/java/com/future" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.future" />
       <recent name="com.future.disign_model.action.visitor" />
       <recent name="com.future.bootstrap.web" />
     </key>
@@ -181,7 +182,35 @@
       <command value="1 + 1" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.CatchCompletableExceptions">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="BaseApiImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.future.BaseApiImpl" />
+      <module name="common" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.future.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BaseFuture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.future.base.BaseFuture" />
+      <module name="common" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.future.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CatchCompletableExceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.future.thinkInJava5.concurrent.exception.CatchCompletableExceptions" />
       <module name="common" />
@@ -196,13 +225,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompletableOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.future.thinkInJava5.concurrent.CompletableFutureTest.CompletableOperations" />
+    <configuration name="DataBaseSaveDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.future.thinkInJava5.concurrent.exception.DataBaseSaveDemo" />
       <module name="common" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.future.thinkInJava5.concurrent.CompletableFutureTest.*" />
+          <option name="PATTERN" value="com.future.thinkInJava5.concurrent.exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,41 +239,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DualCompletableOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.future.thinkInJava5.concurrent.CompletableFutureTest.DualCompletableOperations" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.future.Main" />
       <module name="common" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.future.thinkInJava5.concurrent.CompletableFutureTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FrostCake" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.future.thinkInJava5.concurrent.demo.FrostCake" />
-      <module name="common" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.future.thinkInJava5.concurrent.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FrostedCake" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.future.thinkInJava5.concurrent.CompletableFutureTest.FrostedCake" />
-      <module name="common" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.future.thinkInJava5.concurrent.CompletableFutureTest.*" />
+          <option name="PATTERN" value="com.future.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -277,11 +278,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.BaseFuture" />
+        <item itemvalue="Application.BaseApiImpl" />
+        <item itemvalue="Application.DataBaseSaveDemo" />
         <item itemvalue="Application.CatchCompletableExceptions" />
-        <item itemvalue="Application.FrostCake" />
-        <item itemvalue="Application.FrostedCake" />
-        <item itemvalue="Application.DualCompletableOperations" />
-        <item itemvalue="Application.CompletableOperations" />
       </list>
     </recent_temporary>
   </component>
@@ -326,7 +327,9 @@
       <workItem from="1603541697351" duration="342000" />
       <workItem from="1603542309791" duration="8259000" />
       <workItem from="1603707517351" duration="33623000" />
-      <workItem from="1603846669974" duration="14836000" />
+      <workItem from="1603846669974" duration="15806000" />
+      <workItem from="1603873053343" duration="27438000" />
+      <workItem from="1604023656785" duration="4483000" />
     </task>
     <task id="LOCAL-00001" summary="aa">
       <created>1592012581960</created>
@@ -405,7 +408,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603846705676</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add thinkInJava5 demo">
+      <created>1603870280217</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1603870280217</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -433,7 +443,8 @@
     <MESSAGE value="优化排序算法" />
     <MESSAGE value="add thread question" />
     <MESSAGE value="add thinkInJava5" />
-    <option name="LAST_COMMIT_MESSAGE" value="add thinkInJava5" />
+    <MESSAGE value="add thinkInJava5 demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="add thinkInJava5 demo" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="173" key="#Plugins" timestamp="1603541754567">
@@ -444,67 +455,54 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="328" y="106" key="#Project_Structure/0.0.1680.1050@0.0.1680.1050" timestamp="1595577498784" />
-    <state x="546" y="335" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595312699805">
+    <state x="653" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1604038565566">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="546" y="335" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1595312699805" />
-    <state x="653" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1603868088498">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="653" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1603868088498" />
-    <state x="653" y="253" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1595244536752" />
-    <state x="457" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1595386695032">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="457" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1595386695032" />
+    <state x="653" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1604038565566" />
     <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603867744982">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1603867744982" />
-    <state x="394" y="116" key="CommitChangelistDialog2" timestamp="1603846705246">
+    <state x="394" y="116" key="CommitChangelistDialog2" timestamp="1603870280079">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="394" y="116" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1603846705246" />
-    <state width="1638" height="351" key="GridCell.Tab.0.bottom" timestamp="1603869943587">
+    <state x="394" y="116" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1603870280079" />
+    <state width="1638" height="276" key="GridCell.Tab.0.bottom" timestamp="1604045268184">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="351" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1603869943587" />
-    <state width="1638" height="303" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1603799059076" />
-    <state width="1638" height="351" key="GridCell.Tab.0.center" timestamp="1603869943586">
+    <state width="1638" height="276" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1604045268184" />
+    <state width="1638" height="120" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1603964168283" />
+    <state width="1638" height="276" key="GridCell.Tab.0.center" timestamp="1604045268182">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="351" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1603869943586" />
-    <state width="1638" height="303" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1603799059074" />
-    <state width="1638" height="351" key="GridCell.Tab.0.left" timestamp="1603869943586">
+    <state width="1638" height="276" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1604045268182" />
+    <state width="1638" height="120" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1603964168280" />
+    <state width="1638" height="276" key="GridCell.Tab.0.left" timestamp="1604045268182">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="351" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1603869943586" />
-    <state width="1638" height="303" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1603799059073" />
-    <state width="1638" height="351" key="GridCell.Tab.0.right" timestamp="1603869943587">
+    <state width="1638" height="276" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1604045268182" />
+    <state width="1638" height="120" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1603964168279" />
+    <state width="1638" height="276" key="GridCell.Tab.0.right" timestamp="1604045268183">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="351" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1603869943587" />
-    <state width="1638" height="303" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1603799059075" />
-    <state width="1638" height="359" key="GridCell.Tab.1.bottom" timestamp="1603096461386">
+    <state width="1638" height="276" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1604045268183" />
+    <state width="1638" height="120" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1603964168283" />
+    <state width="1638" height="359" key="GridCell.Tab.1.bottom" timestamp="1603874274724">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="359" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1603096461386" />
-    <state width="1638" height="359" key="GridCell.Tab.1.center" timestamp="1603096461386">
+    <state width="1638" height="359" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1603874274724" />
+    <state width="1638" height="359" key="GridCell.Tab.1.center" timestamp="1603874274723">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="359" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1603096461386" />
-    <state width="1638" height="359" key="GridCell.Tab.1.left" timestamp="1603096461385">
+    <state width="1638" height="359" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1603874274723" />
+    <state width="1638" height="359" key="GridCell.Tab.1.left" timestamp="1603874274722">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="359" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1603096461385" />
-    <state width="1638" height="359" key="GridCell.Tab.1.right" timestamp="1603096461386">
+    <state width="1638" height="359" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1603874274722" />
+    <state width="1638" height="359" key="GridCell.Tab.1.right" timestamp="1603874274723">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="359" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1603096461386" />
-    <state x="428" y="268" key="IDE.errors.dialog" timestamp="1595207353556">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="428" y="268" key="IDE.errors.dialog/0.0.1680.1050@0.0.1680.1050" timestamp="1595207353556" />
+    <state width="1638" height="359" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1603874274723" />
     <state x="686" y="315" key="JpaSupport:com.ifengxue.plugin.gui.DatabaseSettingsDialog" timestamp="1603789488929">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -517,14 +515,18 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="254" height="200" key="ShowFilterAction_Filter_Popup/0.0.1680.1050@0.0.1680.1050" timestamp="1595406091880" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1603767950049">
+    <state width="500" height="445" key="SwitcherDM" timestamp="1603951990903">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="500" height="445" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1603767950049" />
-    <state x="440" y="266" key="Vcs.Push.Dialog.v2" timestamp="1603846707399">
+    <state width="500" height="445" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1603951990903" />
+    <state x="440" y="266" key="Vcs.Push.Dialog.v2" timestamp="1603870281617">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="266" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1603846707399" />
+    <state x="440" y="266" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1603870281617" />
+    <state x="627" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603967315823">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="627" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1050@0.0.1680.1050" timestamp="1603967315823" />
     <state x="499" y="286" width="756" height="486" key="find.popup" timestamp="1603851252790">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -537,10 +539,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="616" y="298" key="refactoring.ChangeSignatureDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1603700852587" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1603869730726">
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1604034263849">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1603869730726" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1604034263849" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1603786329910" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
