@@ -18,29 +18,17 @@ public class ExpressTest
     public void testOne() throws Exception
     {
         ExpressRunner runner = new ExpressRunner();
-        DefaultContext<String, Object> context = new DefaultContext<>();
+        DefaultContext<String, Object> context = new DefaultContext<>();//值
         context.put("a", 1);
         context.put("b", 2);
-        String express = "a+b";
+        String express = "a+b"; //表达式
         Object r = runner.execute(express, context, null, true, false);
         System.out.println(r);
 
         DefaultContext<String, Object> row = new DefaultContext<>();
-        List<Integer> r1= new ArrayList<>();
-        r1.add(1);
-        r1.add(2);
-        r1.add(3);
-        r1.add(4);
-
-        List<Integer> r2= new ArrayList<>();
-        r2.add(3);
-        r2.add(3);
-        r2.add(3);
-        r2.add(3);
-        r2.add(3);
-        row.put("c", r1);
-        row.put("d", r2);
-        Object obj = runner.execute("c+d", row, null, true, false);
+        row.put("c", 1);
+        row.put("d", 2);
+        Object obj = runner.execute("c-d", row, null, true, false);
         System.out.println(obj);
 
     }
@@ -60,6 +48,7 @@ public class ExpressTest
                 "return add(a,4) + sub(a,9);";
         ExpressRunner runner = new ExpressRunner();
         DefaultContext<String, Object> context = new DefaultContext<>();
+        System.out.println(context);
         Object r = runner.execute(express, context, null, true, false);
         System.out.println(r);
     }

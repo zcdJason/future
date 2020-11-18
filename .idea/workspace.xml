@@ -44,16 +44,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acb4d6e8-0b11-4731-9074-6e810efb29d7" name="Default" comment="add thinkInJava5 demo">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/BaseApiImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/BasiApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/base/BaseFuture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/base/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/Accumulator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/TestFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/future/thinkInJava5/concurrent/exception/DataBaseSaveDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrentPkg/src/main/java/basic/LockSupprotTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrentPkg/src/main/java/basic/LockSupprotTest2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab/src/test/java/com/future/express/ExpressTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab/src/test/java/com/future/express/ExpressTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,8 +152,8 @@
       <recent name="$PROJECT_DIR$/code-gen/src/main/resources/mapper/test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.future.thinkInJava5.functionCode" />
       <recent name="basic" />
+      <recent name="com.future.thinkInJava5.functionCode" />
       <recent name="com.future.disign_model.action.visitor" />
       <recent name="com.future.data.structure.ThreadQuestion" />
       <recent name="com.future.data.structure" />
@@ -182,14 +176,14 @@
       <command value="1 + 1" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="BaseApiImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.future.BaseApiImpl" />
-      <module name="common" />
+  <component name="RunManager" selected="JUnit.ExpressTest.testOne">
+    <configuration name="LockSupprotTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic.LockSupprotTest" />
+      <module name="concurrentPkg" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.future.*" />
+          <option name="PATTERN" value="basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,55 +191,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BaseFuture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.future.base.BaseFuture" />
-      <module name="common" />
+    <configuration name="LockSupprotTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic.LockSupprotTest2" />
+      <module name="concurrentPkg" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.future.base.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CatchCompletableExceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.future.thinkInJava5.concurrent.exception.CatchCompletableExceptions" />
-      <module name="common" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.future.thinkInJava5.concurrent.exception.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DataBaseSaveDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.future.thinkInJava5.concurrent.exception.DataBaseSaveDemo" />
-      <module name="common" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.future.thinkInJava5.concurrent.exception.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.future.Main" />
-      <module name="common" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.future.*" />
+          <option name="PATTERN" value="basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -257,6 +209,60 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExpressTest.defineFunctionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.future.express.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.future.express" />
+      <option name="MAIN_CLASS_NAME" value="com.future.express.ExpressTest" />
+      <option name="METHOD_NAME" value="defineFunctionTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExpressTest.replaceKeywordTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.future.express.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.future.express" />
+      <option name="MAIN_CLASS_NAME" value="com.future.express.ExpressTest" />
+      <option name="METHOD_NAME" value="replaceKeywordTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExpressTest.testOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.future.express.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.future.express" />
+      <option name="MAIN_CLASS_NAME" value="com.future.express.ExpressTest" />
+      <option name="METHOD_NAME" value="testOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -278,11 +284,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.BaseFuture" />
-        <item itemvalue="Application.BaseApiImpl" />
-        <item itemvalue="Application.DataBaseSaveDemo" />
-        <item itemvalue="Application.CatchCompletableExceptions" />
+        <item itemvalue="JUnit.ExpressTest.testOne" />
+        <item itemvalue="JUnit.ExpressTest.defineFunctionTest" />
+        <item itemvalue="JUnit.ExpressTest.replaceKeywordTest" />
+        <item itemvalue="Application.LockSupprotTest2" />
+        <item itemvalue="Application.LockSupprotTest" />
       </list>
     </recent_temporary>
   </component>
@@ -329,7 +335,12 @@
       <workItem from="1603707517351" duration="33623000" />
       <workItem from="1603846669974" duration="15806000" />
       <workItem from="1603873053343" duration="27438000" />
-      <workItem from="1604023656785" duration="4483000" />
+      <workItem from="1604023656785" duration="4517000" />
+      <workItem from="1605252547099" duration="4966000" />
+      <workItem from="1605581834444" duration="1000" />
+      <workItem from="1605668493729" duration="2737000" />
+      <workItem from="1605679193170" duration="17000" />
+      <workItem from="1605679368534" duration="323000" />
     </task>
     <task id="LOCAL-00001" summary="aa">
       <created>1592012581960</created>
@@ -415,7 +426,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603870280217</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add thinkInJava5 demo">
+      <created>1604286412202</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1604286412202</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -451,10 +469,6 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="440" y="173" key="#Plugins/0.0.1680.1050@0.0.1680.1050" timestamp="1603541754567" />
-    <state x="328" y="106" key="#Project_Structure" timestamp="1595577498784">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="328" y="106" key="#Project_Structure/0.0.1680.1050@0.0.1680.1050" timestamp="1595577498784" />
     <state x="653" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1604038565566">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -463,46 +477,46 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1603867744982" />
-    <state x="394" y="116" key="CommitChangelistDialog2" timestamp="1603870280079">
+    <state x="394" y="116" key="CommitChangelistDialog2" timestamp="1604286412046">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="394" y="116" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1603870280079" />
-    <state width="1638" height="276" key="GridCell.Tab.0.bottom" timestamp="1604045268184">
+    <state x="394" y="116" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1604286412046" />
+    <state width="1638" height="374" key="GridCell.Tab.0.bottom" timestamp="1605679021942">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="374" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1605670559838" />
+    <state width="1638" height="374" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1605679021942" />
+    <state width="1638" height="374" key="GridCell.Tab.0.center" timestamp="1605679021941">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="374" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1605670559836" />
+    <state width="1638" height="374" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1605679021941" />
+    <state width="1638" height="374" key="GridCell.Tab.0.left" timestamp="1605679021941">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="374" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1605670559835" />
+    <state width="1638" height="374" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1605679021941" />
+    <state width="1638" height="374" key="GridCell.Tab.0.right" timestamp="1605679021942">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="374" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1605670559836" />
+    <state width="1638" height="374" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1605679021942" />
+    <state width="1638" height="209" key="GridCell.Tab.1.bottom" timestamp="1605577411221">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="276" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1604045268184" />
-    <state width="1638" height="120" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1603964168283" />
-    <state width="1638" height="276" key="GridCell.Tab.0.center" timestamp="1604045268182">
+    <state width="1638" height="209" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1605577411221" />
+    <state width="1638" height="209" key="GridCell.Tab.1.center" timestamp="1605577411220">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="276" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1604045268182" />
-    <state width="1638" height="120" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1603964168280" />
-    <state width="1638" height="276" key="GridCell.Tab.0.left" timestamp="1604045268182">
+    <state width="1638" height="209" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1605577411220" />
+    <state width="1638" height="209" key="GridCell.Tab.1.left" timestamp="1605577411219">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="276" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1604045268182" />
-    <state width="1638" height="120" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1603964168279" />
-    <state width="1638" height="276" key="GridCell.Tab.0.right" timestamp="1604045268183">
+    <state width="1638" height="209" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1605577411219" />
+    <state width="1638" height="209" key="GridCell.Tab.1.right" timestamp="1605577411221">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="276" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1604045268183" />
-    <state width="1638" height="120" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1603964168283" />
-    <state width="1638" height="359" key="GridCell.Tab.1.bottom" timestamp="1603874274724">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1638" height="359" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1603874274724" />
-    <state width="1638" height="359" key="GridCell.Tab.1.center" timestamp="1603874274723">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1638" height="359" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1603874274723" />
-    <state width="1638" height="359" key="GridCell.Tab.1.left" timestamp="1603874274722">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1638" height="359" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1603874274722" />
-    <state width="1638" height="359" key="GridCell.Tab.1.right" timestamp="1603874274723">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1638" height="359" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1603874274723" />
+    <state width="1638" height="209" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1605577411221" />
     <state x="686" y="315" key="JpaSupport:com.ifengxue.plugin.gui.DatabaseSettingsDialog" timestamp="1603789488929">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -511,18 +525,14 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="286" y="153" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1603542798659" />
-    <state width="254" height="200" key="ShowFilterAction_Filter_Popup" timestamp="1595406091880">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="254" height="200" key="ShowFilterAction_Filter_Popup/0.0.1680.1050@0.0.1680.1050" timestamp="1595406091880" />
     <state width="500" height="445" key="SwitcherDM" timestamp="1603951990903">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1603951990903" />
-    <state x="440" y="266" key="Vcs.Push.Dialog.v2" timestamp="1603870281617">
+    <state x="440" y="266" key="Vcs.Push.Dialog.v2" timestamp="1604286413669">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="266" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1603870281617" />
+    <state x="440" y="266" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1604286413669" />
     <state x="627" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603967315823">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -539,10 +549,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="616" y="298" key="refactoring.ChangeSignatureDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1603700852587" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1604034263849">
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1605669719569">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1604034263849" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1605669719569" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1603786329910" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
