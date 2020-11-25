@@ -44,10 +44,11 @@ public class ExpressTest
                 "  return a - b;\n" +
                 "};\n" +
                 "\n" +
-                "a=10;\n" +
+                "a=100;\n" +
                 "return add(a,4) + sub(a,9);";
         ExpressRunner runner = new ExpressRunner();
         DefaultContext<String, Object> context = new DefaultContext<>();
+        context.put("a", 10);
         System.out.println(context);
         Object r = runner.execute(express, context, null, true, false);
         System.out.println(r);

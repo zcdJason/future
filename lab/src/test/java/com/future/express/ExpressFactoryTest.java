@@ -59,7 +59,7 @@ public  class ExpressFactoryTest
 
 
 
-        String express1 = "if (row.scores > 10 && row.scores <= 20) {return \"low\";};" +
+        String express1 = "if (row.scores > params.lower && row.scores <= params.upper) {return \"low\";};" +
                 "if (row.scores > 20 && row.scores <= 30) {return \"medium\";};" +
                 "if (row.scores > 30 && row.scores <= 40) {return \"high\";};" +
                 "if (row.scores > 40 && row.scores <= 50) {return \"very-high\";};";
@@ -72,8 +72,8 @@ public  class ExpressFactoryTest
         row.put("scores", 33);
 
         Map<String, Object> params = new HashMap<>();
-        params.put("lower",10);
-        params.put("upper",20);
+        params.put("lower",15);
+        params.put("upper",25);
         ExpressModel expressModel = new ExpressModel(express1, row, params);
         System.out.println(expressModel);
 
