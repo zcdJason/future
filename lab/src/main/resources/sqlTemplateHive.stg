@@ -1,8 +1,8 @@
 /*
     <<
-    Davinci
+    中电万维
     ==
-    Copyright (C) 2016 - 2018 EDP
+    Copyright (C) 2016 - 2020 EDP
     ==
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -40,6 +40,71 @@ INSERT INTO `<tableName>`
 (<columns:{item|<if(item.name)>`<item.name>`<endif>};separator=",">)
 VALUES
 (<columns:{item|<if(item.name)>?<endif>};separator=",">)
+<endif>
+>>
+
+
+combineSql(columns,conditions, tableName)
+::=<<
+<if(columns && tableName)>
+<if(conditions)>
+SELECT <columns:{column|<column>}; separator=",">,
+if(<conditions:{
+condition|
+<if(!condition.expression)>
+<condition.column> <condition.operator> <condition.value> <condition.logicOp>
+<else>
+<condition.expression> <condition.logicOp>
+<endif>
+} ; separator=" ">)
+FROM <tableName>
+<else>
+SELECT <columns:{column|<column>}; separator=","> FROM <tableName>
+<endif>
+<else>
+<if(conditions)>
+SELECT <conditions:{condition|if(<condition.column> <condition.operator> <condition.value> <condition.logicOp>)}; separator=","> FROM <tableName>
+<else>
+SELECT * FROM <tableName>
+<endif>
+<endif>
+>>
+
+
+combineRuleSql(columns,ruleObj,tableName, newColumn)
+::=<<
+SELECT
+<if(columns)>
+<columns:{column|<column>}; separator=",">,
+<else>
+*,
+<endif>
+<if(ruleObj)>
+case <ruleObj.ruleDomains:{rule|when <rule.ruleDefine:{condition |
+<if(!condition.expression)>
+  <condition.column> <condition.operator> <condition.value> <condition.logicOp>
+<else>
+  <condition.expression> <condition.logicOp>
+<endif>};separator=" "> then <rule.ruleLabel>
+}; separator=","> else 'undefine' end as <ruleObj.newColumn>
+FROM <tableName>
+<endif>
+>>
+
+combineSqlBack(columns,conditions, tableName)
+::=<<
+<if(columns && tableName)>
+<if(conditions)>
+SELECT <columns:{column|<column>}; separator=",">,<conditions:{condition|if(<condition.column> <condition.operator> <condition.value> <condition.logicOp>)}; separator=","> FROM <tableName>
+<else>
+SELECT <columns:{column|<column>}; separator=","> FROM <tableName>
+<endif>
+<else>
+<if(conditions)>
+SELECT <conditions:{condition|if(<condition.column> <condition.operator> <condition.value> <condition.logicOp>)}; separator=","> FROM <tableName>
+<else>
+SELECT * FROM <tableName>
+<endif>
 <endif>
 >>
 

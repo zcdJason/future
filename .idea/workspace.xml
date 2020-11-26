@@ -43,14 +43,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acb4d6e8-0b11-4731-9074-6e810efb29d7" name="Default" comment="add thinkInJava5 demo">
-      <change afterPath="$PROJECT_DIR$/lab/src/main/resources/sqlTemplateHive.stg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="acb4d6e8-0b11-4731-9074-6e810efb29d7" name="Default" comment="添加sql模版拼接代码">
+      <change afterPath="$PROJECT_DIR$/lab/src/main/java/com/future/rule/HiveLogicOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab/src/main/java/com/future/rule/RuleDefine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab/src/main/java/com/future/rule/RuleDomain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab/src/main/java/com/future/rule/RuleWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab/src/main/java/com/future/st/OperatorDomain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab/src/main/java/com/future/st/RuleDomain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab/src/main/java/com/future/st/RuleObj.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab/src/main/java/com/future/st/STTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab/src/main/java/com/future/st/STTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab/src/main/resources/sqlTemplate.stg" beforeDir="false" afterPath="$PROJECT_DIR$/lab/src/main/resources/sqlTemplate.stg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab/src/test/java/com/future/express/ExpressFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab/src/test/java/com/future/express/ExpressFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab/src/test/java/com/future/express/ExpressTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab/src/test/java/com/future/express/ExpressTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab/src/main/resources/sqlTemplateHive.stg" beforeDir="false" afterPath="$PROJECT_DIR$/lab/src/main/resources/sqlTemplateHive.stg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab/src/test/java/com/future/express/test/HelloWorldTestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab/src/test/java/com/future/express/test/HelloWorldTestTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,11 +159,11 @@
       <recent name="$PROJECT_DIR$/code-gen/src/main/resources/mapper/test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.future.st" />
       <recent name="basic" />
       <recent name="com.future.thinkInJava5.functionCode" />
       <recent name="com.future.disign_model.action.visitor" />
       <recent name="com.future.data.structure.ThreadQuestion" />
-      <recent name="com.future.data.structure" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/lab/src/main/resources" />
@@ -179,14 +183,14 @@
       <command value="1 + 1" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.STTest">
+  <component name="RunManager" selected="JUnit.HelloWorldTestTest.testRuleListNew">
     <configuration name="STTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.future.st.STTest" />
       <module name="lab" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.future.st.*" />
+          <option name="PATTERN" value="com.future.rule.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,42 +202,6 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExpressFactoryTest.transform" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.future.express.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.future.express" />
-      <option name="MAIN_CLASS_NAME" value="com.future.express.ExpressFactoryTest" />
-      <option name="METHOD_NAME" value="transform" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BSP.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExpressTest.defineFunctionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.future.express.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.future.express" />
-      <option name="MAIN_CLASS_NAME" value="com.future.express.ExpressTest" />
-      <option name="METHOD_NAME" value="defineFunctionTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="ExpressTest.replaceKeywordTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -254,17 +222,53 @@
         <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExpressTest.testOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HelloWorldTestTest.testRuleListNew" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.future.express.*" />
+          <option name="PATTERN" value="com.future.express.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.future.express" />
-      <option name="MAIN_CLASS_NAME" value="com.future.express.ExpressTest" />
-      <option name="METHOD_NAME" value="testOne" />
+      <option name="PACKAGE_NAME" value="com.future.express.test" />
+      <option name="MAIN_CLASS_NAME" value="com.future.express.test.HelloWorldTestTest" />
+      <option name="METHOD_NAME" value="testRuleListNew" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloWorldTestTest.testTemplate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.future.express.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.future.express.test" />
+      <option name="MAIN_CLASS_NAME" value="com.future.express.test.HelloWorldTestTest" />
+      <option name="METHOD_NAME" value="testTemplate" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloWorldTestTest.testTemplateNew" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.future.express.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.future.express.test" />
+      <option name="MAIN_CLASS_NAME" value="com.future.express.test.HelloWorldTestTest" />
+      <option name="METHOD_NAME" value="testTemplateNew" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -291,11 +295,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HelloWorldTestTest.testRuleListNew" />
+        <item itemvalue="JUnit.HelloWorldTestTest.testTemplateNew" />
+        <item itemvalue="JUnit.HelloWorldTestTest.testTemplate" />
         <item itemvalue="Application.STTest" />
         <item itemvalue="JUnit.ExpressTest.replaceKeywordTest" />
-        <item itemvalue="JUnit.ExpressFactoryTest.transform" />
-        <item itemvalue="JUnit.ExpressTest.defineFunctionTest" />
-        <item itemvalue="JUnit.ExpressTest.testOne" />
       </list>
     </recent_temporary>
   </component>
@@ -348,7 +352,9 @@
       <workItem from="1605668493729" duration="2737000" />
       <workItem from="1605679193170" duration="17000" />
       <workItem from="1605679368534" duration="2463000" />
-      <workItem from="1606125822450" duration="10580000" />
+      <workItem from="1606125822450" duration="11842000" />
+      <workItem from="1606275326469" duration="640000" />
+      <workItem from="1606292429638" duration="20415000" />
     </task>
     <task id="LOCAL-00001" summary="aa">
       <created>1592012581960</created>
@@ -448,7 +454,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605679849548</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="添加sql模版拼接代码">
+      <created>1606267208473</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1606267208473</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -477,7 +490,8 @@
     <MESSAGE value="add thread question" />
     <MESSAGE value="add thinkInJava5" />
     <MESSAGE value="add thinkInJava5 demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="add thinkInJava5 demo" />
+    <MESSAGE value="添加sql模版拼接代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加sql模版拼接代码" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="173" key="#Plugins" timestamp="1603541754567">
@@ -488,37 +502,41 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="522" y="334" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1606215902646" />
-    <state x="653" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1606215021702">
+    <state x="653" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1606372336370">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="653" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1606215021702" />
+    <state x="653" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1606372336370" />
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1606371981966">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1606371981966" />
     <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603867744982">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1603867744982" />
-    <state x="394" y="116" key="CommitChangelistDialog2" timestamp="1605679849281">
+    <state x="394" y="116" key="CommitChangelistDialog2" timestamp="1606267208330">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="394" y="116" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1605679849281" />
-    <state width="1638" height="303" key="GridCell.Tab.0.bottom" timestamp="1606218506719">
+    <state x="394" y="116" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1606267208330" />
+    <state width="1638" height="355" key="GridCell.Tab.0.bottom" timestamp="1606373884295">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="303" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1606218506719" />
+    <state width="1638" height="355" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1606373884295" />
     <state width="1638" height="374" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1605679021942" />
-    <state width="1638" height="303" key="GridCell.Tab.0.center" timestamp="1606218506716">
+    <state width="1638" height="355" key="GridCell.Tab.0.center" timestamp="1606373884292">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="303" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1606218506716" />
+    <state width="1638" height="355" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1606373884292" />
     <state width="1638" height="374" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1605679021941" />
-    <state width="1638" height="303" key="GridCell.Tab.0.left" timestamp="1606218506714">
+    <state width="1638" height="355" key="GridCell.Tab.0.left" timestamp="1606373884291">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="303" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1606218506714" />
+    <state width="1638" height="355" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1606373884291" />
     <state width="1638" height="374" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1605679021941" />
-    <state width="1638" height="303" key="GridCell.Tab.0.right" timestamp="1606218506718">
+    <state width="1638" height="355" key="GridCell.Tab.0.right" timestamp="1606373884294">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="303" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1606218506718" />
+    <state width="1638" height="355" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1606373884294" />
     <state width="1638" height="374" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1605679021942" />
     <state width="1638" height="209" key="GridCell.Tab.1.bottom" timestamp="1605577411221">
       <screen x="0" y="0" width="1680" height="1050" />
@@ -540,6 +558,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="686" y="315" key="JpaSupport:com.ifengxue.plugin.gui.DatabaseSettingsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1603789488929" />
+    <state x="664" y="234" key="RollbackChangesDialog" timestamp="1606287635758">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="664" y="234" key="RollbackChangesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1606287635758" />
     <state x="286" y="153" key="SettingsEditor" timestamp="1603542798659">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -548,18 +570,18 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1603951990903" />
-    <state x="440" y="266" key="Vcs.Push.Dialog.v2" timestamp="1605679851258">
+    <state x="440" y="266" key="Vcs.Push.Dialog.v2" timestamp="1606267209814">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="266" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1605679851258" />
+    <state x="440" y="266" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1606267209814" />
     <state x="627" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603967315823">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="627" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1050@0.0.1680.1050" timestamp="1603967315823" />
-    <state x="499" y="286" width="858" height="486" key="find.popup" timestamp="1606204943870">
+    <state x="499" y="286" width="858" height="486" key="find.popup" timestamp="1606353443803">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="499" y="286" width="858" height="486" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1606204943870" />
+    <state x="499" y="286" width="858" height="486" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1606353443803" />
     <state x="514" y="97" width="624" height="527" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1603542797292">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -568,10 +590,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="616" y="298" key="refactoring.ChangeSignatureDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1603700852587" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1605690762560">
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1606372272870">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1605690762560" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1606372272870" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1603786329910" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">

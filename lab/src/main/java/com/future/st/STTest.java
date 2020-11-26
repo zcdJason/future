@@ -1,7 +1,9 @@
 package com.future.st;
 
 
-import java.util.LinkedList;
+import com.alibaba.fastjson.JSONObject;
+import com.future.rule.RuleDefine;
+import com.future.rule.RuleDomain;
 import org.stringtemplate.v4.ST;
 import org.stringtemplate.v4.STGroup;
 import org.stringtemplate.v4.STGroupFile;
@@ -26,15 +28,57 @@ public class STTest
      */
     public static void main(String[] args)
     {
-        ST hello = new ST("hello , <name>");
-        hello.add("name", "world");
-        System.out.println(hello.render());
 
-        STGroup stg = new STGroupFile("/Users/zcd/files/NewX/future/lab/src/main/resources/sqlTemplate.stg");
+        RuleDomain ruleDomain = new RuleDomain();
+        List<RuleDefine> list = new ArrayList<>();
+        RuleDefine ruleDefine = new RuleDefine();
+        ruleDefine.setColumn("本年度执法量");
+        ruleDefine.setOperator(">");
+        ruleDefine.setValue("20");
+//        operatorDomain.setLogicOp("and");
+
+        RuleDefine ruleDefine2 = new RuleDefine();
+        ruleDefine2.setColumn("本年度执法量");
+        ruleDefine2.setOperator("<");
+        ruleDefine2.setValue("30");
+        list.add(ruleDefine);
+        list.add(ruleDefine2);
+        ruleDomain.setRuleLabel("优秀");
+        ruleDomain.setRuleDefine(list);
+
+        System.out.println(ruleDomain);
+        System.out.println(JSONObject.toJSON(ruleDomain));
+        /**
+         *  {"labelValue":"优秀","operatorDomain":[{"column":"本年度执法量","logicOp":"and","value":"20","operator":">"},{"column":"本年度执法量","value":"30","operator":"<"}]}
+         */
+
+        //拼接hive-sql if( (a > b && a < c) and (aa> bb and aa< cc)  , v1, v2)
+        StringBuffer res = new StringBuffer();
+        for(RuleDefine ruleDefine1 : list) {
+            res.append(ruleDefine1.getColumn());
+            res.append(ruleDefine1.getOperator());
+            res.append(ruleDefine1.getValue());
+
+//            if(operatorDomain1.getLogicOp() != null){
+//                res.append(" ");
+//                res.append(operatorDomain1.getLogicOp());
+//                res.append(" ");
+//            }
+
+        }
+
+//使用模版占位符
+
+//        ST hello = new ST("select <columns>, if(<condition>, <labelValue>, <defaultValue>)");
+//        hello.add("condition", res.toString());
+//        hello.add("labelValue", ruleDomain.getLabelValue());
+//        hello.add("defaultValue", "其它");
+//        System.out.println(hello.render());
+
+        STGroup stg = new STGroupFile("/Users/zcd/files/NewX/future/lab/src/main/resources/sqlTemplateHive.stg");
 
         //获取查询模版
         ST st = stg.getInstanceOf("querySql");
-
         st.add("nativeQuery", true);
 
         //分组名称
