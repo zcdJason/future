@@ -1,9 +1,11 @@
 package com.future.express.test;
 
 import com.alibaba.fastjson.JSONObject;
+import com.future.rule.HiveParameters;
 import com.future.rule.RuleDefine;
+import com.future.rule.RuleWrapper;
+import com.future.rule.StgTemplateHelper;
 import com.future.st.OperatorDomain2;
-import com.future.st.RuleObj;
 import com.future.rule.RuleDomain;
 import com.future.st.RuleDomain2;
 import org.junit.Test;
@@ -109,7 +111,7 @@ public class HelloWorldTestTest
 
         RuleDomain ruleDomain = getRuleDomain();
 
-        RuleObj ruleObj = new RuleObj();
+        RuleWrapper ruleObj = new RuleWrapper();
         List<RuleDomain> ruleDomainList = new ArrayList<>();
         ruleDomainList.add(ruleDomain);
         ruleDomainList.add(ruleDomain);
@@ -144,34 +146,45 @@ public class HelloWorldTestTest
     }
 
 
-    @Test
-    public void testRuleListNew(){
+    public String getStgTemplateSql(RuleWrapper ruleWrapper, HiveParameters hiveParameters){
         STGroup stg = new STGroupFile("/Users/zcd/files/NewX/future/lab/src/main/resources/sqlTemplateHive.stg");
         //获取查询模版
         ST st = stg.getInstanceOf("combineRuleSql");
+        st.add("sourceTable", hiveParameters.getSourceTable());
+        st.add("targetTable", hiveParameters.getTargetTable());
+        st.add("overwrite", hiveParameters.isOverwrite());
+        st.add("columns", hiveParameters.getColumns());
+        st.add("ruleWrapper", ruleWrapper);
+        return st.render();
+    }
 
-        RuleObj ruleObj = new RuleObj();
 
+    @Test
+    public void testRuleListNew(){
+        RuleWrapper ruleObj = new RuleWrapper();
         RuleDomain ruleDomain = getRuleDomain();
         List<RuleDomain> ruleDomainList = new ArrayList<>();
         ruleDomainList.add(ruleDomain);
         ruleDomainList.add(ruleDomain);
-
         ruleObj.setRuleDomains(ruleDomainList);
-        ruleObj.setNewColumn("new-index");
+        ruleObj.setResColumn("new-index");
 
-        st.add("tableName", "test");
-        st.add("ruleObj", ruleObj);
+        HiveParameters hiveParameters = new HiveParameters();
         List<String> columns = new ArrayList<>();
         columns.add("r1");
         columns.add("r2");
         columns.add("r3");
-        st.add("columns", columns);
-        System.out.println(st.render());
+        hiveParameters.setColumns(columns);
+        hiveParameters.setOverwrite(false);
+        hiveParameters.setPartitionName("datetime");
+        hiveParameters.setPartitionValue("2020-10-25");
+        hiveParameters.setSourceTable("sourceTable");
+        hiveParameters.setTargetTable("targetTable");
 
-//ruleDefine(conditions) ::= "<conditions:{condition|if(<condition.column> <condition.operator> <condition.value> <condition.logicOp>)}; separator=",">"
-        //rule|case when <<rule.ruleDefine>:{condition|if(<condition.column> <condition.operator> <condition.value> <condition.logicOp>)}; separator=" "> then <rule.ruleLabel>
-        // else '' end
+        StgTemplateHelper instance = StgTemplateHelper.getInstance();
+        instance.init("/Users/zcd/files/NewX/future/lab/src/main/resources/sqlTemplateHive.stg");
+        String sql = instance.getStgTemplateSql(ruleObj, hiveParameters);
+        System.out.println(sql);
 
     }
 

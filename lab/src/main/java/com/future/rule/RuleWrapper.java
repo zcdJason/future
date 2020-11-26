@@ -6,10 +6,10 @@ import java.util.List;
  * @author Cock-a-doodle-doo!
  */
 public class RuleWrapper {
-    /*领域规则列表*/
+    /**领域规则列表*/
     private List<RuleDomain> ruleDomains;
-    /*新的列名称*/
-    private String newColumn;
+    /**新的列名称*/
+    private String resColumn;
 
     public List<RuleDomain> getRuleDomains() {
         return ruleDomains;
@@ -19,19 +19,19 @@ public class RuleWrapper {
         this.ruleDomains = ruleDomains;
     }
 
-    public String getNewColumn() {
-        return newColumn;
+    public String getResColumn() {
+        return resColumn;
     }
 
-    public void setNewColumn(String newColumn) {
-        this.newColumn = newColumn;
+    public void setResColumn(String resColumn) {
+        this.resColumn = resColumn;
     }
 
     @Override
     public String toString() {
-        return "RuleWrapped{" +
+        return "RuleWrapper{" +
             "ruleDomains=" + ruleDomains +
-            ", newColumn='" + newColumn + '\'' +
+            ", resColumn='" + resColumn + '\'' +
             '}';
     }
 }

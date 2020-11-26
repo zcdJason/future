@@ -71,23 +71,24 @@ SELECT * FROM <tableName>
 >>
 
 
-combineRuleSql(columns,ruleObj,tableName, newColumn)
+combineRuleSql(columns,ruleWrapper,sourceTable, targetTable, overwrite,partitionName, partitionValue)
 ::=<<
+INSERT <if(overwrite)> OVERWRITE <else> INTO <endif> TABLE <targetTable> <if(partitionName)> partition(<partitionName> = '<partitionValue>') <endif>
 SELECT
 <if(columns)>
 <columns:{column|<column>}; separator=",">,
 <else>
 *,
 <endif>
-<if(ruleObj)>
-case <ruleObj.ruleDomains:{rule|when <rule.ruleDefine:{condition |
+<if(ruleWrapper)>
+case <ruleWrapper.ruleDomains:{rule|when <rule.ruleDefine:{condition |
 <if(!condition.expression)>
   <condition.column> <condition.operator> <condition.value> <condition.logicOp>
 <else>
   <condition.expression> <condition.logicOp>
 <endif>};separator=" "> then <rule.ruleLabel>
-}; separator=","> else 'undefine' end as <ruleObj.newColumn>
-FROM <tableName>
+}; separator=","> else 'undefine' end as <ruleWrapper.resColumn>
+FROM <sourceTable>
 <endif>
 >>
 
