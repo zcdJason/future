@@ -15,9 +15,9 @@ public class Timer {
             System.nanoTime() - start);
     }
 
-    public static long duration(Runnable test) {
+    public static long duration(Runnable runnable) {
         Timer timer = new Timer();
-        test.run();
+        runnable.run();
         return timer.duration();
     }
 }

@@ -66,7 +66,7 @@ public class CompletableOperations {
          * 组合
          * Combine 表达的togther的意思，当前计算结果和其它的 CompletionStage计算结果进行组合；从角度来看是来自不同的CompletableFuture进行合并
          * 两个CompletionStage是并行执行的，它们之间并没有先后依赖顺序，other并不会等待先前的CompletableFuture执行完毕后再执行
-         * 它和thenAcceptBoth类似，知识thenAcceptBoth是消费型的，没有返回值而已。
+         * 它和thenAcceptBoth类似，只是thenAcceptBoth是消费型的，没有返回值而已。
          * public <U,V> CompletableFuture<V> 	thenCombine(CompletionStage<? extends U> other, BiFunction<? super T,? super U,? extends V> fn)
          * public <U,V> CompletableFuture<V> 	thenCombineAsync(CompletionStage<? extends U> other, BiFunction<? super T,? super U,? extends V> fn)
          * public <U,V> CompletableFuture<V> 	thenCombineAsync(CompletionStage<? extends U> other, BiFunction<? super T,? super U,? extends V> fn, Executor executor)
